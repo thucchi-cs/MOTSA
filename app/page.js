@@ -1,64 +1,82 @@
 import Image from "next/image";
+import BoxButton from "@/components/BoxButton";
+import ArrowButton from "@/components/ArrowButton";
+import GrayButton from "@/components/GrayButton";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.js file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="flex flex-col  items-center justify-center bg-zinc-50 font-sans dark:bg-[#040531]">
+      <header className="dark:bg-[#030422] flex flex-row items-center justify-between font-sans w-full max-h-50">
+        <div className="flex flex-row items-center w-[30%] justify-center">
+          <Image className="py-3" src="/motsalogo.png" alt="Next.js logo" width={130} height={20} priority/>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+        <div className="flex flex-row items-center w-full justify-end gap-15 px-20">
+          <a className="text-2xl font-sans text-zinc-50">About</a>
+          <a className="text-2xl font-sans text-zinc-50">Students</a>
+          <a className="text-2xl font-sans text-zinc-50">Advisors</a>
+          <a className="text-2xl font-sans text-zinc-50">Events</a>
+          <a className="text-2xl font-sans text-zinc-50">Resources</a>
+          <a className="text-2xl font-sans text-zinc-50">Contact</a>
+        </div>
+      </header>
+      <main className="flex flex-1 w-full flex-col items-center justify-between bg-white dark:bg-[#060852] sm:items-start">
+        <div className="flex flex-col w-full">
+          <div className="relative bg-red-500 w-full z-0">
             <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+              className="object-cover object-center"
+              src="/cover2.jpg"
+              alt="Next.js logo"
+              width={5000}
+              height={20}
+              priority
+              />
+            <div className="absolute bg-black/60 z-0 w-full h-full inset-0"></div>
+          </div>
+          <div className="flex flex-col absolute bottom-10 px-30 py-10 w-full gap-6 text-center items-start text-left z-10">
+            <h1 className="w-full text-8xl font-semibold text-black dark:text-zinc-50">
+              Learning to Lead
+            </h1>
+            <h1 className="w-full text-8xl font-semibold text-black dark:text-zinc-50">
+              in a Technical World
+            </h1>
+          </div>  
+        </div> 
+        <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold">
+          <h1 className="text-5xl text-left px-[5%] pt-10">Quick Links</h1>
+          <div className="flex flex-row w-full px-[5%] justify-between items-center h-100 bg-white text-black py-10">
+            <BoxButton title={"About TSA"} icon={"/motsalogo.png"}></BoxButton>
+            <BoxButton title={"Calendar of Events"} icon={"/calendar.png"}></BoxButton>
+            <BoxButton title={"Missouri TSA Bylaws"} icon={"/book.png"}></BoxButton>
+            <BoxButton title={"State officer team"} icon={"/team.png"}></BoxButton>
+          </div> 
+        </div>  
+        <div className="flex flex-col w-full justify-between items-center h-full text-white pb-10">
+          <h1 className="text-5xl text-left px-[5%] pt-10 font-bold">Mission</h1>
+          <div className="flex flex-row w-full justify-between items-center h-80">
+            <p className="text-2xl w-[70%] px-15 leading-relaxed">
+              Missouri TSA, affiliated with national Technology Student Association (TSA), is devoted to the development of students in technology education.  Missouri TSA serves more than 2,200 middle and high school students in 90 local school chapters. Our purpose is to prepare our student members for the challenges of our dynamic world by promoting technological literacy, leadership, problem-solving skills, and personal growth through relevant learning opportunities and experiences.
+            </p>
+            <div className="flex flex-col justify-between items-center w-[30%] h-full py-5">
+              <ArrowButton label={"Learn More"}></ArrowButton>
+              <ArrowButton label={"Find a Chapter"}></ArrowButton>
+              <ArrowButton label={"Start a Chapter"}></ArrowButton>
+            </div>
+          </div>
+        </div>    
+        <div className="flex flex-col w-full justify-between items-center h-full text-black bg-white">
+          <h1 className="text-5xl text-left px-[5%] pt-10 font-bold">News & Updates</h1>
+          <div className="flex flex-row w-full justify-between items-center h-100 px-10 py-12 gap-x-5">
+            <div className="flex flex-col w-full justify-start items-center h-full gap-y-5">
+              <GrayButton label={"2026-2027 State Officer Application Available"}></GrayButton>
+              <GrayButton label={"Competitive Events Workshop Registration Deadline: November 1, 2025"}></GrayButton>
+              <GrayButton label={"Meet your 2025-2026 State Officer Team"}></GrayButton>
+            </div>
+            <div className="flex flex-col w-full justify-start items-center h-full gap-y-5">
+              <GrayButton label={"2025-2026 Calendar of Events Released"}></GrayButton>
+              <GrayButton label={"2025-2026 Conference Forms Released"}></GrayButton>
+            </div>
+          </div>
+        </div>    
       </main>
     </div>
   );

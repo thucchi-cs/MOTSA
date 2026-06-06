@@ -1,5 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import NewsSignUp from "@/components/NewsSignUp";
+import Image from "next/image";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +24,27 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">{children}
+        <footer className="w-full h-100 flex flex-row items-center justify-between px-10">
+          <NewsSignUp></NewsSignUp>
+          <div className="w-full flex flex-col justify-center items-center min-h-20 gap-y-3 pl-10">
+              <a className="text-left text-xl transition-transform duration-300 hover:underline cursor-pointer">National Technology Student Association</a>
+              <a className="text-left text-xl transition-transform duration-300 hover:underline cursor-pointer">email@email.com</a>
+              <p className="text-left text-xl">999-999-9999</p>
+              <div className="flex flex-row justify-center items-center w-full gap-x-3 py-3">
+                <Image
+                  className="inline invert"
+                  src="/insta.png"
+                  alt="Next.js logo"
+                  width={40}
+                  height={40}
+                  priority
+                  />
+                <a className="text-left text-xl transition-transform duration-300 hover:underline cursor-pointer inline">@missouritsa</a>
+              </div>
+          </div>
+        </footer>
+      </body>
     </html>
   );
 }
