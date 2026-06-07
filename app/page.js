@@ -9,18 +9,16 @@ export default function Home() {
     <div className="flex flex-col  items-center justify-center bg-zinc-50 font-sans dark:bg-[#040531]">
       <Header page={"home"}></Header>
       <main className="flex flex-1 w-full flex-col items-center justify-between bg-white dark:bg-[#060852] sm:items-start">
-        <div className="flex flex-col w-full">
-          <div className="relative bg-red-500 w-full z-0">
+        <div className="flex flex-col w-full relative">
             <Image
               className="object-cover object-center"
-              src="/cover2.jpg"
+              src="/students2.jpg"
               alt="Next.js logo"
               width={5000}
               height={20}
               priority
               />
             <div className="absolute bg-black/60 z-0 w-full h-full inset-0"></div>
-          </div>
           <div className="flex flex-col absolute bottom-10 px-30 py-10 w-full gap-6 text-center items-start text-left z-10">
             <h1 className="w-full text-8xl font-semibold text-black dark:text-zinc-50">
               Learning to Lead
