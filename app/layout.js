@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
         <footer className="w-full h-100 flex flex-row items-center justify-between px-10">
           <NewsSignUp></NewsSignUp>
           <div className="w-full flex flex-col justify-center items-center min-h-20 gap-y-3 pl-10">
-              <a className="text-left text-xl transition-transform duration-300 hover:underline cursor-pointer">National Technology Student Association</a>
+              <a href="https://tsaweb.org" target="_blank" className="text-left text-xl transition-transform duration-300 hover:underline cursor-pointer">National Technology Student Association</a>
               <a className="text-left text-xl transition-transform duration-300 hover:underline cursor-pointer">email@email.com</a>
               <p className="text-left text-xl">999-999-9999</p>
               <div className="flex flex-row justify-center items-center w-full gap-x-3 py-3">

@@ -33,10 +33,10 @@ export default function Home() {
         <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold">
           <h1 className="text-5xl text-left px-[5%] pt-10">Quick Links</h1>
           <div className="flex flex-row w-full px-[5%] justify-between items-center h-100 bg-white text-black py-10">
-            <BoxButton title={"About TSA"} icon={"/motsalogo.png"}></BoxButton>
-            <BoxButton title={"Calendar of Events"} icon={"/calendar.png"}></BoxButton>
-            <BoxButton title={"Missouri TSA Bylaws"} icon={"/book.png"}></BoxButton>
-            <BoxButton title={"State officer team"} icon={"/team.png"}></BoxButton>
+            <BoxButton link="/about" title={"About TSA"} icon={"/motsalogo.png"}></BoxButton>
+            <BoxButton link="/resources/calendar" title={"Calendar of Events"} icon={"/calendar.png"}></BoxButton>
+            <BoxButton link="/resources/bylaws" title={"Missouri TSA Bylaws"} icon={"/book.png"}></BoxButton>
+            <BoxButton link="/students/officers" title={"State officer team"} icon={"/team.png"}></BoxButton>
           </div> 
         </div>  
         <div className="flex flex-col w-full justify-between items-center h-full text-white pb-10">
@@ -46,9 +46,9 @@ export default function Home() {
               Missouri TSA, affiliated with national Technology Student Association (TSA), is devoted to the development of students in technology education.  Missouri TSA serves more than 2,200 middle and high school students in 90 local school chapters. Our purpose is to prepare our student members for the challenges of our dynamic world by promoting technological literacy, leadership, problem-solving skills, and personal growth through relevant learning opportunities and experiences.
             </p>
             <div className="flex flex-col justify-between items-center w-[30%] h-full py-5">
-              <ArrowButton label={"Learn More"}></ArrowButton>
-              <ArrowButton label={"Find a Chapter"}></ArrowButton>
-              <ArrowButton label={"Start a Chapter"}></ArrowButton>
+              <ArrowButton link="/about/tsa-mission" label={"Learn More"}></ArrowButton>
+              <ArrowButton link="/about/chapter-map" label={"Find a Chapter"}></ArrowButton>
+              <ArrowButton link="/advisors/start-a-chapter" label={"Start a Chapter"}></ArrowButton>
             </div>
           </div>
         </div>    
@@ -56,13 +56,13 @@ export default function Home() {
           <h1 className="text-5xl text-left px-[5%] pt-10 font-bold">News & Updates</h1>
           <div className="flex flex-row w-full justify-between items-center h-100 px-10 py-12 gap-x-5">
             <div className="flex flex-col w-full justify-start items-center h-full gap-y-5">
-              <GrayButton label={"2026-2027 State Officer Application Available"}></GrayButton>
-              <GrayButton label={"Competitive Events Workshop Registration Deadline: November 1, 2025"}></GrayButton>
-              <GrayButton label={"Meet your 2025-2026 State Officer Team"}></GrayButton>
+              <GrayButton link="/students/apply" label={"2026-2027 State Officer Application Available"}></GrayButton>
+              <GrayButton link="/events/workshops" label={"Competitive Events Workshop Registration Deadline: November 1, 2025"}></GrayButton>
+              <GrayButton link="/students/officers" label={"Meet your 2025-2026 State Officer Team"}></GrayButton>
             </div>
             <div className="flex flex-col w-full justify-start items-center h-full gap-y-5">
-              <GrayButton label={"2025-2026 Calendar of Events Released"}></GrayButton>
-              <GrayButton label={"2025-2026 Conference Forms Released"}></GrayButton>
+              <GrayButton link="/resources/calendar" label={"2025-2026 Calendar of Events Released"}></GrayButton>
+              <GrayButton link="/advisors/forms" label={"2025-2026 Conference Forms Released"}></GrayButton>
             </div>
           </div>
         </div>    
