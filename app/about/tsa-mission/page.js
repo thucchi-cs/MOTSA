@@ -5,7 +5,7 @@ export default function Home() {
     <div className="flex flex-col  items-center justify-center bg-zinc-50 font-sans dark:bg-[#040531]">
       <Header page={"about"}></Header>
       <main className="flex flex-1 w-full flex-col items-center justify-between bg-white dark:bg-[#060852] sm:items-start"> 
-        <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white">
+        <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white py-20">
           <h1 className="text-5xl text-left px-[5%] pt-10 font-bold">TSA Mission, Creed, & Motto</h1>
           <div className="flex flex-col w-full justify-between items-center h-full px-10 py-12 gap-y-10">
             <h1 className="text-4xl text-left px-[5%] pt-10 font-bold">Mission</h1>
