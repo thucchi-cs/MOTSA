@@ -12,7 +12,7 @@ export default function Home() {
         <div className="flex flex-col w-full relative">
             <Image
               className="object-cover object-center"
-              src="/students2.jpg"
+              src="/students2.JPG"
               alt="Next.js logo"
               width={5000}
               height={20}
