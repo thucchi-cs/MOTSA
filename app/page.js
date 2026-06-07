@@ -2,23 +2,12 @@ import Image from "next/image";
 import BoxButton from "@/components/BoxButton";
 import ArrowButton from "@/components/ArrowButton";
 import GrayButton from "@/components/GrayButton";
+import Header from "@/components/Header";
 
 export default function Home() {
   return (
     <div className="flex flex-col  items-center justify-center bg-zinc-50 font-sans dark:bg-[#040531]">
-      <header className="dark:bg-[#030422] flex flex-row items-center justify-between font-sans w-full max-h-50">
-        <div className="flex flex-row items-center w-[30%] justify-center">
-          <Image className="py-3" src="/motsalogo.png" alt="Next.js logo" width={130} height={20} priority/>
-        </div>
-        <div className="flex flex-row items-center w-full justify-end gap-15 px-20">
-          <a className="text-2xl font-sans text-zinc-50">About</a>
-          <a className="text-2xl font-sans text-zinc-50">Students</a>
-          <a className="text-2xl font-sans text-zinc-50">Advisors</a>
-          <a className="text-2xl font-sans text-zinc-50">Events</a>
-          <a className="text-2xl font-sans text-zinc-50">Resources</a>
-          <a className="text-2xl font-sans text-zinc-50">Contact</a>
-        </div>
-      </header>
+      <Header page={"home"}></Header>
       <main className="flex flex-1 w-full flex-col items-center justify-between bg-white dark:bg-[#060852] sm:items-start">
         <div className="flex flex-col w-full">
           <div className="relative bg-red-500 w-full z-0">
