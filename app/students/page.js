@@ -6,9 +6,9 @@ import ArrowButton from "@/components/ArrowButton";
 
 export default function Home() {
   return (
-    <div className="flex flex-col  items-center justify-center bg-zinc-50 font-sans dark:bg-[#040531]">
+    <div className="flex flex-col  items-center justify-center font-sans bg-[#040531]">
       <Header page={"students"}></Header>
-      <main className="flex flex-1 w-full flex-col items-center justify-between bg-white dark:bg-[#060852] sm:items-start"> 
+      <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#060852] sm:items-start"> 
         <div className="flex flex-col w-full relative">
             <Image
               className="object-cover object-center"
@@ -20,13 +20,13 @@ export default function Home() {
               />
             <div className="absolute bg-black/40 z-0 w-full inset-0"></div>
           <div className="flex flex-col absolute bottom-0 px-30 w-full text-center items-start text-left z-10 py-10">
-            <h1 className="w-full text-8xl font-semibold text-black dark:text-zinc-50">
+            <h1 className="w-full text-8xl font-semibold text-zinc-50">
               Learn
             </h1>
-            <h1 className="w-full text-8xl font-semibold text-black text-center dark:text-zinc-50">
+            <h1 className="w-full text-8xl font-semibold text-center text-zinc-50">
               Compete
             </h1>
-            <h1 className="w-full text-8xl font-semibold text-black text-right dark:text-zinc-50">
+            <h1 className="w-full text-8xl font-semibold text-right text-zinc-50">
               Lead
             </h1>
           </div>  

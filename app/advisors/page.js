@@ -4,9 +4,9 @@ import BoxButton from "@/components/BoxButton";
 
 export default function Home() {
   return (
-    <div className="flex flex-col  items-center justify-center bg-zinc-50 font-sans dark:bg-[#040531]">
+    <div className="flex flex-col  items-center justify-center font-sans bg-[#040531]">
       <Header page={"advisors"}></Header>
-      <main className="flex flex-1 w-full flex-col items-center justify-between bg-white dark:bg-[#060852] sm:items-start"> 
+      <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#060852] sm:items-start"> 
         <div className="flex flex-col w-full relative">
             <Image
               className="object-cover object-center"

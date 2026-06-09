@@ -2,9 +2,9 @@ import Header from "@/components/Header";
 
 export default function Home() {
   return (
-    <div className="flex flex-col  items-center justify-center bg-zinc-50 font-sans dark:bg-[#040531]">
+    <div className="flex flex-col  items-center justify-center font-sans bg-[#040531]">
       <Header page={"advisors"}></Header>
-      <main className="flex flex-1 w-full flex-col items-center justify-between bg-white dark:bg-[#060852] sm:items-start"> 
+      <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#060852] sm:items-start"> 
         <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white py-20">
           <h1 className="text-5xl text-left px-[5%] pt-10 font-bold">Conference Forms</h1>
           <div className="flex flex-col w-full justify-between items-center h-full px-10 py-12 gap-y-10">
