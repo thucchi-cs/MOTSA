@@ -6,7 +6,7 @@ import ArrowButton from "@/components/ArrowButton";
 
 export default function Home() {
   return (
-    <div className="flex flex-col  items-center justify-center font-sans bg-[#040531]">
+    <div className="flex flex-col  items-center justify-center font-sans bg-[#040531] overflow-x-hidden">
       <Header page={"students"}></Header>
       <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#060852] sm:items-start"> 
         <div className="flex flex-col w-full relative">
@@ -38,14 +38,17 @@ export default function Home() {
         </div>
         <div className="flex flex-col w-full justify-between items-center h-full text-black bg-white">
           <h1 className="text-5xl text-left px-[5%] pt-10 font-bold">Links & Resources</h1>
-          <div className="flex flex-row w-full px-[5%] justify-between items-center h-100 bg-white text-black py-10 gap-5">
-            <BoxButton link="/students/apply" title={"Apply for office"} icon={"/gavel.png"}></BoxButton>
-            <BoxButton link="/students/scholarships" title={"Scholarships"} icon={"/scholarship.png"}></BoxButton>
-            <BoxButton link="/students/national-tsa-week" title={"National TSA Week"} icon={"/tsa.png"}></BoxButton>
-            <BoxButton link="/students/dress-code" title={"Dress Code"} icon={"/dresscode.png"}></BoxButton>
-            <BoxButton link="/students/officers" title={"State officer Team"} icon={"/team.png"}></BoxButton>
-          </div> 
+          <div className="w-full overflow-x-auto">
+            <div className="flex min-w-max justify-center gap-5 md:w-full px-[5%] md:justify-between items-center h-full bg-white text-black py-4 md:py-10 overflow-x-scroll">
+              <BoxButton link="/students/competitive-events" title={"Competitive Events"} icon={"/medal.png"}></BoxButton>
+              <BoxButton link="/students/scholarships" title={"Scholarships"} icon={"/scholarship.png"}></BoxButton>
+              <BoxButton link="/students/dress-code" title={"Dress Code"} icon={"/dresscode.png"}></BoxButton>
+              <BoxButton link="/students/officers" title={"State Officer Team"} icon={"/team.png"}></BoxButton>
+              <BoxButton link="/students/apply" title={"Apply for Office"} icon={"/gavel.png"}></BoxButton>
+            </div> 
+          </div>
         </div>    
+
       </main>
     </div>
   );

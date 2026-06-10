@@ -5,36 +5,54 @@ import HeaderSubmenu from "./HeaderSubmenu";
 
 export default function Header({ page }) {
     const aboutSubPages = [
-        {label: "Chapter map", page: "/about/chapter-map"},
-        {label: "Regional map", page: "/about/regional-map"},
         {label: "History", page: "/about/history"},
-        {label: "TSA mission, creed, & motto", page: "/about/tsa-mission"}
+        {label: "TSA Mission, Creed, & Motto", page: "/about/tsa-mission"},
+        {label: "Chapter Map", page: "/about/chapter-map"},
+        {label: "Regional Map", page: "/about/regional-map"}
     ];
 
     const studentsSubPages = [
-        {label: "Apply for office", page: "/students/apply"},
+        {label: "Competitive Events", page: "/students/competitive-events"},
         {label: "Scholarships", page: "/students/scholarships"},
-        {label: "National TSA Week", page: "/students/national-tsa-week"},
-        {label: "Dress code", page: "/students/dress-code"},
-        {label: "State officer team", page: "/students/officers"}
+        {label: "Dress Code", page: "/students/dress-code"},
+        {label: "State Officer Team", page: "/students/officers"},
+        {label: "Apply for Office", page: "/students/apply"}
     ];
 
     const advisorsSubPages = [
-        {label: "Competitive events info", page: "/advisors/competitive-info"},
-        {label: "Conference forms", page: "/advisors/forms"},
-        {label: "Starting a chapter", page: "/advisors/start-a-chapter"},
-        {label: "Affiliation information", page: "/advisors/affiliation"}    
+        {label: "Conference Forms", page: "/advisors/forms"},
+        {label: "Starting a Chapter", page: "/advisors/start-a-chapter"},
+        {label: "Resources", page: "/advisors/resources"},
+        {label: "Affiliation Information", page: "/advisors/affiliation"}    
     ];
 
     const eventsSubPages = [
-        {label: "Competitive events workshops", page: "/events/workshops"},
-        {label: "Fall Leadership Conference", page: "/events/flc"},
-        {label: "Regional conferences", page: "/events/regional-conferences"},
         {label: "State Championships", page: "/events/scc"},
-        {label: "National Conference", page: "/events/national-conference"}
+        {label: "Fall Leadership Conference", page: "/events/flc"},
+        {label: "Competitive Events Workshops", page: "/events/workshops"},
+        {label: "Regional Conferences", page: "/events/regional-conferences"},
+        {label: "National Conference", page: "/events/national-conference"},
+        {label: "National TSA Week", page: "/events/national-tsa-week"}
+    ];
+
+    const resourcesSubPages = [
+        {label: "Dress Code", page: "/students/dress-code"},
+        {label: "Competitive Events", page: "/students/competitive-events"},
+        {label: "Past Winners", page: "/resources/winners"},
+        {label: "Awards", page: "/resources/awards"},
+        {label: "Bylaws", page: "/resources/bylaws"},
+        {label: "NewsLetter", page: "/resources/newsletter"},
+        {label: "Billing/Late Fee", page: "/resources/billing"},
+        {label: "Calendar", page: "/resources/calendar"},
+        {label: "Gallery", page: "/resources/gallery"},
+        {label: "Chapter Resources & Tips", page: "/advisors/resources"}
     ];
 
     const [mobileOpen, setMobileOpen] = useState(false);
+    const [studentsOpen, setStudentsOpen] = useState(false);
+    const [advisorsOpen, setAdvisorsOpen] = useState(false);
+    const [eventsOpen, setEventsOpen] = useState(false);
+    const [resourcesOpen, setResourcesOpen] = useState(false);
 
     return (
         <header className="bg-[#030422] flex flex-row items-center justify-center font-sans w-full gap-[40%] md:gap-0">
@@ -76,12 +94,15 @@ export default function Header({ page }) {
                     </a>
                     
                     <div className="flex flex-col w-full gap-0 justify-center items-center">
-                        <a href="/students" className={"text-xl "+ ((page==="students") ? "text-red-500": "text-zinc-50")}>
-                            Students
-                        </a>
-                        <a href="/students" className={"text-md "+ ((page==="students") ? "text-red-500": "text-zinc-50")}>
-                            Students
-                        </a>
+                        <div>
+                            <a href="/students" className={"inline text-xl "+ ((page==="students") ? "text-red-500": "text-zinc-50")}>Students</a>
+                            <p className="inline text-xl" onClick={() => setStudentsOpen(!studentsOpen)}> &#x25BE; </p>
+                        </div>
+                        {studentsOpen && (
+                            <a href="/students" className={"text-md "+ ((page==="students") ? "text-red-500": "text-zinc-50")}>
+                                Students
+                            </a>
+                        )}
                     </div>
 
                     <a href="/advisors" className={"text-xl "+ ((page==="advisors") ? "text-red-500": "text-zinc-50")}>

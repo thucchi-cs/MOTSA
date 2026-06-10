@@ -19,9 +19,15 @@ export default function Home() {
                     />
                 <div className="flex flex-col w-full justify-between items-start h-full gap-y-5 px-15">
                     <p className="text-2xl w-full leading-relaxed">
-                    Are you a local leader who is interested in representing Missouri as a State Officer? The Missouri TSA 2026-2027 State Officer Application deadline for submission has been extended to February 15th, 2026. If you have any questions, please feel free to reach out to Byekwaso Gilbert via email or phone at Byekwaso.gilbert@dese.mo.gov or call 573-751-7664.
+                      Are you a local leader who is interested in being more involved with Missouri TSA? Apply to become a State Officer for the 2026-2027 school year!
                     </p>
-                    <a href="https://tsaweb.org" target="_blank" className="bg-red-500 w-[50%] h-10 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
+                    <p className="text-2xl w-full leading-relaxed">
+                      Deadline: February 15th, 2026 (extended)
+                    </p>
+                    <p className="text-2xl w-full leading-relaxed">
+                      Questions? Reach out to Byekwaso Gilbert via email or phone at Byekwaso.gilbert@dese.mo.gov or call 573-751-7664.
+                    </p>
+                    <a href="https://motsaweb.org/wp-content/uploads/2025/08/Missouri-TSA-2026-2027-State-Officer-Application-Packet.pdf" target="_blank" className="bg-red-500 w-[50%] h-10 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
                         <h1 className="text-xl">Officer Candidate Packet {"->"}</h1>
                     </a>
                 </div>

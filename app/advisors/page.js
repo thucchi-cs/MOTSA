@@ -25,11 +25,10 @@ export default function Home() {
         </div>
         <div className="flex flex-col w-full justify-between items-center h-full text-black bg-white">
           <h1 className="text-5xl text-left px-[5%] pt-10 font-bold">Links & Resources</h1>
-          <div className="flex flex-row w-full px-[5%] justify-between items-center h-100 bg-white text-black py-10 gap-5">
-            <BoxButton link="/advisors/competitive-info" title={"Competitive events info"} icon={"/medal.png"}></BoxButton>
-            <BoxButton link="/advisors/forms" title={"Conference forms"} icon={"/forms.png"}></BoxButton>
-            <BoxButton link="/advisors/start-a-chapter" title={"Starting a chapter"} icon={"/motsalogo.png"}></BoxButton>
-            <BoxButton link="/advisors/affiliation" title={"Affiliation information"} icon={"/tsa.png"}></BoxButton>
+          <div className="flex flex-row w-full px-[5%] justify-center items-center h-100 bg-white text-black py-10 gap-10">
+            <BoxButton link="/advisors/forms" title={"Conference Forms"} icon={"/forms.png"}></BoxButton>
+            <BoxButton link="/advisors/start-a-chapter" title={"Starting a Chapter"} icon={"/motsalogo.png"}></BoxButton>
+            <BoxButton link="/advisors/affiliation" title={"Affiliation Information"} icon={"/tsa.png"}></BoxButton>
           </div> 
         </div>    
       </main>

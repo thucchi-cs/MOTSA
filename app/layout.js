@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <meta charSet="UTF-8"></meta>
       <body className="min-h-full flex flex-col">{children}
         <footer className="bg-[#030422] w-full md:h-100 flex flex-col md:flex-row items-center justify-between px-4 md:px-10 text-zinc-50">
           <NewsSignUp></NewsSignUp>

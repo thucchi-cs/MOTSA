@@ -54,14 +54,14 @@ export default function Home() {
           </div>
         </div> 
 
-        <div className="flex flex-col w-full md:w-full justify-between items-center md:items-center h-full bg-white text-black font-bold ">
+        <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold ">
           <h1 className="text-3xl md:text-5xl relative text-left px-[5%] pt-10">Quick Links</h1>
           <div className="w-full overflow-x-auto">
             <div className="flex min-w-max justify-center gap-5 md:w-full px-[5%] md:justify-between items-center h-full bg-white text-black py-4 md:py-10 overflow-x-auto">
               <BoxButton link="/about" title={"About TSA"} icon={"/motsalogo.png"}></BoxButton>
               <BoxButton link="https://motsaweb.org/wp-content/uploads/2025/11/Missouri-TSA-Calendar-of-Events-2025-2026-Unity-Through-Community-Schedule-PDF.pdf" title={"Calendar of Events"} icon={"/calendar.png"}></BoxButton>
               <BoxButton link="/resources/bylaws" title={"Missouri TSA Bylaws"} icon={"/book.png"}></BoxButton>
-              <BoxButton link="/students/officers" title={"State officer team"} icon={"/team.png"}></BoxButton>
+              <BoxButton link="/students/officers" title={"State Officer Team"} icon={"/team.png"}></BoxButton>
             </div> 
           </div>
         </div>
