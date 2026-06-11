@@ -15,6 +15,7 @@ export default function Header({ page }) {
         {label: "Competitive Events", page: "/students/competitive-events"},
         {label: "Scholarships", page: "/students/scholarships"},
         {label: "Dress Code", page: "/students/dress-code"},
+        {label: "Degree Program", page: "/students/degree"},
         {label: "State Officer Team", page: "/students/officers"},
         {label: "Apply for Office", page: "/students/apply"}
     ];
@@ -38,6 +39,7 @@ export default function Header({ page }) {
     const resourcesSubPages = [
         {label: "Dress Code", page: "/students/dress-code"},
         {label: "Competitive Events", page: "/students/competitive-events"},
+        {label: "Degree Program", page: "/students/degree"},
         {label: "Past Winners", page: "/resources/winners"},
         {label: "Awards", page: "/resources/awards"},
         {label: "Bylaws", page: "/resources/bylaws"},
