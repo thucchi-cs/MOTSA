@@ -49,6 +49,7 @@ export default function Header({ page }) {
     ];
 
     const [mobileOpen, setMobileOpen] = useState(false);
+    const [aboutOpen, setAboutOpen] = useState(false);
     const [studentsOpen, setStudentsOpen] = useState(false);
     const [advisorsOpen, setAdvisorsOpen] = useState(false);
     const [eventsOpen, setEventsOpen] = useState(false);
@@ -88,10 +89,20 @@ export default function Header({ page }) {
             </button>
 
             {mobileOpen && (
-                <div className="md:hidden flex z-90 absolute flex-col px-6 h-full gap-4 bg-black/80 w-full justify-center items-center top-0">
-                    <a href="/about" className={"text-xl "+ ((page==="about") ? "text-red-500": "text-zinc-50")}>
-                        About
-                    </a>
+                <div className="md:hidden flex z-90 absolute flex-col px-6 h-full gap-4 bg-black/80 w-full justify-start pt-[30vh] items-center top-0 overflow-y-auto">
+                    <div className="flex flex-col w-full gap-0 justify-center items-center">
+                        <div>
+                            <a href="/about" className={"text-xl "+ ((page==="about") ? "text-red-500": "text-zinc-50")}>About</a>
+                            <p className="inline text-xl" onClick={() => setAboutOpen(!aboutOpen)}> &#x25BE; </p>
+                        </div>
+                        {aboutOpen && (
+                            aboutSubPages.map((page, index) => (
+                                <a href={page.page} key={index} className={"text-md "+ ((page==="about") ? "text-red-500": "text-zinc-50")}>
+                                    {page.label}
+                                </a>
+                            ))
+                        )}
+                    </div>
                     
                     <div className="flex flex-col w-full gap-0 justify-center items-center">
                         <div>
@@ -99,19 +110,41 @@ export default function Header({ page }) {
                             <p className="inline text-xl" onClick={() => setStudentsOpen(!studentsOpen)}> &#x25BE; </p>
                         </div>
                         {studentsOpen && (
-                            <a href="/students" className={"text-md "+ ((page==="students") ? "text-red-500": "text-zinc-50")}>
-                                Students
-                            </a>
+                            studentsSubPages.map((page, index) => (
+                                <a href={page.page} key={index} className={"text-md "+ ((page==="students") ? "text-red-500": "text-zinc-50")}>
+                                    {page.label}
+                                </a>
+                            ))
                         )}
                     </div>
 
-                    <a href="/advisors" className={"text-xl "+ ((page==="advisors") ? "text-red-500": "text-zinc-50")}>
-                        Advisors
-                    </a>
+                    <div className="flex flex-col w-full gap-0 justify-center items-center">
+                        <div>
+                            <a href="/advisors" className={"text-xl "+ ((page==="advisors") ? "text-red-500": "text-zinc-50")}>Advisors</a>
+                            <p className="inline text-xl" onClick={() => setAdvisorsOpen(!advisorsOpen)}> &#x25BE; </p>
+                        </div>
+                        {advisorsOpen && (
+                            advisorsSubPages.map((page, index) => (
+                                <a href={page.page} key={index} className={"text-md "+ ((page==="advisors") ? "text-red-500": "text-zinc-50")}>
+                                    {page.label}
+                                </a>
+                            ))
+                        )}
+                    </div>
 
-                    <a href="/events" className={"text-xl "+ ((page==="events") ? "text-red-500": "text-zinc-50")}>
-                        Events
-                    </a>
+                    <div className="flex flex-col w-full gap-0 justify-center items-center">
+                        <div>
+                            <a href="/events" className={"text-xl "+ ((page==="events") ? "text-red-500": "text-zinc-50")}>Events</a>
+                            <p className="inline text-xl" onClick={() => setEventsOpen(!eventsOpen)}> &#x25BE; </p>
+                        </div>
+                        {eventsOpen && (
+                            eventsSubPages.map((page, index) => (
+                                <a href={page.page} key={index} className={"text-md "+ ((page==="advisors") ? "text-red-500": "text-zinc-50")}>
+                                    {page.label}
+                                </a>
+                            ))
+                        )}
+                    </div>
 
                     <a href="/resources" className={"text-xl "+ ((page==="resources") ? "text-red-500": "text-zinc-50")}>
                         Resources
