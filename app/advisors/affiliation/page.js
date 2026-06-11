@@ -25,7 +25,7 @@ export default function Home() {
             </p>
 
             <a href="https://motsaweb.org/wp-content/uploads/2021/09/6-tsa-chapter-advisor-manual.pdf" target="_blank" className="bg-red-500 w-[50%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
-                <h1 className="text-xl">TSA Membership System Chapter Advisor Instructions {"->"}</h1>
+                <h1 className="text-xl">TSA Membership System Chapter Advisor Instructions &#8594;</h1>
             </a>
 
           </div>

@@ -20,7 +20,7 @@ export default function Home() {
         </div> 
         <div className="flex flex-col w-full justify-between items-center h-full text-black bg-zinc-200 py-10">
           <a href="https://tsamembership.registermychapter.com/" target="_blank" className="bg-red-500 w-[25%] h-[10vh] rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
-            <h1 className="text-3xl font-bold">National TSA Log In {"->"}</h1>
+            <h1 className="text-3xl font-bold">National TSA Log In &#8594;</h1>
           </a>
         </div>
         <div className="flex flex-col w-full justify-between items-center h-full text-black bg-white">

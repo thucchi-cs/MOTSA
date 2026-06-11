@@ -75,7 +75,7 @@ export default function Header({ page }) {
                     <HeaderSubmenu pages={advisorsSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="events") ? "text-red-500": "text-zinc-50")} href="/events">Events</a>
+                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="events") ? "text-red-500": "text-zinc-50")} href="/events">Conferences & Events</a>
                     <HeaderSubmenu pages={eventsSubPages}></HeaderSubmenu>
                 </div>
                 <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
@@ -134,7 +134,7 @@ export default function Header({ page }) {
 
                     <div className="flex flex-col w-full gap-0 justify-center items-center">
                         <div>
-                            <a href="/events" className={"text-xl "+ ((page==="events") ? "text-red-500": "text-zinc-50")}>Events</a>
+                            <a href="/events" className={"text-xl "+ ((page==="events") ? "text-red-500": "text-zinc-50")}>Conferences & Events</a>
                             <p className="inline text-xl" onClick={() => setEventsOpen(!eventsOpen)}> &#x25BE; </p>
                         </div>
                         {eventsOpen && (

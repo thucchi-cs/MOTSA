@@ -30,10 +30,10 @@ export default function Home() {
             </p>
             <div className="flex flex-row justify-center items-center gap-20 w-full">
                 <a href="https://motsaweb.org/wp-content/uploads/2021/06/c332c-tsa-13-sample-bylaws.pdf" target="_blank" className="bg-red-500 w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
-                    <h1 className="text-xl">Sample Bylaws Word Document {"->"}</h1>
+                    <h1 className="text-xl">Sample Bylaws Word Document &#8594;</h1>
                 </a>
                 <a href="https://motsaweb.org/wp-content/uploads/2025/09/Missouri-TSA-Chapter-Application-2.pdf" target="_blank" className="bg-blue-500 w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#060852] cursor-pointer">
-                    <h1 className="text-xl">Missouri TSA Chapter Application {"->"}</h1>
+                    <h1 className="text-xl">Missouri TSA Chapter Application &#8594;</h1>
                 </a>
             </div>
 

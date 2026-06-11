@@ -17,7 +17,7 @@ export default function Home() {
                         Chapter Advisors turn in the Chapter Assurance Form prior to each Missouri TSA conference/event
                     </p>
                     <a href="https://motsaweb.org/wp-content/uploads/2025/08/Missouri-TSA-2025-2026-Chapter-Assurance-Form.pdf" target="_blank" className="bg-red-500 w-full h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
-                        <h1 className="text-xl">2025-2026 Chapter Assurance Form {"->"}</h1>
+                        <h1 className="text-xl">2025-2026 Chapter Assurance Form &#8594;</h1>
                     </a>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-5 w-[30%] h-full">
@@ -25,7 +25,7 @@ export default function Home() {
                         Students fill out the below Multiple Release Form and give it to your Chapter Advisor
                     </p>
                     <a href="https://motsaweb.org/wp-content/uploads/2024/07/Missouri-TSA-2024-2025-Multiple-Release-Form.pdf" target="_blank" className="bg-blue-500 w-full h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#060852] cursor-pointer">
-                        <h1 className="text-xl">2025-2026 Multiple Release Form {"->"}</h1>
+                        <h1 className="text-xl">2025-2026 Multiple Release Form &#8594;</h1>
                     </a>
                 </div>
             </div>
