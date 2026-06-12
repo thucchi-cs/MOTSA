@@ -65,23 +65,23 @@ export default function Header({ page }) {
 
             <div className="hidden md:flex flex-row items-center w-full justify-end gap-15 px-20">
                 <div className="relative group">
-                    <a className={"text-1.5xl font-sans transition-transform duration-300 hover:underline " + ((page==="about") ? "text-red-500": "text-zinc-50")} href="/about">About</a>
+                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="about") ? "text-red-500": "text-zinc-50")} href="/about">About</a>
                     <HeaderSubmenu pages={aboutSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-1.5xl font-sans transition-transform duration-300 hover:underline " + ((page==="students") ? "text-red-500": "text-zinc-50")} href="/students">Students</a>
+                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="students") ? "text-red-500": "text-zinc-50")} href="/students">Students</a>
                     <HeaderSubmenu pages={studentsSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-1.5xl font-sans transition-transform duration-300 hover:underline " + ((page==="advisors") ? "text-red-500": "text-zinc-50")} href="/advisors">Advisors</a>
+                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="advisors") ? "text-red-500": "text-zinc-50")} href="/advisors">Advisors</a>
                     <HeaderSubmenu pages={advisorsSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-1.5xl font-sans transition-transform duration-300 hover:underline " + ((page==="events") ? "text-red-500": "text-zinc-50")} href="/events">Events</a>
+                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="events") ? "text-red-500": "text-zinc-50")} href="/events">Events</a>
                     <HeaderSubmenu pages={eventsSubPages}></HeaderSubmenu>
                 </div>
-                <a className={"text-1.5xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
-                <a className={"text-1.5xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a>
+                <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
+                <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a>
             </div>
 
             <button onClick={() => setMobileOpen(!mobileOpen)} className="md:hidden p-4 text-zinc-50 w-[20%] z-99">
@@ -94,7 +94,7 @@ export default function Header({ page }) {
                 <div className="md:hidden flex z-90 absolute flex-col px-6 h-full gap-4 bg-black/80 w-full justify-start pt-[30vh] items-center top-0 overflow-y-auto">
                     <div className="flex flex-col w-full gap-0 justify-center items-center">
                         <div>
-                            <a href="/about" className={"text-xl "+ ((page==="about") ? "text-red-500": "text-zinc-50")}>About</a>
+                            <a href="/about" className={"text-xl "+ ((page==="about") ? "text-blue-500": "text-zinc-50")}>About</a>
                             <p className="inline text-xl" onClick={() => setAboutOpen(!aboutOpen)}> &#x25BE; </p>
                         </div>
                         {aboutOpen && (
@@ -108,12 +108,12 @@ export default function Header({ page }) {
                     
                     <div className="flex flex-col w-full gap-0 justify-center items-center">
                         <div>
-                            <a href="/students" className={"inline text-xl "+ ((page==="students") ? "text-red-500": "text-zinc-50")}>Students</a>
+                            <a href="/students" className={"inline text-xl "+ ((page==="students") ? "text-blue-500": "text-zinc-50")}>Students</a>
                             <p className="inline text-xl" onClick={() => setStudentsOpen(!studentsOpen)}> &#x25BE; </p>
                         </div>
                         {studentsOpen && (
                             studentsSubPages.map((page, index) => (
-                                <a href={page.page} key={index} className={"text-md "+ ((page==="students") ? "text-red-500": "text-zinc-50")}>
+                                <a href={page.page} key={index} className={"text-md "+ ((page==="students") ? "text-blue-500": "text-zinc-50")}>
                                     {page.label}
                                 </a>
                             ))
@@ -122,12 +122,12 @@ export default function Header({ page }) {
 
                     <div className="flex flex-col w-full gap-0 justify-center items-center">
                         <div>
-                            <a href="/advisors" className={"text-xl "+ ((page==="advisors") ? "text-red-500": "text-zinc-50")}>Advisors</a>
+                            <a href="/advisors" className={"text-xl "+ ((page==="advisors") ? "text-blue-500": "text-zinc-50")}>Advisors</a>
                             <p className="inline text-xl" onClick={() => setAdvisorsOpen(!advisorsOpen)}> &#x25BE; </p>
                         </div>
                         {advisorsOpen && (
                             advisorsSubPages.map((page, index) => (
-                                <a href={page.page} key={index} className={"text-md "+ ((page==="advisors") ? "text-red-500": "text-zinc-50")}>
+                                <a href={page.page} key={index} className={"text-md "+ ((page==="advisors") ? "text-blue-500": "text-zinc-50")}>
                                     {page.label}
                                 </a>
                             ))
@@ -136,7 +136,7 @@ export default function Header({ page }) {
 
                     <div className="flex flex-col w-full gap-0 justify-center items-center">
                         <div>
-                            <a href="/events" className={"text-xl "+ ((page==="events") ? "text-red-500": "text-zinc-50")}>Conferences & Events</a>
+                            <a href="/events" className={"text-xl "+ ((page==="events") ? "text-blue-500": "text-zinc-50")}>Conferences & Events</a>
                             <p className="inline text-xl" onClick={() => setEventsOpen(!eventsOpen)}> &#x25BE; </p>
                         </div>
                         {eventsOpen && (
@@ -148,11 +148,11 @@ export default function Header({ page }) {
                         )}
                     </div>
 
-                    <a href="/resources" className={"text-xl "+ ((page==="resources") ? "text-red-500": "text-zinc-50")}>
+                    <a href="/resources" className={"text-xl "+ ((page==="resources") ? "text-blue-500": "text-zinc-50")}>
                         Resources
                     </a>
 
-                    <a href="/contact" className={"text-xl "+ ((page==="contact") ? "text-red-500": "text-zinc-50")}>
+                    <a href="/contact" className={"text-xl "+ ((page==="contact") ? "text-blue-500": "text-zinc-50")}>
                         Contact
                     </a>
                 </div>
