@@ -58,30 +58,30 @@ export default function Header({ page }) {
     const [resourcesOpen, setResourcesOpen] = useState(false);
 
     return (
-        <header className="bg-[#030422] flex flex-row items-center justify-center font-sans w-full gap-[40%] md:gap-0">
+        <header className="bg-[#FAF9F6] flex flex-row items-center justify-center font-sans w-full gap-[40%] md:gap-0">
             <a className="flex flex-row items-center w-[20%] md:w-[30%] justify-center" href="/">
                 <Image className="py-3 md:w-[130px]" src="/motsalogo.png" alt="Next.js logo" width={80} height={20} priority/>
             </a>
 
             <div className="hidden md:flex flex-row items-center w-full justify-end gap-15 px-20">
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="about") ? "text-red-500": "text-zinc-50")} href="/about">About</a>
+                    <a className={"text-1.5xl font-sans transition-transform duration-300 hover:underline " + ((page==="about") ? "text-red-500": "text-zinc-50")} href="/about">About</a>
                     <HeaderSubmenu pages={aboutSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="students") ? "text-red-500": "text-zinc-50")} href="/students">Students</a>
+                    <a className={"text-1.5xl font-sans transition-transform duration-300 hover:underline " + ((page==="students") ? "text-red-500": "text-zinc-50")} href="/students">Students</a>
                     <HeaderSubmenu pages={studentsSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="advisors") ? "text-red-500": "text-zinc-50")} href="/advisors">Advisors</a>
+                    <a className={"text-1.5xl font-sans transition-transform duration-300 hover:underline " + ((page==="advisors") ? "text-red-500": "text-zinc-50")} href="/advisors">Advisors</a>
                     <HeaderSubmenu pages={advisorsSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="events") ? "text-red-500": "text-zinc-50")} href="/events">Conferences & Events</a>
+                    <a className={"text-1.5xl font-sans transition-transform duration-300 hover:underline " + ((page==="events") ? "text-red-500": "text-zinc-50")} href="/events">Events</a>
                     <HeaderSubmenu pages={eventsSubPages}></HeaderSubmenu>
                 </div>
-                <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
-                <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a>
+                <a className={"text-1.5xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
+                <a className={"text-1.5xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a>
             </div>
 
             <button onClick={() => setMobileOpen(!mobileOpen)} className="md:hidden p-4 text-zinc-50 w-[20%] z-99">
