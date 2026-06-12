@@ -35,7 +35,7 @@ export default function Home() {
               <GrayButton height="full" link="/students/apply" label={"2026-2027 State Officer Application Available"}></GrayButton>
               <GrayButton height="full" link="/events/workshops" label={"Competitive Events Workshop Registration Deadline: November 1, 2025"}></GrayButton>
               <GrayButton height="full" link="/students/officers" label={"Meet your 2025-2026 State Officer Team"}></GrayButton>
-              <GrayButton height="full" link="/resources/calendar" label={"2025-2026 Calendar of Events Released"}></GrayButton>
+              <GrayButton height="full" link="/events/calendar" label={"2025-2026 Calendar of Events Released"}></GrayButton>
               <GrayButton height="full" link="/advisors/forms" label={"2025-2026 Conference Forms Released"}></GrayButton>
           </div>
         </div> 

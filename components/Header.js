@@ -28,6 +28,7 @@ export default function Header({ page }) {
     ];
 
     const eventsSubPages = [
+        {label: "Calendar", page: "/events/calendar"},
         {label: "State Championships", page: "/events/scc"},
         {label: "Fall Leadership Conference", page: "/events/flc"},
         {label: "Competitive Events Workshops", page: "/events/workshops"},
@@ -45,7 +46,7 @@ export default function Header({ page }) {
         {label: "Bylaws", page: "/resources/bylaws"},
         {label: "NewsLetter", page: "/resources/newsletter"},
         {label: "Billing/Late Fee", page: "/resources/billing"},
-        {label: "Calendar", page: "/resources/calendar"},
+        {label: "Calendar", page: "/events/calendar"},
         {label: "Gallery", page: "/resources/gallery"},
         {label: "Chapter Resources & Tips", page: "/advisors/resources"}
     ];
@@ -80,7 +81,10 @@ export default function Header({ page }) {
                     <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="events") ? "text-red-500": "text-zinc-50")} href="/events">Conferences & Events</a>
                     <HeaderSubmenu pages={eventsSubPages}></HeaderSubmenu>
                 </div>
-                <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
+                <div className="relative group">
+                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
+                    <HeaderSubmenu pages={resourcesSubPages}></HeaderSubmenu>
+                </div>
                 <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a>
             </div>
 
@@ -141,16 +145,27 @@ export default function Header({ page }) {
                         </div>
                         {eventsOpen && (
                             eventsSubPages.map((page, index) => (
-                                <a href={page.page} key={index} className={"text-md "+ ((page==="advisors") ? "text-red-500": "text-zinc-50")}>
+                                <a href={page.page} key={index} className={"text-md "+ ((page==="events") ? "text-red-500": "text-zinc-50")}>
                                     {page.label}
                                 </a>
                             ))
                         )}
                     </div>
 
-                    <a href="/resources" className={"text-xl "+ ((page==="resources") ? "text-red-500": "text-zinc-50")}>
-                        Resources
-                    </a>
+
+                    <div className="flex flex-col w-full gap-0 justify-center items-center">
+                        <div>
+                            <a href="/resources" className={"text-xl "+ ((page==="resources") ? "text-red-500": "text-zinc-50")}>Resources</a>
+                            <p className="inline text-xl" onClick={() => setResourcesOpen(!resourcesOpen)}> &#x25BE; </p>
+                        </div>
+                        {resourcesOpen && (
+                            resourcesSubPages.map((page, index) => (
+                                <a href={page.page} key={index} className={"text-md "+ ((page==="resources") ? "text-red-500": "text-zinc-50")}>
+                                    {page.label}
+                                </a>
+                            ))
+                        )}
+                    </div>
 
                     <a href="/contact" className={"text-xl "+ ((page==="contact") ? "text-red-500": "text-zinc-50")}>
                         Contact
