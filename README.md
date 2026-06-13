@@ -15,7 +15,7 @@ If you don't already have VSCode, [download](https://code.visualstudio.com/downl
 Ensure your have [Git downloaded](https://git-scm.com/install/).
 
 [Download pre-build Node.js](https://nodejs.org/en/download) based on your operating system as shown in the image below.
-![alt text](image.png)
+![alt text](public/image.png)
 
 ## Your own branch
 
@@ -36,14 +36,14 @@ Click file>Open Folder... and select this new MOTSA folder. You are now in the p
 
 ### Go to Your Branch
 When in the MOTSA folder, select the Source Control tab on the left-hand side. Click the three dots on the Changes section and select Checkout to... . Then click on your new branch name. You are now in your own branch workspace. All edits made here will not affect the main codebase.
-![alt text](image-2.png)
+![alt text](public/image-2.png)
 
 ### Commit Your Changes (With GUI)
 After your changes have been tested and are ready to be included in the project:
 * Go to the Source Control tab on the left-hand side
 * In the text box, write a short and quick summary of your changes (ex: "resize header bar; add images for officers")
 * Press the blue Commit button
-* Once it has been commited, the button will change to "Push". Right now, the new changes you have commited are only present on your device, press the "Push" button to update your branch online
+* Once it has been commited, the button will change to "Sync Changes". Right now, the new changes you have commited are only present on your device, press the "Sync Changes" button to update your branch online
 
 Congrats! You have successfully committed and pushed your changes!
 
@@ -65,6 +65,17 @@ When you are in the MOTSA repository folder in VSCode, open up the terminal and 
 
 Open http://localhost:3000 with your browser to see the current version of the website. Any changes you make to the code will automatically update this site.
 
+### JSX
+Next JS uses JSX which is a way to embed HTML into JavaScript. Here are guides on how to write JSX:
+
+Basics on JSX: https://react.dev/learn/writing-markup-with-jsx
+
+JS inside JSX: https://react.dev/learn/javascript-in-jsx-with-curly-braces
+
+Conditional Rendering: https://react.dev/learn/conditional-rendering
+
+Rendering Lists: https://react.dev/learn/rendering-lists
+
 ### File Structure
 This project uses the app router instead of pages router. 
 ```
@@ -77,10 +88,20 @@ MOTSA/
 └── public/
 ```
 **app/:**
+
 In the directory `app/` is where all of the main code goes. Each `page.js` file is code for a page on the website. In `app/page.js` is the home page. Every folder in `app/` is a subdirectory of the website. For example, `app/about/` will be the `motsaweb.org/about` page, and `app/about/page.js` is the code for that page. Similarly, `app/about/history/` is the `motsaweb.org/about/history` page, and `app/about/history/page.js` is the code.
 
 **components/:**
-TO be continued ...
+
+Components are reusable blocks of code throughout the website. For example, the Header is a component because it is used in every single page of the website. So instead of copy/pasting that same piece of code on every page, the code for the Header is in `components/Header.js`, and each page references that code. 
+
+Basics about components: https://react.dev/learn/your-first-component
+
+Components with props: https://react.dev/learn/passing-props-to-a-component
+
+**public/:**
+
+The `public/` directory contains all images and assets of the project. Once the asset is in `public`, it can be reference in the code as `/[image.png]`
 
 ## Learn More
 
