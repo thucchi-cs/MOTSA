@@ -1,10 +1,7 @@
-import Image from "next/image";
-import BoxButton from "@/components/BoxButton";
-import ArrowButton from "@/components/ArrowButton";
 import GrayButton from "@/components/GrayButton";
 import Header from "@/components/Header";
 
-export default function Home() {
+export default function Contact() {
   return (
     <div className="flex flex-col  items-center justify-center font-sans bg-[#040531]">
       <Header page={"contact"}></Header>

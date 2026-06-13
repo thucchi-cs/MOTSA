@@ -1,10 +1,10 @@
 import GrayButton from "@/components/GrayButton";
 import Header from "@/components/Header";
 
-export default function Resources() {
+export default function Alumni() {
   return (
     <div className="flex flex-col  items-center justify-center font-sans bg-[#040531]">
-      <Header page={"resources"}></Header>
+      <Header page={"alumni"}></Header>
       <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#060852] sm:items-start"> 
         <div className="flex flex-col w-full justify-between items-center h-full text-black bg-white">
           <h1 className="text-5xl text-left px-[5%] pt-10 font-bold">News & Updates</h1>
