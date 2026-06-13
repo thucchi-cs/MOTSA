@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 
-export default function Home() {
+export default function Affiliation() {
   return (
     <div className="flex flex-col  items-center justify-center font-sans bg-[#040531]">
       <Header page={"advisors"}></Header>

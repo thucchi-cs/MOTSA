@@ -1,10 +1,8 @@
-import GrayButton from "@/components/GrayButton";
 import Header from "@/components/Header";
 import Image from "next/image";
 import BoxButton from "@/components/BoxButton";
-import ArrowButton from "@/components/ArrowButton";
 
-export default function Home() {
+export default function Students() {
   return (
     <div className="flex flex-col  items-center justify-center font-sans bg-[#040531] overflow-x-hidden">
       <Header page={"students"}></Header>

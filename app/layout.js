@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
                   height={40}
                   priority
                   />
-                <a className="text-left text-xl transition-transform duration-300 hover:underline cursor-pointer inline">@missouritsa</a>
+                <a href="https://www.instagram.com/missouritsa/" target="_blank" className="text-left text-xl transition-transform duration-300 hover:underline cursor-pointer inline">@missouritsa</a>
               </div>
           </div>
         </footer>

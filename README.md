@@ -61,7 +61,9 @@ Congrats! You have successfully committed and pushed your changes!
 ## Next JS Quick Guide
 
 ### Testing Locally
-When you are in the MOTSA repository folder in VSCode, open up the terminal and type in 
+Before you test, you need to install `node` on your environment. Make sure you have Nodejs installed to your device beforehand. Then when you are in the MOTSA repository folder in VSCode, open your terminal and type `npm install`. You only need to do this once.
+
+To test, open up the terminal and type in 
 
 `npm run dev`
 

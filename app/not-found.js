@@ -1,7 +1,4 @@
 import Image from "next/image";
-import BoxButton from "@/components/BoxButton";
-import ArrowButton from "@/components/ArrowButton";
-import GrayButton from "@/components/GrayButton";
 import Header from "@/components/Header";
 
 export default function construction() {

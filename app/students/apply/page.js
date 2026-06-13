@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Image from "next/image";
 
-export default function Home() {
+export default function Apply() {
   return (
     <div className="flex flex-col  items-center justify-center font-sans bg-[#040531] overflow-x-hidden">
       <Header page={"students"}></Header>

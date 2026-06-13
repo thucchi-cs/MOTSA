@@ -66,26 +66,27 @@ export default function Header({ page }) {
 
             <div className="hidden md:flex flex-row items-center w-full justify-end gap-15 px-20">
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="about") ? "text-red-500": "text-zinc-50")} href="/about">About</a>
+                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="about") ? "text-red-500": "text-zinc-50")} href="/about">About</a>
                     <HeaderSubmenu pages={aboutSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="students") ? "text-red-500": "text-zinc-50")} href="/students">Students</a>
+                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="students") ? "text-red-500": "text-zinc-50")} href="/students">Students</a>
                     <HeaderSubmenu pages={studentsSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="advisors") ? "text-red-500": "text-zinc-50")} href="/advisors">Advisors</a>
+                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="advisors") ? "text-red-500": "text-zinc-50")} href="/advisors">Advisors</a>
                     <HeaderSubmenu pages={advisorsSubPages}></HeaderSubmenu>
                 </div>
+                <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="alumni") ? "text-red-500": "text-zinc-50")} href="/alumni">Alumni</a>
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="events") ? "text-red-500": "text-zinc-50")} href="/events">Conferences & Events</a>
+                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="events") ? "text-red-500": "text-zinc-50")} href="/events">Conferences & Events</a>
                     <HeaderSubmenu pages={eventsSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
+                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
                     <HeaderSubmenu pages={resourcesSubPages}></HeaderSubmenu>
                 </div>
-                <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a>
+                <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a>
             </div>
 
             <button onClick={() => setMobileOpen(!mobileOpen)} className="md:hidden p-4 text-zinc-50 w-[20%] z-99">
@@ -137,6 +138,10 @@ export default function Header({ page }) {
                             ))
                         )}
                     </div>
+
+                    <a href="/alumni" className={"text-xl "+ ((page==="alumni") ? "text-red-500": "text-zinc-50")}>
+                        Alumni
+                    </a>
 
                     <div className="flex flex-col w-full gap-0 justify-center items-center">
                         <div>

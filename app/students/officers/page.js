@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import OfficerDisp from "@/components/OfficerDisp";
 
-export default function Home() {
+export default function Officers() {
     const StateOfficers = [
         {img:"/president.webp", name:"Hailey Hunter", position:"President", school:"Carl Junction High", email:"motsapreshailey@gmail.com", link:"/students/officers/president"},
         {img:"/vp.webp", name:"Corinne Merrell", position:"Vice President", school:"Carl Junction High", email:"motsavpcorinne@gmail.com", link:"/students/officers/vp"},

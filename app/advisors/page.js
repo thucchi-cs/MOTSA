@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Image from "next/image";
 import BoxButton from "@/components/BoxButton";
 
-export default function Home() {
+export default function Advisors() {
   return (
     <div className="flex flex-col  items-center justify-center font-sans bg-[#040531] overflow-x-hidden">
       <Header page={"advisors"}></Header>
@@ -29,6 +29,7 @@ export default function Home() {
             <div className="flex min-w-max justify-center gap-5 md:w-full px-[5%] md:justify-between items-center h-full bg-white text-black py-4 md:py-10 overflow-x-scroll">
               <BoxButton link="/advisors/forms" title={"Conference Forms"} icon={"/forms.png"}></BoxButton>
               <BoxButton link="/advisors/start-a-chapter" title={"Starting a Chapter"} icon={"/motsalogo.png"}></BoxButton>
+              <BoxButton link="/advisors/resources" title={"Chapter Resources"} icon={"/resources.png"}></BoxButton>
               <BoxButton link="/advisors/affiliation" title={"Affiliation Information"} icon={"/tsa.png"}></BoxButton>
             </div> 
           </div>
