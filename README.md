@@ -14,7 +14,7 @@ If you don't already have VSCode, [download](https://code.visualstudio.com/downl
 
 Ensure your have [Git downloaded](https://git-scm.com/install/).
 
-[Download pre-build Node.js](https://nodejs.org/en/download) based on your operating system as shown in the image below.
+[Download prebuilt Node.js](https://nodejs.org/en/download) based on your operating system as shown in the image below.
 ![alt text](public/image.png)
 
 ## Your own branch
@@ -23,13 +23,15 @@ Ensure your have [Git downloaded](https://git-scm.com/install/).
 A branch is a separate workspace where you can make changes to a project without affecting the main/official version of the code. It allows developers to safely test new features, experiment with ideas, and fix bugs. When the changes are complete and working correctly, your branch can be merged into the "main" branch so the updates become part of the main/official codebase. 
 
 ### Creating Your Own Branch
-On this Github Repository page, make sure you are on the "main" branch. Click on the branch dropdown and type in the name of your new branch (use your name or name-Edits). Then click "Create branch." 
-![alt text](image-1.png)
+On this Github Repository page, first, make sure you are on the "main" branch. Click on the branch dropdown and type in the name of your new branch (use your name or name-Edits). Then click "Create branch." 
+![alt text](public/image-1.png)
 
 ## VSCode
 ### Opening the Repository (only once when getting started)
 Open up VSCode and open a folder you would like this project to reside in. Then in the terminal, type in
-`git clone https://github.com/thucchi-cs/MOTSA`. 
+
+`git clone https://github.com/thucchi-cs/MOTSA` 
+
 Provide your GitHub username and password if needed. You will then see a newly created folder named "MOTSA". 
 
 Click file>Open Folder... and select this new MOTSA folder. You are now in the project repository on VSCode.
@@ -63,7 +65,7 @@ When you are in the MOTSA repository folder in VSCode, open up the terminal and 
 
 `npm run dev`
 
-Open http://localhost:3000 with your browser to see the current version of the website. Any changes you make to the code will automatically update this site.
+Open http://localhost:3000 with your browser to see the current version of the website. Any changes you make to the code will update live on this site.
 
 ### JSX
 Next JS uses JSX which is a way to embed HTML into JavaScript. Here are guides on how to write JSX:
@@ -101,7 +103,7 @@ Components with props: https://react.dev/learn/passing-props-to-a-component
 
 **public/:**
 
-The `public/` directory contains all images and assets of the project. Once the asset is in `public`, it can be reference in the code as `/[image.png]`
+The `public/` directory contains all images and assets of the project. Once the asset is in `public`, it can be referenced in the code as `/[image.png]`
 
 ## Learn More
 
