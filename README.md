@@ -15,6 +15,7 @@ If you don't already have VSCode, [download](https://code.visualstudio.com/downl
 Ensure your have [Git downloaded](https://git-scm.com/install/).
 
 [Download prebuilt Node.js](https://nodejs.org/en/download) based on your operating system as shown in the image below.
+
 ![alt text](public/image.png)
 
 ## Your own branch
@@ -24,6 +25,7 @@ A branch is a separate workspace where you can make changes to a project without
 
 ### Creating Your Own Branch
 On this Github Repository page, first, make sure you are on the "main" branch. Click on the branch dropdown and type in the name of your new branch (use your name or name-Edits). Then click "Create branch." 
+
 ![alt text](public/image-1.png)
 
 ## VSCode
@@ -38,6 +40,7 @@ Click file>Open Folder... and select this new MOTSA folder. You are now in the p
 
 ### Go to Your Branch
 When in the MOTSA folder, select the Source Control tab on the left-hand side. Click the three dots on the Changes section and select Checkout to... . Then click on your new branch name. You are now in your own branch workspace. All edits made here will not affect the main codebase.
+
 ![alt text](public/image-2.png)
 
 ### Commit Your Changes (With GUI)
@@ -61,7 +64,7 @@ Congrats! You have successfully committed and pushed your changes!
 ## Next JS Quick Guide
 
 ### Testing Locally
-Before you test, you need to install `node` on your environment. Make sure you have Nodejs installed to your device beforehand. Then when you are in the MOTSA repository folder in VSCode, open your terminal and type `npm install`. You only need to do this once.
+Before you test, you need to install `node` on your environment. Make sure you have Nodejs installed to your device beforehand. Then when you are in the MOTSA repository folder in VSCode, open your terminal and type `npm install`. You only need to do this once. Also install the extension that helps connects the website to our neon db with `npm install @neondatabase/serverless`.
 
 To test, open up the terminal and type in 
 
