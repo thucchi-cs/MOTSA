@@ -24,7 +24,8 @@ export default function Header({ page }) {
         {label: "Conference Forms", page: "/advisors/forms"},
         {label: "Starting a Chapter", page: "/advisors/start-a-chapter"},
         {label: "Resources", page: "/advisors/resources"},
-        {label: "Affiliation Information", page: "/advisors/affiliation"}    
+        {label: "Affiliation Information", page: "/advisors/affiliation"},  
+        {label: "Monthly Zoom Meetings", page: "/advisors/zoom"}    
     ];
 
     const eventsSubPages = [
@@ -59,7 +60,7 @@ export default function Header({ page }) {
     const [resourcesOpen, setResourcesOpen] = useState(false);
 
     return (
-        <header className="bg-[#030422] flex flex-row items-center justify-center font-sans w-full gap-[40%] md:gap-0">
+        <header className="bg-[#072c5c] flex flex-row items-center justify-center font-sans w-full gap-[40%] md:gap-0">
             <a className="flex flex-row items-center w-[20%] md:w-[30%] justify-center" href="/">
                 <Image className="py-3 md:w-[130px]" src="/motsalogo.png" alt="Next.js logo" width={80} height={20} priority/>
             </a>

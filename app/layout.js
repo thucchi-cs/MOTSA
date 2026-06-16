@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
     >
       <meta charSet="UTF-8"></meta>
       <body className="min-h-full flex flex-col">{children}
-        <footer className="bg-[#030422] w-full md:h-100 flex flex-col md:flex-row items-center justify-between px-4 md:px-10 text-zinc-50">
+        <footer className="bg-[#072c5c] w-full md:h-100 flex flex-col md:flex-row items-center justify-between px-4 md:px-10 text-zinc-50">
           <NewsSignUp></NewsSignUp>
           <div className="w-full flex flex-col justify-center items-center md:min-h-20 gap-y-3 md:pl-10">
               <a href="https://tsaweb.org" target="_blank" className="text-left text-lg md:text-xl transition-transform duration-300 hover:underline cursor-pointer">National Technology Student Association</a>

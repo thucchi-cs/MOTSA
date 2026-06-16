@@ -10,9 +10,9 @@ export default async function officer() {
     const version = await getData(officer);
 
     return (
-        <div className="flex flex-col  items-center justify-center font-sans bg-[#040531] overflow-x-hidden">
+        <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c] overflow-x-hidden">
         <Header page={"home"}></Header>
-        <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#060852] sm:items-start">
+        <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start">
             
             <div className="flex flex-col w-full justify-between items-center h-full text-black bg-white">
             <h1 className="text-3xl md:text-5xl px-[5%] pt-10 font-bold text-center">{officer} and {version}</h1>
