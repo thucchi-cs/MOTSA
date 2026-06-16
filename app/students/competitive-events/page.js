@@ -1,10 +1,10 @@
 import Header from "@/components/Header";
 
-export default function Home() {
+export default function CompetitiveEvents() {
   return (
-    <div className="flex flex-col  items-center justify-center font-sans bg-[#040531]">
+    <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c]">
       <Header page={"students"}></Header>
-      <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#060852] sm:items-start"> 
+      <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start"> 
         <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white py-10 md:py-20">
           <h1 className="text-3xl md:text-5xl text-left px-[5%] md:pt-10 font-bold">Competitive Events</h1>
           <div className="flex flex-col w-full justify-between items-center h-full px-10 py-12 gap-y-10">
@@ -18,7 +18,7 @@ export default function Home() {
                 <a href="https://tsaweb.org/competitions-programs/tsa/high-school-competitions#highschool" target="_blank" className="bg-red-500 md:w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
                     <h1 className="text-sm md:text-xl">High School Competitive Event Information &#8594;</h1>
                 </a>
-                <a href="https://tsaweb.org/competitions-programs/tsa/middle-school-competitions#middleschool" target="_blank" className="bg-blue-500 md:w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#060852] cursor-pointer">
+                <a href="https://tsaweb.org/competitions-programs/tsa/middle-school-competitions#middleschool" target="_blank" className="bg-blue-500 md:w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#072c5c] cursor-pointer">
                     <h1 className="text-sm md:text-xl">Middle School Competitive Event Information &#8594;</h1>
                 </a>
             </div>
@@ -26,7 +26,7 @@ export default function Home() {
                 <a href="https://motsaweb.org/wp-content/uploads/2026/01/Missouri-TSA-2026-State-Competitive-Events-Eligibility-High-School-Updated-10-19-2025-1.pdf" target="_blank" className="bg-red-500 md:w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
                     <h1 className="text-sm md:text-xl">HS Competitive Events Elligibility Chart &#8594;</h1>
                 </a>
-                <a href="https://motsaweb.org/wp-content/uploads/2026/01/Missouri-TSA-2026-Competitive-Events-Eligibility-Middle-School10-03-2025-1.pdf" target="_blank" className="bg-blue-500 md:w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#060852] cursor-pointer">
+                <a href="https://motsaweb.org/wp-content/uploads/2026/01/Missouri-TSA-2026-Competitive-Events-Eligibility-Middle-School10-03-2025-1.pdf" target="_blank" className="bg-blue-500 md:w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#072c5c] cursor-pointer">
                     <h1 className="text-sm md:text-xl">MS Competitive Events Elligibility Chart &#8594;</h1>
                 </a>
             </div>

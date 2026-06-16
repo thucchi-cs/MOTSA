@@ -24,10 +24,12 @@ export default function Header({ page }) {
         {label: "Conference Forms", page: "/advisors/forms"},
         {label: "Starting a Chapter", page: "/advisors/start-a-chapter"},
         {label: "Resources", page: "/advisors/resources"},
-        {label: "Affiliation Information", page: "/advisors/affiliation"}    
+        {label: "Affiliation Information", page: "/advisors/affiliation"},  
+        {label: "Monthly Zoom Meetings", page: "/advisors/zoom"}    
     ];
 
     const eventsSubPages = [
+        {label: "Calendar", page: "/events/calendar"},
         {label: "State Championships", page: "/events/scc"},
         {label: "Fall Leadership Conference", page: "/events/flc"},
         {label: "Competitive Events Workshops", page: "/events/workshops"},
@@ -45,7 +47,7 @@ export default function Header({ page }) {
         {label: "Bylaws", page: "/resources/bylaws"},
         {label: "NewsLetter", page: "/resources/newsletter"},
         {label: "Billing/Late Fee", page: "/resources/billing"},
-        {label: "Calendar", page: "/resources/calendar"},
+        {label: "Calendar", page: "/events/calendar"},
         {label: "Gallery", page: "/resources/gallery"},
         {label: "Chapter Resources & Tips", page: "/advisors/resources"}
     ];
@@ -58,30 +60,34 @@ export default function Header({ page }) {
     const [resourcesOpen, setResourcesOpen] = useState(false);
 
     return (
-        <header className="bg-[#FAF9F6] flex flex-row items-center justify-center font-sans w-full gap-[40%] md:gap-0">
+        <header className="bg-[#072c5c] flex flex-row items-center justify-center font-sans w-full gap-[40%] md:gap-0">
             <a className="flex flex-row items-center w-[20%] md:w-[30%] justify-center" href="/">
                 <Image className="py-3 md:w-[130px]" src="/motsalogo.png" alt="Next.js logo" width={80} height={20} priority/>
             </a>
 
             <div className="hidden md:flex flex-row items-center w-full justify-end gap-15 px-20">
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="about") ? "text-red-500": "text-zinc-50")} href="/about">About</a>
+                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="about") ? "text-red-500": "text-zinc-50")} href="/about">About</a>
                     <HeaderSubmenu pages={aboutSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="students") ? "text-red-500": "text-zinc-50")} href="/students">Students</a>
+                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="students") ? "text-red-500": "text-zinc-50")} href="/students">Students</a>
                     <HeaderSubmenu pages={studentsSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="advisors") ? "text-red-500": "text-zinc-50")} href="/advisors">Advisors</a>
+                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="advisors") ? "text-red-500": "text-zinc-50")} href="/advisors">Advisors</a>
                     <HeaderSubmenu pages={advisorsSubPages}></HeaderSubmenu>
                 </div>
+                <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="alumni") ? "text-red-500": "text-zinc-50")} href="/alumni">Alumni</a>
                 <div className="relative group">
-                    <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="events") ? "text-red-500": "text-zinc-50")} href="/events">Events</a>
+                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="events") ? "text-red-500": "text-zinc-50")} href="/events">Conferences & Events</a>
                     <HeaderSubmenu pages={eventsSubPages}></HeaderSubmenu>
                 </div>
-                <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
-                <a className={"text-2xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a>
+                <div className="relative group">
+                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
+                    <HeaderSubmenu pages={resourcesSubPages}></HeaderSubmenu>
+                </div>
+                <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a>
             </div>
 
             <button onClick={() => setMobileOpen(!mobileOpen)} className="md:hidden p-4 text-zinc-50 w-[20%] z-99">
@@ -134,6 +140,10 @@ export default function Header({ page }) {
                         )}
                     </div>
 
+                    <a href="/alumni" className={"text-xl "+ ((page==="alumni") ? "text-red-500": "text-zinc-50")}>
+                        Alumni
+                    </a>
+
                     <div className="flex flex-col w-full gap-0 justify-center items-center">
                         <div>
                             <a href="/events" className={"text-xl "+ ((page==="events") ? "text-blue-500": "text-zinc-50")}>Conferences & Events</a>
@@ -141,16 +151,27 @@ export default function Header({ page }) {
                         </div>
                         {eventsOpen && (
                             eventsSubPages.map((page, index) => (
-                                <a href={page.page} key={index} className={"text-md "+ ((page==="advisors") ? "text-red-500": "text-zinc-50")}>
+                                <a href={page.page} key={index} className={"text-md "+ ((page==="events") ? "text-red-500": "text-zinc-50")}>
                                     {page.label}
                                 </a>
                             ))
                         )}
                     </div>
 
-                    <a href="/resources" className={"text-xl "+ ((page==="resources") ? "text-blue-500": "text-zinc-50")}>
-                        Resources
-                    </a>
+
+                    <div className="flex flex-col w-full gap-0 justify-center items-center">
+                        <div>
+                            <a href="/resources" className={"text-xl "+ ((page==="resources") ? "text-red-500": "text-zinc-50")}>Resources</a>
+                            <p className="inline text-xl" onClick={() => setResourcesOpen(!resourcesOpen)}> &#x25BE; </p>
+                        </div>
+                        {resourcesOpen && (
+                            resourcesSubPages.map((page, index) => (
+                                <a href={page.page} key={index} className={"text-md "+ ((page==="resources") ? "text-red-500": "text-zinc-50")}>
+                                    {page.label}
+                                </a>
+                            ))
+                        )}
+                    </div>
 
                     <a href="/contact" className={"text-xl "+ ((page==="contact") ? "text-blue-500": "text-zinc-50")}>
                         Contact

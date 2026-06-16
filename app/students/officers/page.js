@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import OfficerDisp from "@/components/OfficerDisp";
 
-export default function Home() {
+export default function Officers() {
     const StateOfficers = [
         {img:"/president.webp", name:"Hailey Hunter", position:"President", school:"Carl Junction High", email:"motsapreshailey@gmail.com", link:"/students/officers/president"},
         {img:"/vp.webp", name:"Corinne Merrell", position:"Vice President", school:"Carl Junction High", email:"motsavpcorinne@gmail.com", link:"/students/officers/vp"},
@@ -19,9 +19,9 @@ export default function Home() {
     ];
 
     return (
-        <div className="flex flex-col  items-center justify-center font-sans bg-[#040531]">
+        <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c]">
         <Header page={"students"}></Header>
-        <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#060852] sm:items-start"> 
+        <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start"> 
             <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white pb-10 md:py-20">
                 <h1 className="text-3xl md:text-5xl text-center px-[5%] pt-10 font-bold">Meet Your 2025-2026 Student Officer Team</h1>
                 <div className="flex flex-col w-full justify-between items-center h-full px-10 py-6 md:py-12 gap-y-5 md:gap-y-10">             
