@@ -3,9 +3,9 @@ import Header from "@/components/Header";
 
 export default function Resources() {
   return (
-    <div className="flex flex-col  items-center justify-center font-sans bg-[#040531]">
+    <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c]">
       <Header page={"resources"}></Header>
-      <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#060852] sm:items-start"> 
+      <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start"> 
         <div className="flex flex-col w-full justify-between items-center h-full text-black bg-white">
           <h1 className="text-5xl text-left px-[5%] pt-10 font-bold">News & Updates</h1>
           <div className="flex flex-row w-full justify-between items-center h-100 px-10 py-12 gap-x-5">

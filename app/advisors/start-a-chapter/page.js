@@ -2,9 +2,9 @@ import Header from "@/components/Header";
 
 export default function StartChapter() {
   return (
-    <div className="flex flex-col  items-center justify-center font-sans bg-[#040531]">
+    <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c]">
       <Header page={"advisors"}></Header>
-      <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#060852] sm:items-start"> 
+      <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start"> 
         <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white md:py-20">
           <h1 className="text-3xl md:text-5xl text-center px-[5%] pt-10 font-bold">10 Steps to Starting a Chapter</h1>
           <div className="flex flex-col w-full justify-between items-center h-full md:px-10 py-6 md:py-12 gap-y-5 md:gap-y-10">
@@ -32,7 +32,7 @@ export default function StartChapter() {
                 <a href="https://motsaweb.org/wp-content/uploads/2021/06/c332c-tsa-13-sample-bylaws.pdf" target="_blank" className="bg-red-500 md:w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
                     <h1 className="text-sm md:text-xl">Sample Bylaws Word Document &#8594;</h1>
                 </a>
-                <a href="https://motsaweb.org/wp-content/uploads/2025/09/Missouri-TSA-Chapter-Application-2.pdf" target="_blank" className="bg-blue-500 md:w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#060852] cursor-pointer">
+                <a href="https://motsaweb.org/wp-content/uploads/2025/09/Missouri-TSA-Chapter-Application-2.pdf" target="_blank" className="bg-blue-500 md:w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#072c5c] cursor-pointer">
                     <h1 className="text-sm md:text-xl">Missouri TSA Chapter Application &#8594;</h1>
                 </a>
             </div>
