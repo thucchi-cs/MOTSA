@@ -2,6 +2,7 @@ import Image from "next/image";
 import BoxButton from "@/components/BoxButton";
 import Header from "@/components/Header";
 import NewsBox from "@/components/News";
+import QuickLink from "@/components/QuickLink";
 
 export default function Home() {
   return (
@@ -72,40 +73,24 @@ export default function Home() {
         </div> 
 
         <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold">
-          <h1 className="text-3xl md:text-5xl relative text-left px-[5%] pt-10">Quick Links</h1>
+          <h1 className="text-3xl md:text-5xl relative text-left px-[5%] pt-15">Quick Links</h1>
           <div className="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 w-full overflow-x-auto py-5 md:py-10 px-5 md:px-30 md:gap-x-15 gap-y-5 md:gap-y-0">
             <div className="flex flex-col justify-start items-center">
               <p className="text-xl md:text-3xl text-center underline">Students</p>
               <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-5 gap-y-5 py-5">
-                <a href="/about" className="flex justify-center items-center w-full h-20 bg-[#0e4286] rounded-lg shadow-md shadow-black transition-transform duration-300 hover:scale-105 hover:bg-[#072c5c] text-white cursor-pointer">
-                  <h1 className="text-sm md:text-2xl text-center">Competitive Events</h1>
-                </a>
-                <a href="/about" className="flex justify-center items-center w-full h-20 bg-[#0e4286] rounded-lg shadow-md shadow-black transition-transform duration-300 hover:scale-105 hover:bg-[#072c5c] text-white cursor-pointer">
-                  <h1 className="text-sm md:text-2xl text-center">Dress Code</h1>
-                </a>
-                <a href="/about" className="flex justify-center items-center w-full h-20 bg-[#0e4286] rounded-lg shadow-md shadow-black transition-transform duration-300 hover:scale-105 hover:bg-[#072c5c] text-white cursor-pointer">
-                  <h1 className="text-sm md:text-2xl text-center">Degree Program</h1>
-                </a>
-                <a href="/about" className="flex justify-center items-center w-full h-20 bg-[#0e4286] rounded-lg shadow-md shadow-black transition-transform duration-300 hover:scale-105 hover:bg-[#072c5c] text-white cursor-pointer">
-                  <h1 className="text-sm md:text-2xl text-center">State Officers</h1>
-                </a>
+                <QuickLink link={"/students/competitive-events"} label={"Competitive Events"}></QuickLink>
+                <QuickLink link={"/students/dress-code"} label={"Dress Code"}></QuickLink>
+                <QuickLink link={"/students/degree"} label={"Degree Program"}></QuickLink>
+                <QuickLink link={"/students/officers"} label={"State Officers"}></QuickLink>
               </div>
             </div>
             <div className="flex flex-col justify-start items-center">
               <p className="text-xl md:text-3xl text-center underline">General</p>
               <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-5 gap-y-5 py-5">
-                <a href="/about" className="flex justify-center items-center w-full h-20 bg-[#0e4286] rounded-lg shadow-md shadow-black transition-transform duration-300 hover:scale-105 hover:bg-[#072c5c] text-white cursor-pointer">
-                  <h1 className="text-sm md:text-2xl text-center">Calendar</h1>
-                </a>
-                <a href="/about" className="flex justify-center items-center w-full h-20 bg-[#0e4286] rounded-lg shadow-md shadow-black transition-transform duration-300 hover:scale-105 hover:bg-[#072c5c] text-white cursor-pointer">
-                  <h1 className="text-sm md:text-2xl text-center">Newsletter</h1>
-                </a>
-                <a href="/about" className="flex justify-center items-center w-full h-20 bg-[#0e4286] rounded-lg shadow-md shadow-black transition-transform duration-300 hover:scale-105 hover:bg-[#072c5c] text-white cursor-pointer">
-                  <h1 className="text-sm md:text-2xl text-center">Past Winners</h1>
-                </a>
-                <a href="/about" className="flex justify-center items-center w-full h-20 bg-[#0e4286] rounded-lg shadow-md shadow-black transition-transform duration-300 hover:scale-105 hover:bg-[#072c5c] text-white cursor-pointer">
-                  <h1 className="text-sm md:text-2xl text-center">Gallery</h1>
-                </a>
+                <QuickLink link={"/events/calendar"} label={"Calendar"}></QuickLink>
+                <QuickLink link={"/resources/newsletter"} label={"Newsletter"}></QuickLink>
+                <QuickLink link={"/resources/winners"} label={"Past Winners"}></QuickLink>
+                <QuickLink link={"/resources/gallery"} label={"Gallery"}></QuickLink>
               </div>
             </div>
           </div>
