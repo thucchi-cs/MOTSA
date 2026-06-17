@@ -26,7 +26,7 @@ export default async function officer({ params }) {
         <Header page={"home"}></Header>
         <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start">
             
-            <div className="flex flex-row w-full justify-center items-start h-full text-black bg-white py-30 gap-x-20 px-20">
+            <div className="flex flex-col md:flex-row w-full justify-center items-center md:items-start h-full text-black bg-white md:py-30 gap-x-20 md:px-20">
                 <Image
                     className="pb-5"
                     src={`/officers/${data.abbr}.webp`}
@@ -35,14 +35,14 @@ export default async function officer({ params }) {
                     height={600}
                     priority
                 />
-                <div className="text-left flex flex-col justify-center items-start gap-y-3 w-[70%]">
+                <div className="text-left flex flex-col justify-center items-center md:items-start gap-y-3 px-5 md:px-0 md:w-[70%] pb-10 md:pb-0">
                     <h1 className="text-3xl md:text-4xl font-bold">{data.name}</h1>
-                    <p className="text-3xl md:text-3xl font-bold">{data.position}</p>
-                    <p className="text-3xl md:text-xl pt-5">{bio}</p>
+                    <p className="text-2xl md:text-3xl font-bold">{data.position}</p>
+                    <p className="text-lg md:text-xl md:pt-5">{bio}</p>
                     {interviewResults.map((q, index) => (
                         <div key={index}>
-                            <p className="text-3xl md:text-xl font-bold">{q.prompt}</p>
-                            <p className="text-3xl md:text-xl">{q.response}</p>
+                            <p className="text-lg md:text-xl font-bold">{q.prompt}</p>
+                            <p className="text-lg md:text-xl">{q.response}</p>
                         </div>
                     ))}
                 </div>
