@@ -1,6 +1,6 @@
 import Header from "@/components/Header";
 import Image from "next/image";
-import BoxButton from "@/components/BoxButton";
+import QuickLink from "@/components/QuickLink";
 
 export default function Advisors() {
   return (
@@ -25,30 +25,29 @@ export default function Advisors() {
           </a>
         </div>
 
-        <div className="flex flex-col w-full justify-between items-center h-full text-white md:pb-10 gap-y-10">
+        <div className="flex flex-col w-full justify-between items-center h-full text-white md:pb-10 md:gap-y-10 py-5 md:py-10">
           <h1 className="text-3xl md:text-5xl text-left px-[5%] pt-10 pb-3 md:pb-0 font-bold">Being an Advisor</h1>
-            <p className="text-md text-center md:text-left md:text-2xl md:w-[70%] px-5 md:px-15 leading-relaxed">
-              Advisors are vital to the success of a local TSA Chapter. The Advisor needs to be aware of the responsibilities this entails, and become familiar with the local, state, and national structure of TSA. With a committed and enthusiastic advisor, students will grow as leaders and reap all the benefits that a TSA membership has to offer.
-            </p>
-            <p className="text-md text-center md:text-left md:text-2xl md:w-[70%] px-5 md:px-15 leading-relaxed">
-              The Advisor is a teacher, a mentor, and a resource who assists TSA members in relating Chapter activities to their local STEM education curriculum and to a future technology career. Remember, above all, that TSA students look to their Advisor as a reference for how they should act and participate in TSA activities. If the Advisor is uncooperative and indifferent, the students will be as well. Please set the standard for Missouri TSA members high by increasing your involvement and enthusiasm in the organization!
-            </p>
-            <p className="text-md text-center md:text-left md:text-2xl md:w-[70%] px-5 md:px-15 leading-relaxed">
-              The attitude, interest, enthusiasm, and commitment exhibited by the local TSA Chapter Advisor will be crucial as he/she conveys the values of TSA in the educational program in middle school, secondary, postsecondary and collegiate STEM and technology education programs. The Advisor, individually and with TSA Chapter members, must establish and maintain contacts with a variety of individuals and groups in publicizing and securing resources and support.
-            </p>
+          <p className="text-md text-center md:text-left md:text-2xl md:w-[70%] px-5 md:px-15 leading-relaxed">
+            Advisors are vital to the success of a local TSA Chapter. The Advisor needs to be aware of the responsibilities this entails, and become familiar with the local, state, and national structure of TSA. With a committed and enthusiastic advisor, students will grow as leaders and reap all the benefits that a TSA membership has to offer.
+          </p>
+          <p className="text-md text-center md:text-left md:text-2xl md:w-[70%] px-5 md:px-15 leading-relaxed">
+            The Advisor is a teacher, a mentor, and a resource who assists TSA members in relating Chapter activities to their local STEM education curriculum and to a future technology career. Remember, above all, that TSA students look to their Advisor as a reference for how they should act and participate in TSA activities. If the Advisor is uncooperative and indifferent, the students will be as well. Please set the standard for Missouri TSA members high by increasing your involvement and enthusiasm in the organization!
+          </p>
+          <p className="text-md text-center md:text-left md:text-2xl md:w-[70%] px-5 md:px-15 leading-relaxed">
+            The attitude, interest, enthusiasm, and commitment exhibited by the local TSA Chapter Advisor will be crucial as he/she conveys the values of TSA in the educational program in middle school, secondary, postsecondary and collegiate STEM and technology education programs. The Advisor, individually and with TSA Chapter members, must establish and maintain contacts with a variety of individuals and groups in publicizing and securing resources and support.
+          </p>
         </div> 
 
-        <div className="flex flex-col w-full justify-between items-center h-full text-black bg-white">
-          <h1 className="text-3xl md:text-5xl text-left px-[5%] pt-5 md:pt-10 font-bold">Links & Resources</h1>
-          <div className="w-full overflow-x-auto">
-            <div className="flex min-w-max justify-center gap-5 md:w-full px-[5%] md:justify-between items-center h-full bg-white text-black py-4 md:py-10 overflow-x-scroll">
-              <BoxButton link="/advisors/forms" title={"Conference Forms"} icon={"/forms.png"}></BoxButton>
-              <BoxButton link="/advisors/start-a-chapter" title={"Starting a Chapter"} icon={"/motsalogo.png"}></BoxButton>
-              <BoxButton link="/advisors/resources" title={"Chapter Resources"} icon={"/resources.png"}></BoxButton>
-              <BoxButton link="/advisors/affiliation" title={"Affiliation Information"} icon={"/tsa.png"}></BoxButton>
-            </div> 
-          </div>
-        </div>    
+        <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold md:py-10">
+          <h1 className="text-3xl md:text-5xl relative text-left px-[5%] pt-15">Links & Resources</h1>
+            <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-7 gap-y-7 py-8 md:py-15 px-5 md:px-30">
+              <QuickLink link={"/advisors/forms"} label={"Conference Forms"}></QuickLink>
+              <QuickLink link={"/advisors/start-a-chapter"} label={"Start a Chapter"}></QuickLink>
+              <QuickLink link={"/advisors/resources"} label={"Chapter Resources"}></QuickLink>
+              <QuickLink link={"/advisors/affiliation"} label={"Affiliation Information"}></QuickLink>
+              <QuickLink link={"/advisors/zoom"} label={"Monthly Zoom Meetings"}></QuickLink>
+            </div>
+        </div> 
       </main>
     </div>
   );

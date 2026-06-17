@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function OfficerDisp({ img, name, position, school, email, link}) {
     return (
-        <div className="flex flex-col items-center justify-center bg-zinc-100 border-5 border-[#060852] px-5 md:px-0 py-7 rounded-2xl transition-transform duration-300 hover:scale-103 cursor-pointer relative">
+        <div className="flex flex-col items-center justify-center bg-zinc-100 border-3 border-[#072c5c] px-5 md:px-0 py-7 rounded-sm transition-transform duration-300 hover:scale-103 cursor-pointer relative">
             <Link href={link} className="absolute inset-0 w-full h-full z-0"></Link>
             <Image
                 className="pb-5"
