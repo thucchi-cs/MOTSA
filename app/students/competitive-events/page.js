@@ -14,13 +14,13 @@ export default async function CompetitiveEvents() {
           <h1 className="text-2xl md:text-5xl px-[5%] md:pt-10 font-bold text-center">High School Events (40)</h1>
           <div className="grid grid-cols-2 md:grid-cols-3 w-[90%] md:place-items-center text-left md:text-center gap-y-15 py-10 md:py-20 gap-x-5 md:gap-x-0">
             {hsEvents.map((item, index) => (
-              <a href={`/students/competitive-events/hs/${item.rubric.slice(0,-4)}`} key={index} className="whitespace-pre-wrap text-[15px] md:text-2xl leading-relaxed hover:underline hover:cursor-pointer">{`${item.title}`}</a> 
+              <a href={`/students/competitive-events/hs/${item.rubric.slice(0,-4)}-${item.id}`} key={index} className="whitespace-pre-wrap text-[15px] md:text-2xl leading-relaxed hover:underline hover:cursor-pointer">{`${item.title}`}</a> 
             ))}  
           </div>
           <h1 className="text-2xl md:text-5xl px-[5%] md:pt-10 font-bold text-center">Middle School Events (37)</h1>
           <div className="grid grid-cols-2 md:grid-cols-3 w-[90%] md:place-items-center text-left md:text-center gap-y-15 py-10 md:py-20 gap-x-5 md:gap-x-0">
             {msEvents.map((item, index) => (
-              <a href={`/students/competitive-events/ms/${item.rubric.slice(0,-4)}`} key={index} className="whitespace-pre-wrap text-[15px] md:text-2xl leading-relaxed hover:underline hover:cursor-pointer">{`${item.title}`}</a> 
+              <a href={`/students/competitive-events/ms/${item.rubric.slice(0,-4)}-${item.id}`} key={index} className="whitespace-pre-wrap text-[15px] md:text-2xl leading-relaxed hover:underline hover:cursor-pointer">{`${item.title}`}</a> 
             ))}  
           </div>
         </div>  
