@@ -11,9 +11,9 @@ export default function Apply() {
             <div className="flex flex-col md:flex-row w-full justify-center items-center h-full md:px-40 py-10">
                 <Image
                     className=""
-                    src="/officers.webp"
+                    src="/officers2.jpeg"
                     alt="Next.js logo"
-                    width={800}
+                    width={500}
                     height={200}
                     priority
                     />
