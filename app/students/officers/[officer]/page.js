@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default async function officer({ params }) {
     const {officer} = await params;
-    const results = await sql`SELECT * FROM officers WHERE abbr=${officer}`;
+    const results = await sql`SELECT * FROM officers WHERE abbr=${officer} AND year_elected=26`;
     const data = results[0];
     const id = data.id;
 
@@ -29,7 +29,7 @@ export default async function officer({ params }) {
             <div className="flex flex-col md:flex-row w-full justify-center items-center md:items-start h-full text-black bg-white md:py-30 gap-x-20 md:px-20">
                 <Image
                     className="pb-5"
-                    src={`/officers/${data.abbr}.webp`}
+                    src={`/officers/${data.abbr}.jpg`}
                     alt="Next.js logo"
                     width={450}
                     height={600}
