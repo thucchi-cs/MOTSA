@@ -23,7 +23,7 @@ export default function Header({ page }) {
     const advisorsSubPages = [
         {label: "Conference Forms", page: "/advisors/forms"},
         {label: "Starting a Chapter", page: "/advisors/start-a-chapter"},
-        {label: "Resources", page: "/advisors/resources"},
+        {label: "Chapter Resources", page: "/advisors/resources"},
         {label: "Affiliation Information", page: "/advisors/affiliation"},  
         {label: "Monthly Zoom Meetings", page: "/advisors/zoom"}    
     ];
@@ -43,10 +43,10 @@ export default function Header({ page }) {
         {label: "Competitive Events", page: "/students/competitive-events"},
         {label: "Degree Program", page: "/students/degree"},
         {label: "Past Winners", page: "/resources/winners"},
-        {label: "Awards", page: "/resources/awards"},
-        {label: "Bylaws", page: "/resources/bylaws"},
-        {label: "NewsLetter", page: "/resources/newsletter"},
+        {label: "Outstanding Awards", page: "/resources/awards"},
+        {label: "Newsletter", page: "/resources/newsletter"},
         {label: "Billing/Late Fee", page: "/resources/billing"},
+        {label: "Bylaws", page: "/resources/bylaws"},
         {label: "Calendar", page: "/events/calendar"},
         {label: "Gallery", page: "/resources/gallery"},
         {label: "Chapter Resources & Tips", page: "/advisors/resources"}

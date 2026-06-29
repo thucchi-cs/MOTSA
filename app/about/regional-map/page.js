@@ -1,7 +1,7 @@
 import Header from "@/components/Header";
 import Image from "next/image";
 
-export default function Home() {
+export default function RegionalMap() {
   return (
     <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c]">
       <Header page={"about"}></Header>

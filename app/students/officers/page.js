@@ -3,19 +3,19 @@ import OfficerDisp from "@/components/OfficerDisp";
 
 export default function Officers() {
     const StateOfficers = [
-        {img:"/president.webp", name:"Hailey Hunter", position:"President", school:"Carl Junction High", email:"motsapreshailey@gmail.com", link:"/students/officers/president"},
-        {img:"/vp.webp", name:"Corinne Merrell", position:"Vice President", school:"Carl Junction High", email:"motsavpcorinne@gmail.com", link:"/students/officers/vp"},
-        {img:"/secretary.webp", name:"Valeria Figueroa", position:"Secretary", school:"Carl Junction High", email:"motsasecvaleria@gmail.com", link:"/students/officers/secretary"},
-        {img:"/treasurer.webp", name:"Truman Davis", position:"Treasurer", school:"Wentzville Holt High", email:"motsatsrtruman@gmail.com", link:"/students/officers/treasurer"},
-        {img:"/reporter.webp", name:"Nandu Rakesh Nair", position:"Reporter", school:"Liberty High - Wentzville", email:"motsarepnandu@gmail.com", link:"/students/officers/reporter"},
-        {img:"/sergeant.webp", name:"Angelica Hill", position:"Sergeant-At-Arms", school:"Troy Buchanan High", email:"motsasargangelica@gmail.com", link:"/students/officers/sergeant"}
+        {img:"/officers/president.jpg", name:"Axumait Yared", position:"President", school:"Staley High", email:"motsa@gmail.com", link:"/students/officers/president"},
+        {img:"/officers/vp.jpg", name:"Sabrina Bush", position:"Vice President", school:"Hazelwood West High", email:"motsa@gmail.com", link:"/students/officers/vp"},
+        {img:"/officers/secretary.jpg", name:"Ayse Demir", position:"Secretary", school:"Staley High", email:"motsa@gmail.com", link:"/students/officers/secretary"},
+        {img:"/officers/treasurer.jpg", name:"Tracy Do", position:"Treasurer", school:"Kickapoo High", email:"motsa@gmail.com", link:"/students/officers/treasurer"},
+        {img:"/officers/reporter.jpg", name:"Manya Karthik", position:"Reporter", school:"Liberty Wentzville High", email:"motsa@gmail.com", link:"/students/officers/reporter"},
+        {img:"/officers/sergeant.jpg", name:"Jason Kogbara", position:"Sergeant-At-Arms", school:"Hazelwood Central High", email:"motsa@gmail.com", link:"/students/officers/sergeant"}
     ];
 
     const RegionalOfficers = [
-        {img:"/nwvp.webp", name:"Owen Duffy", position:"Northwest Regional VP", school:"Liberty High", email:"motsa@gmail.com", link:"/students/officers/nwvp"},
-        {img:"/nevp.webp", name:"Aryan Patel", position:"Northeast Regional VP", school:"Liberty High - Wentzville", email:"motsa@gmail.com", link:"/students/officers/nevp"},
-        {img:"/swvp.webp", name:"Colby Westhoff", position:"Southwest Regional VP", school:"Carl Junction High", email:"motsa@gmail.com", link:"/students/officers/swvp"},
-        {img:"/sevp.webp", name:"Morgan Golden", position:"Southeast Regional VP", school:"Rolla High", email:"motsa@gmail.com", link:"/students/officers/sevp"}
+        {img:"/officers/nwvp.jpg", name:"Riley Pederson", position:"Northwest Regional VP", school:"Staley High", email:"motsa@gmail.com", link:"/students/officers/nwvp"},
+        {img:"/officers/nevp.jpg", name:"Laila Holmes", position:"Northeast Regional VP", school:"Holt High", email:"motsa@gmail.com", link:"/students/officers/nevp"},
+        {img:"/officers/swvp.jpg", name:"David Figueroa", position:"Southwest Regional VP", school:"Carl Junction High", email:"motsa@gmail.com", link:"/students/officers/swvp"},
+        {img:"/officers/sevp.jpg", name:"Nuriya Hussaini", position:"Southeast Regional VP", school:"Oakville High", email:"motsa@gmail.com", link:"/students/officers/sevp"}
     ];
 
     return (

@@ -1,28 +1,52 @@
-"use client";
-import { getData } from "@/api/db";
-import { useParams } from "next/navigation";
-import GrayButton from "@/components/GrayButton";
+import { sql } from "@/lib/db";
 import Header from "@/components/Header";
+import Image from "next/image";
 
-export default async function officer() {
-    const params = useParams();
-    const {officer} = params;
-    const version = await getData(officer);
+export default async function officer({ params }) {
+    const {officer} = await params;
+    const results = await sql`SELECT * FROM officers WHERE abbr=${officer} AND year_elected=26`;
+    const data = results[0];
+    const id = data.id;
+
+    // query officer bio
+    const bioResults = await sql`SELECT * FROM officer_bios WHERE officer=${id}`;
+    let bio = ""
+    if (bioResults.length > 0) {
+        bio = bioResults[0].bio;
+    }
+
+    // query officer interviews
+    let interviewResults = await sql`SELECT * FROM officer_responses INNER JOIN officer_prompts ON officer_responses.prompt=officer_prompts.id WHERE officer_responses.officer=${id}`;
+    if (interviewResults.length <= 0) {
+        interviewResults = [{prompt: "", response: ""}]
+    }
 
     return (
         <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c] overflow-x-hidden">
         <Header page={"home"}></Header>
         <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start">
             
-            <div className="flex flex-col w-full justify-between items-center h-full text-black bg-white">
-            <h1 className="text-3xl md:text-5xl px-[5%] pt-10 font-bold text-center">{officer} and {version}</h1>
-            <div className="md:grid md:grid-cols-2 w-full justify-center items-center h-full md:h-100 px-6 py-3 md:px-10 md:py-12 gap-x-5 gap-y-5">
-                <GrayButton height="full" link="/students/apply" label={"2026-2027 State Officer Application Available"}></GrayButton>
-                <GrayButton height="full" link="/events/workshops" label={"Competitive Events Workshop Registration Deadline: November 1, 2025"}></GrayButton>
-                <GrayButton height="full" link="/students/officers" label={"Meet your 2025-2026 State Officer Team"}></GrayButton>
-                <GrayButton height="full" link="/events/calendar" label={"2025-2026 Calendar of Events Released"}></GrayButton>
-                <GrayButton height="full" link="/advisors/forms" label={"2025-2026 Conference Forms Released"}></GrayButton>
-            </div>
+            <div className="flex flex-col md:flex-row w-full justify-center items-center md:items-start h-full text-black bg-white md:py-30 gap-x-20 md:px-20">
+                <Image
+                    className="pb-5"
+                    src={`/officers/${data.abbr}.jpg`}
+                    alt="Next.js logo"
+                    width={450}
+                    height={600}
+                    priority
+                />
+                <div className="text-left flex flex-col justify-center items-center md:items-start gap-y-3 px-5 md:px-0 md:w-[70%] pb-10 md:pb-0">
+                    <h1 className="text-3xl md:text-4xl font-bold">{data.name}</h1>
+                    <p className="text-2xl md:text-3xl font-bold">{data.position}</p>
+                    <p className="text-lg md:text-xl md:pt-5">{bio}</p>
+                    {interviewResults.map((q, index) => (
+                        <div key={index}>
+                            <p className="text-lg md:text-xl font-bold">{q.prompt}</p>
+                            <p className="text-lg md:text-xl">{q.response}</p>
+                        </div>
+                    ))}
+                </div>
+            
             </div> 
 
         </main>

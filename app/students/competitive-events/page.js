@@ -1,10 +1,29 @@
 import Header from "@/components/Header";
+import { sql } from "@/lib/db";
 
-export default function CompetitiveEvents() {
+export default async function CompetitiveEvents() {
+
+  const hsEvents = await sql`SELECT * FROM events WHERE lvl='high' ORDER BY title`;
+  const msEvents = await sql`SELECT * FROM events WHERE lvl='middle' ORDER BY title`;
+
   return (
     <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c]">
       <Header page={"students"}></Header>
       <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start"> 
+        <div className="flex flex-col w-full justify-center items-center h-full text-[#040531] bg-white py-10 md:py-10">
+          <h1 className="text-2xl md:text-5xl px-[5%] md:pt-10 font-bold text-center">High School Events (40)</h1>
+          <div className="grid grid-cols-2 md:grid-cols-3 w-[90%] md:place-items-center text-left md:text-center gap-y-15 py-10 md:py-20 gap-x-5 md:gap-x-0">
+            {hsEvents.map((item, index) => (
+              <a href={`/students/competitive-events/hs/${item.rubric.slice(0,-4)}-${item.id}`} key={index} className="whitespace-pre-wrap text-[15px] md:text-2xl leading-relaxed hover:underline hover:cursor-pointer">{`${item.title}`}</a> 
+            ))}  
+          </div>
+          <h1 className="text-2xl md:text-5xl px-[5%] md:pt-10 font-bold text-center">Middle School Events (37)</h1>
+          <div className="grid grid-cols-2 md:grid-cols-3 w-[90%] md:place-items-center text-left md:text-center gap-y-15 py-10 md:py-20 gap-x-5 md:gap-x-0">
+            {msEvents.map((item, index) => (
+              <a href={`/students/competitive-events/ms/${item.rubric.slice(0,-4)}-${item.id}`} key={index} className="whitespace-pre-wrap text-[15px] md:text-2xl leading-relaxed hover:underline hover:cursor-pointer">{`${item.title}`}</a> 
+            ))}  
+          </div>
+        </div>  
         <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white py-10 md:py-20">
           <h1 className="text-3xl md:text-5xl text-left px-[5%] md:pt-10 font-bold">Competitive Events</h1>
           <div className="flex flex-col w-full justify-between items-center h-full px-10 py-12 gap-y-10">
@@ -34,7 +53,7 @@ export default function CompetitiveEvents() {
                 NOTE: The project descriptions found at this location are NOT the official descriptions, and do not include details needed to successfully complete the projects.
             </p>
           </div>
-        </div>    
+        </div>
       </main>
     </div>
   );
