@@ -16,7 +16,9 @@ export default async function CompetitiveEvents() {
         <div className="flex flex-col md:flex-row w-full justify-between items-start h-full text-[#040531] bg-white py-10 md:py-20 px-5">
           <div className="flex flex-col w-full h-full text-left px-[5%] gap-y-5">
             <h1 className="text-3xl md:text-5xl font-bold">Competitive Events</h1>
-            <p className="text-xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.</p>
+            <p className="text-2xl">
+              Technology Student Association offers student members an opportunity to compete in over 75 different competitions accross middle school and high school on three different levels: regional, state, and national. These competitive events take learning beyond the classroom and allow students to apply their technical skills into real projects for various career fields such as engineering, computer science, the arts, and leadership abilities. Most of these competitions also gives students a chance to practice their interpersonal skills as they interview with judges.
+            </p>
           </div>
           <Image
             className="object-cover"
