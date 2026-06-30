@@ -45,6 +45,7 @@ export default async function HSEvents({ params }) {
       <Header page={"students"}></Header>
       <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start"> 
         <div className="flex flex-col w-full justify-center items-center h-full text-[#040531] bg-white py-10 md:py-10 px-8 md:px-0">
+          <Link href="/students/competitive-events" className="text-lg md:text-2xl leading-relaxed text-zinc-500 text-left w-full px-15 hover:text-zinc-600 hover:underline">&#171; Back to Overview</Link>
           <h1 className="text-2xl md:text-5xl px-[5%] md:pt-10 font-bold text-center">{info.title}</h1>
 
             <div className="flex flex-col md:px-20 w-full justify-center items-start h-full py-10 gap-y-5 md:gap-y-0">

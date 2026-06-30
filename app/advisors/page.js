@@ -41,11 +41,11 @@ export default function Advisors() {
         <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold md:py-10">
           <h1 className="text-3xl md:text-5xl relative text-left px-[5%] pt-15">Links & Resources</h1>
             <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-7 gap-y-7 py-8 md:py-15 px-5 md:px-30">
-              <QuickLink link={"/advisors/forms"} label={"Conference Forms"}></QuickLink>
-              <QuickLink link={"/advisors/start-a-chapter"} label={"Start a Chapter"}></QuickLink>
-              <QuickLink link={"/advisors/resources"} label={"Chapter Resources"}></QuickLink>
-              <QuickLink link={"/advisors/affiliation"} label={"Affiliation Information"}></QuickLink>
-              <QuickLink link={"/advisors/zoom"} label={"Monthly Zoom Meetings"}></QuickLink>
+              <QuickLink target={""} link={"/advisors/forms"} label={"Conference Forms"}></QuickLink>
+              <QuickLink target={""} link={"/advisors/start-a-chapter"} label={"Start a Chapter"}></QuickLink>
+              <QuickLink target={""} link={"/advisors/resources"} label={"Chapter Resources"}></QuickLink>
+              <QuickLink target={""} link={"/advisors/affiliation"} label={"Affiliation Information"}></QuickLink>
+              <QuickLink target={""} link={"/advisors/zoom"} label={"Monthly Zoom Meetings"}></QuickLink>
             </div>
         </div> 
       </main>

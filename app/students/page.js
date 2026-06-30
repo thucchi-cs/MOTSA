@@ -38,12 +38,12 @@ export default function Students() {
         <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold md:py-10">
           <h1 className="text-3xl md:text-5xl relative text-left px-[5%] pt-15">Links & Resources</h1>
             <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-7 gap-y-7 py-8 md:py-15 px-5 md:px-30">
-              <QuickLink link={"/students/competitive-events"} label={"Competitive Events"}></QuickLink>
-              <QuickLink link={"/students/dress-code"} label={"Dress Code"}></QuickLink>
-              <QuickLink link={"/students/degree"} label={"Degree Program"}></QuickLink>
-              <QuickLink link={"/students/officers"} label={"State Officers"}></QuickLink>
-              <QuickLink link={"/students/scholarships"} label={"Scholarships"}></QuickLink>
-              <QuickLink link={"/students/apply"} label={"Apply for Office"}></QuickLink>
+              <QuickLink target={""} link={"/students/competitive-events"} label={"Competitive Events"}></QuickLink>
+              <QuickLink target={""} link={"/students/dress-code"} label={"Dress Code"}></QuickLink>
+              <QuickLink target={""} link={"/students/degree"} label={"Degree Program"}></QuickLink>
+              <QuickLink target={""} link={"/students/officers"} label={"State Officers"}></QuickLink>
+              <QuickLink target={""} link={"/students/scholarships"} label={"Scholarships"}></QuickLink>
+              <QuickLink target={""} link={"/students/apply"} label={"Apply for Office"}></QuickLink>
             </div>
         </div> 
 

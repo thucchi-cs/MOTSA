@@ -1,5 +1,8 @@
 import Header from "@/components/Header";
 import { sql } from "@/lib/db";
+import Tabs from "./tabs";
+import Image from "next/image";
+import QuickLink from "@/components/QuickLink";
 
 export default async function CompetitiveEvents() {
 
@@ -10,50 +13,51 @@ export default async function CompetitiveEvents() {
     <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c]">
       <Header page={"students"}></Header>
       <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start"> 
-        <div className="flex flex-col w-full justify-center items-center h-full text-[#040531] bg-white py-10 md:py-10">
-          <h1 className="text-2xl md:text-5xl px-[5%] md:pt-10 font-bold text-center">High School Events (40)</h1>
-          <div className="grid grid-cols-2 md:grid-cols-3 w-[90%] md:place-items-center text-left md:text-center gap-y-15 py-10 md:py-20 gap-x-5 md:gap-x-0">
-            {hsEvents.map((item, index) => (
-              <a href={`/students/competitive-events/hs/${item.rubric.slice(0,-4)}-${item.id}`} key={index} className="whitespace-pre-wrap text-[15px] md:text-2xl leading-relaxed hover:underline hover:cursor-pointer">{`${item.title}`}</a> 
-            ))}  
+        <div className="flex flex-col md:flex-row w-full justify-between items-start h-full text-[#040531] bg-white py-10 md:py-20 px-5">
+          <div className="flex flex-col w-full h-full text-left px-[5%] gap-y-5">
+            <h1 className="text-3xl md:text-5xl font-bold">Competitive Events</h1>
+            <p className="text-xl">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since 1966, when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus PageMaker and Microsoft Word including versions of Lorem Ipsum.</p>
           </div>
-          <h1 className="text-2xl md:text-5xl px-[5%] md:pt-10 font-bold text-center">Middle School Events (37)</h1>
-          <div className="grid grid-cols-2 md:grid-cols-3 w-[90%] md:place-items-center text-left md:text-center gap-y-15 py-10 md:py-20 gap-x-5 md:gap-x-0">
-            {msEvents.map((item, index) => (
-              <a href={`/students/competitive-events/ms/${item.rubric.slice(0,-4)}-${item.id}`} key={index} className="whitespace-pre-wrap text-[15px] md:text-2xl leading-relaxed hover:underline hover:cursor-pointer">{`${item.title}`}</a> 
-            ))}  
-          </div>
-        </div>  
-        <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white py-10 md:py-20">
-          <h1 className="text-3xl md:text-5xl text-left px-[5%] md:pt-10 font-bold">Competitive Events</h1>
-          <div className="flex flex-col w-full justify-between items-center h-full px-10 py-12 gap-y-10">
-            <p className="text-lg md:text-2xl md:w-[70%] md:px-15 leading-relaxed">
-                The 2025-2026 TSA Competitive Events Guidelines and any updates to the competitive events are continuously being posted on the National TSA website. Continue to check TOTAL TSA and <a href="https://tsaweb.org/competitions-programs/tsa/competition-updates" target="_blank" className="inline underline">https://tsaweb.org/competitions-programs/tsa/competition-updates</a> for more information.
-            </p>
-            <p className="text-lg md:text-2xl md:w-[70%] md:px-15 leading-relaxed">
-                General event descriptions are available to anyone on the National TSA website. You will be able to download competitive event descriptions that include all specifications and judging criteria for each project from National TSA once your chapter is chartered and affiliated.
-            </p>
-            <div className="flex flex-row justify-center items-center gap-5 md:gap-20 w-full">
-                <a href="https://tsaweb.org/competitions-programs/tsa/high-school-competitions#highschool" target="_blank" className="bg-red-500 md:w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
-                    <h1 className="text-sm md:text-xl">High School Competitive Event Information &#8594;</h1>
-                </a>
-                <a href="https://tsaweb.org/competitions-programs/tsa/middle-school-competitions#middleschool" target="_blank" className="bg-blue-500 md:w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#072c5c] cursor-pointer">
-                    <h1 className="text-sm md:text-xl">Middle School Competitive Event Information &#8594;</h1>
-                </a>
+          <Image
+            className="object-cover"
+            src="/students9.JPG"
+            alt="Next.js logo"
+            width={700}
+            height={200}
+            priority
+            />
+        </div>
+
+        <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold">
+          <h1 className="text-3xl md:text-5xl relative text-left px-[5%] pt-15">Resources</h1>
+          <div className="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 w-full overflow-x-auto py-5 md:py-10 px-5 md:px-30 md:gap-x-15 gap-y-5 md:gap-y-0">
+            <div className="flex flex-col justify-start items-center">
+              <p className="text-xl md:text-3xl text-center underline">Event Details</p>
+              <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-5 gap-y-5 py-5">
+                <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions"} label={"List of Events"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/themes-and-problems"} label={"Themes & Problems"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competition-updates"} label={"Competition Updates"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/state-advisor-approval-events"} label={"National Eligibility"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2026/01/Missouri-TSA-2026-State-Competitive-Events-Eligibility-High-School-Updated-10-19-2025-1.pdf"} label={"HS Events Eligibility"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2026/01/Missouri-TSA-2026-Competitive-Events-Eligibility-Middle-School10-03-2025-1.pdf"} label={"MS Events Eligibility"}></QuickLink>
+              </div>
             </div>
-            <div className="flex flex-row justify-center items-center gap-5 md:gap-20 w-full">
-                <a href="https://motsaweb.org/wp-content/uploads/2026/01/Missouri-TSA-2026-State-Competitive-Events-Eligibility-High-School-Updated-10-19-2025-1.pdf" target="_blank" className="bg-red-500 md:w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
-                    <h1 className="text-sm md:text-xl">HS Competitive Events Elligibility Chart &#8594;</h1>
-                </a>
-                <a href="https://motsaweb.org/wp-content/uploads/2026/01/Missouri-TSA-2026-Competitive-Events-Eligibility-Middle-School10-03-2025-1.pdf" target="_blank" className="bg-blue-500 md:w-[20%] h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#072c5c] cursor-pointer">
-                    <h1 className="text-sm md:text-xl">MS Competitive Events Elligibility Chart &#8594;</h1>
-                </a>
+            <div className="flex flex-col justify-start items-center">
+              <p className="text-xl md:text-3xl text-center underline">Event Submissions</p>
+              <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-5 gap-y-5 py-5">
+                <QuickLink target={"_blank"} link={"https://judgepro.registermychapter.com/org/jpmo-vsc/conf/jpmo-slc/student"} label={"Submission Upload"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://www.answerwrite.com/tsa/mo-s"} label={"Online Testing"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://tsaweb.org/docs/default-source/national-conferences/instructions/competition-component-upload-instructions.pdf?sfvrsn=bf4985e0_2"} label={"Upload Instructions"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competitive-event-preconference-submission-requirements"} label={"Submission Requirements"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competition-requirements"} label={"National Requirements"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://tsamembership.registermychapter.com/members#"} label={"Student Member Site"}></QuickLink>
+              </div>
             </div>
-            <p className="text-lg md:text-2xl md:w-[70%] md:px-15 leading-relaxed">
-                NOTE: The project descriptions found at this location are NOT the official descriptions, and do not include details needed to successfully complete the projects.
-            </p>
           </div>
         </div>
+
+        <Tabs hsEvents={hsEvents} msEvents={msEvents}></Tabs>
+
       </main>
     </div>
   );
