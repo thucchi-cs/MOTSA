@@ -31,7 +31,7 @@ export default function Header({ page }) {
 
     const eventsSubPages = [
         {label: "Calendar", page: "/events/calendar"},
-        {label: "State Championships", page: "/events/scc"},
+        {label: "State Championship", page: "/events/scc"},
         {label: "Fall Leadership Conference", page: "/events/flc"},
         {label: "Competitive Events Workshops", page: "/events/workshops"},
         {label: "Regional Conferences", page: "/events/regional-conferences"},
