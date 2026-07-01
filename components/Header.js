@@ -6,6 +6,7 @@ import HeaderSubmenu from "./HeaderSubmenu";
 export default function Header({ page }) {
     const aboutSubPages = [
         {label: "History", page: "/about/history"},
+        {label: "Board of Directors", page: "/about/board"},
         {label: "TSA Mission, Creed, & Motto", page: "/about/tsa-mission"},
         {label: "Chapter Map", page: "/about/chapter-map"},
         {label: "Regional Map", page: "/about/regional-map"}
@@ -15,7 +16,7 @@ export default function Header({ page }) {
         {label: "Competitive Events", page: "/students/competitive-events"},
         {label: "Scholarships", page: "/students/scholarships"},
         {label: "Dress Code", page: "/students/dress-code"},
-        {label: "Degree Program", page: "/students/degree"},
+        // {label: "Degree Program", page: "/students/degree"},
         {label: "State Officer Team", page: "/students/officers"},
         {label: "Apply for Office", page: "/students/apply"}
     ];
@@ -41,15 +42,16 @@ export default function Header({ page }) {
     const resourcesSubPages = [
         {label: "Dress Code", page: "/students/dress-code"},
         {label: "Competitive Events", page: "/students/competitive-events"},
-        {label: "Degree Program", page: "/students/degree"},
-        {label: "Past Winners", page: "/resources/winners"},
+        // {label: "Degree Program", page: "/students/degree"},
+        // {label: "Past Winners", page: "/resources/winners"},
         {label: "Outstanding Awards", page: "/resources/awards"},
         {label: "Newsletter", page: "/resources/newsletter"},
         {label: "Billing/Late Fee", page: "/resources/billing"},
         {label: "Bylaws", page: "/resources/bylaws"},
         {label: "Calendar", page: "/events/calendar"},
         {label: "Gallery", page: "/resources/gallery"},
-        {label: "Chapter Resources & Tips", page: "/advisors/resources"}
+        {label: "Chapter Resources & Tips", page: "/advisors/resources"},
+        {label: "Board of Directors", page: "/about/board"}
     ];
 
     const [mobileOpen, setMobileOpen] = useState(false);
@@ -65,7 +67,7 @@ export default function Header({ page }) {
                 <Image className="py-3 md:w-[130px]" src="/motsalogo.png" alt="Next.js logo" width={80} height={20} priority/>
             </a>
 
-            <div className="hidden md:flex flex-row items-center w-full justify-end gap-15 px-20">
+            <div className="hidden md:flex flex-row items-center w-full justify-center gap-15 px-20">
                 <div className="relative group">
                     <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="about") ? "text-red-500": "text-zinc-50")} href="/about">About</a>
                     <HeaderSubmenu pages={aboutSubPages}></HeaderSubmenu>
@@ -87,7 +89,7 @@ export default function Header({ page }) {
                     <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
                     <HeaderSubmenu pages={resourcesSubPages}></HeaderSubmenu>
                 </div>
-                <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a>
+                {/* <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a> */}
             </div>
 
             <button onClick={() => setMobileOpen(!mobileOpen)} className="md:hidden p-4 text-zinc-50 w-[20%] z-99">
@@ -173,9 +175,9 @@ export default function Header({ page }) {
                         )}
                     </div>
 
-                    <a href="/contact" className={"text-xl "+ ((page==="contact") ? "text-red-500": "text-zinc-50")}>
+                    {/* <a href="/contact" className={"text-xl "+ ((page==="contact") ? "text-red-500": "text-zinc-50")}>
                         Contact
-                    </a>
+                    </a> */}
                 </div>
             )}
         </header>

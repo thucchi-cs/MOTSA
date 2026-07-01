@@ -11,8 +11,8 @@ export default function Resources() {
             <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-7 gap-y-7 py-8 md:py-15 px-5 md:px-30">
               <QuickLink target={""} link={"/students/dress-code"} label={"Dress Code"}></QuickLink>
               <QuickLink target={""} link={"/students/competitive-events"} label={"Competitive Events"}></QuickLink>
-              <QuickLink target={""} link={"/students/degree"} label={"Degree Program"}></QuickLink>
-              <QuickLink target={""} link={"/resources/winners"} label={"Past Winners"}></QuickLink>
+              {/* <QuickLink target={""} link={"/students/degree"} label={"Degree Program"}></QuickLink> */}
+              {/* <QuickLink target={""} link={"/resources/winners"} label={"Past Winners"}></QuickLink> */}
               <QuickLink target={""} link={"/resources/awards"} label={"Outstanding Awards"}></QuickLink>
               <QuickLink target={""} link={"/resources/newsletter"} label={"Newsletter"}></QuickLink>
               <QuickLink target={""} link={"/resources/billing"} label={"Billing/Late Fee"}></QuickLink>
@@ -20,6 +20,7 @@ export default function Resources() {
               <QuickLink target={""} link={"/events/calendar"} label={"Calendar"}></QuickLink>
               <QuickLink target={""} link={"/resources/gallery"} label={"Gallery"}></QuickLink>
               <QuickLink target={""} link={"/advisors/resources"} label={"Chapter Resources & Tips"}></QuickLink>
+              <QuickLink target={""} link={"/about/board"} label={"Board of Directors"}></QuickLink>
             </div>
         </div>    
       </main>

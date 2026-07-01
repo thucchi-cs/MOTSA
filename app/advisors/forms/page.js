@@ -4,15 +4,23 @@ export default function Forms() {
   return (
     <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c]">
       <Header page={"advisors"}></Header>
-      <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start"> 
-        <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white md:py-20">
-          <h1 className="text-3xl md:text-5xl text-left px-[5%] pt-10 font-bold">Conference Forms</h1>
-          <div className="flex flex-col w-full justify-between items-center h-full px-10 py-6 md:py-12 gap-y-10">
-            <p className="text-lg md:text-2xl md:w-[70%] md:px-15 leading-relaxed">
-                The 2025-2026 Multiple Release Form and Chapter Assurance Forms are below. You will only need the Multiple Release Form for your records. The Missouri TSA Chapter Assurance Form is to be completed by the Local Chapter Advisors prior to every state conference/event and turned into state staff prior to the conference/event.
-            </p>
-            <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 w-full">
-                <div className="flex flex-col justify-center items-center gap-5 md:w-[30%] h-full">
+      <main className="flex flex-1 w-full flex-col items-center bg-white"> 
+        <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-white">Conference Forms</h1>
+          <p className="text-blue-200 mt-4 max-w-2xl text-base md:text-lg">
+            The 2025-2026 Multiple Release Form and Chapter Assurance Forms are below
+          </p>
+        </div>
+        <div className="w-full max-w-4xl px-6 py-14 flex flex-col gap-y-14 text-[#072c5c]">
+
+          <div>
+              <div className="flex flex-col p-6">
+                  <p className="text-xl text-[#072c5c] leading-relaxed">You will only need the Multiple Release Form for your records. The Missouri TSA Chapter Assurance Form is to be completed by the Local Chapter Advisors prior to every state conference/event and turned into state staff prior to the conference/event.</p>
+              </div>
+          </div>
+
+          <div className="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-20 w-full">
+                <div className="flex flex-col justify-center items-center gap-5 h-full">
                     <p className="text-md md:text-lg w-full text-center">
                         Chapter Advisors turn in the Chapter Assurance Form prior to each Missouri TSA conference/event
                     </p>
@@ -20,7 +28,7 @@ export default function Forms() {
                         <h1 className="text-sm md:text-xl">2025-2026 Chapter Assurance Form &#8594;</h1>
                     </a>
                 </div>
-                <div className="flex flex-col justify-center items-center gap-5 md:w-[30%] h-full">
+                <div className="flex flex-col justify-center items-center gap-5 h-full">
                     <p className="text-md md:text-xl w-full text-center">
                         Students fill out the below Multiple Release Form and give it to your Chapter Advisor
                     </p>
@@ -29,8 +37,7 @@ export default function Forms() {
                     </a>
                 </div>
             </div>
-          </div>
-        </div>    
+        </div>
       </main>
     </div>
   );
