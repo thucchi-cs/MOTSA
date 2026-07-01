@@ -1,10 +1,10 @@
 import Header from "@/components/Header";
 import QuickLink from "@/components/QuickLink";
 
-export default function Contact() {
+export default function Bylaws() {
   return (
     <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c]">
-      <Header page={"contact"}></Header>
+      <Header page={"resources"}></Header>
         <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start"> 
             <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white md:py-10">
                 <h1 className="text-3xl md:text-5xl text-center px-[5%] pt-10 font-bold">Missouri TSA Bylaws</h1>

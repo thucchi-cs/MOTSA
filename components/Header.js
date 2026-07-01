@@ -6,6 +6,7 @@ import HeaderSubmenu from "./HeaderSubmenu";
 export default function Header({ page }) {
     const aboutSubPages = [
         {label: "History", page: "/about/history"},
+        {label: "Board of Directors", page: "/about/board"},
         {label: "TSA Mission, Creed, & Motto", page: "/about/tsa-mission"},
         {label: "Chapter Map", page: "/about/chapter-map"},
         {label: "Regional Map", page: "/about/regional-map"}
@@ -49,7 +50,8 @@ export default function Header({ page }) {
         {label: "Bylaws", page: "/resources/bylaws"},
         {label: "Calendar", page: "/events/calendar"},
         {label: "Gallery", page: "/resources/gallery"},
-        {label: "Chapter Resources & Tips", page: "/advisors/resources"}
+        {label: "Chapter Resources & Tips", page: "/advisors/resources"},
+        {label: "Board of Directors", page: "/about/board"}
     ];
 
     const [mobileOpen, setMobileOpen] = useState(false);

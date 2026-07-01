@@ -20,6 +20,7 @@ export default function Resources() {
               <QuickLink target={""} link={"/events/calendar"} label={"Calendar"}></QuickLink>
               <QuickLink target={""} link={"/resources/gallery"} label={"Gallery"}></QuickLink>
               <QuickLink target={""} link={"/advisors/resources"} label={"Chapter Resources & Tips"}></QuickLink>
+              <QuickLink target={""} link={"/about/board"} label={"Board of Directors"}></QuickLink>
             </div>
         </div>    
       </main>
