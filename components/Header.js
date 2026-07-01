@@ -64,7 +64,7 @@ export default function Header({ page }) {
     return (
         <header className="bg-[#072c5c] flex flex-row items-center justify-center font-sans w-full gap-[40%] md:gap-0">
             <a className="flex flex-row items-center w-[20%] md:w-[30%] justify-center" href="/">
-                <Image className="py-3 md:w-[130px]" src="/motsalogo.png" alt="Next.js logo" width={80} height={20} priority/>
+                <Image className="py-3 md:w-[130px]" src="/motsalogo.png" alt="MOTSA logo" width={80} height={20} priority/>
             </a>
 
             <div className="hidden md:flex flex-row items-center w-full justify-center gap-15 px-20">

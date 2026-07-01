@@ -48,7 +48,7 @@ export default function CEW() {
                     <Image
                         className="w-fit h-fit"
                         src="/cew.JPG"
-                        alt="Next.js logo"
+                        alt="CEW"
                         width={500}
                         height={20}
                         priority

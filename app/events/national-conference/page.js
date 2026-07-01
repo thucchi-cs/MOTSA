@@ -62,7 +62,7 @@ export default function NationalConference() {
                     <Image
                         className="md:w-[50%] h-fit"
                         src="/nationals2.jpg"
-                        alt="Next.js logo"
+                        alt="Nationals"
                         width={300}
                         height={20}
                         priority

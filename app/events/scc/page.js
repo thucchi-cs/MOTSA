@@ -65,7 +65,7 @@ export default function SCC() {
                     <Image
                         className="w-fit h-fit"
                         src="/students5.JPG"
-                        alt="Next.js logo"
+                        alt="SCC"
                         width={500}
                         height={20}
                         priority

@@ -23,7 +23,7 @@ export default async function CompetitiveEvents() {
           <Image
             className="object-cover"
             src="/students9.JPG"
-            alt="Next.js logo"
+            alt="Students"
             width={700}
             height={200}
             priority

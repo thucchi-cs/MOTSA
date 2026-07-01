@@ -12,7 +12,7 @@ export default function Awards() {
                 <Image
                     className=""
                     src="/billing.webp"
-                    alt="Next.js logo"
+                    alt="Billing Information"
                     width={1100}
                     height={20}
                     priority
@@ -20,7 +20,7 @@ export default function Awards() {
                 <Image
                     className=""
                     src="/billing2.webp"
-                    alt="Next.js logo"
+                    alt="Billing Information 2"
                     width={1100}
                     height={20}
                     priority

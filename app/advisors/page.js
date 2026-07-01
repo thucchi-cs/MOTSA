@@ -11,7 +11,7 @@ export default function Advisors() {
             <Image
               className="object-cover object-center"
               src="/advisors2.JPG"
-              alt="Next.js logo"
+              alt="Advisors"
               width={5000}
               height={200}
               priority

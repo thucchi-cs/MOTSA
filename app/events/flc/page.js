@@ -53,7 +53,7 @@ export default function FLC() {
                     <Image
                         className="w-full h-fit"
                         src="/flc.jpg"
-                        alt="Next.js logo"
+                        alt="FLC"
                         width={700}
                         height={20}
                         priority

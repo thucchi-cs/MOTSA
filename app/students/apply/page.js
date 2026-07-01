@@ -17,7 +17,7 @@ export default function Apply() {
             <Image
                 className=""
                 src="/officers2.jpeg"
-                alt="Next.js logo"
+                alt="State Officers"
                 width={400}
                 height={200}
                 priority

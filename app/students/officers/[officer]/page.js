@@ -30,7 +30,7 @@ export default async function officer({ params }) {
                 <Image
                     className="pb-5"
                     src={`/officers/${data.abbr}.jpg`}
-                    alt="Next.js logo"
+                    alt={data.abbr}
                     width={450}
                     height={600}
                     priority

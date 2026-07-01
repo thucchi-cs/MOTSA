@@ -11,7 +11,7 @@ export default function events() {
             <Image
               className="object-cover object-center"
               src="/students3.JPG"
-              alt="Next.js logo"
+              alt="Students"
               width={5000}
               height={200}
               priority

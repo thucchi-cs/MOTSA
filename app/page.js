@@ -13,7 +13,7 @@ export default function Home() {
             <Image
               className="object-cover object-center h-60 md:h-auto"
               src="/students2.JPG"
-              alt="Next.js logo"
+              alt="Students"
               width={5000}
               height={20}
               priority
@@ -46,7 +46,7 @@ export default function Home() {
             <Image
               className="object-cover"
               src="/students8.JPG"
-              alt="Next.js logo"
+              alt="Students"
               width={600}
               height={20}
               priority

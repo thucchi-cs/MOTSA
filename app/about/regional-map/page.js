@@ -16,7 +16,7 @@ export default function RegionalMap() {
           <Image 
             className=""
             src="/regional-map.webp"
-            alt="Next.js logo"
+            alt="Regional Map"
             width={1000}
             height={500}
             priority

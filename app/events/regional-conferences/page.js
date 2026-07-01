@@ -1,8 +1,6 @@
 "use client";
 import Header from "@/components/Header";
-import Image from "next/image";
 import Link from "next/link";
-import QuickLink from "@/components/QuickLink";
 import { useState } from "react";
 
 export default function RegionalConferences() {

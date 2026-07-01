@@ -24,7 +24,7 @@ export default function DressCode() {
                 <Image
                     className=""
                     src="/dresscode_competition.png"
-                    alt="Next.js logo"
+                    alt="Competition Dress Code"
                     width={500}
                     height={20}
                     priority
@@ -62,7 +62,7 @@ export default function DressCode() {
                 <Image
                     className=""
                     src="/dresscode_general.png"
-                    alt="Next.js logo"
+                    alt="General Session Dress Code"
                     width={500}
                     height={20}
                     priority
@@ -88,7 +88,7 @@ export default function DressCode() {
                 <Image
                     className=""
                     src="/dresscode_casual.png"
-                    alt="Next.js logo"
+                    alt="Casual Attire Dress Code"
                     width={500}
                     height={20}
                     priority

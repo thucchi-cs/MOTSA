@@ -8,7 +8,7 @@ export default function OfficerDisp({ img, name, position, school, email, link})
             <Image
                 className="pb-5"
                 src={img}
-                alt="Next.js logo"
+                alt={img}
                 width={400}
                 height={600}
                 priority

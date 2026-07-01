@@ -10,7 +10,7 @@ export default function construction() {
             <Image
                 className="object-cover object-center"
                 src="/construction.png"
-                alt="Next.js logo"
+                alt="work in progress icon"
                 width={500}
                 height={20}
                 priority
