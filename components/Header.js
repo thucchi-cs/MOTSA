@@ -67,7 +67,7 @@ export default function Header({ page }) {
                 <Image className="py-3 md:w-[130px]" src="/motsalogo.png" alt="Next.js logo" width={80} height={20} priority/>
             </a>
 
-            <div className="hidden md:flex flex-row items-center w-full justify-end gap-15 px-20">
+            <div className="hidden md:flex flex-row items-center w-full justify-center gap-15 px-20">
                 <div className="relative group">
                     <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="about") ? "text-red-500": "text-zinc-50")} href="/about">About</a>
                     <HeaderSubmenu pages={aboutSubPages}></HeaderSubmenu>
