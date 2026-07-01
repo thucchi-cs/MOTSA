@@ -1,4 +1,4 @@
-import BoardMember from "@/components/BoardMember";
+import MemberDisp from "@/components/MemberDisp";
 import Header from "@/components/Header";
 
 export default function Board() {
@@ -10,20 +10,20 @@ export default function Board() {
             <h1 className="text-3xl md:text-5xl text-center md:text-left px-[5%] py-10 font-bold">Missouri TSA Board of Directors</h1>
 
             <div className="md:grid md:grid-cols-2 text-center w-[70%] flex flex-col justify-center items-center h-full py-5 md:py-20 gap-y-10">
-                <BoardMember name="Marsha McCorkle" position="President (2023-2026)" email="MMcCorkle@cjr1.org"></BoardMember>
-                <BoardMember name="Shannon Winkler" position="Secretary/Treasurer (2024-2026)" email="shannon.winkler@lps53.org"></BoardMember>
-                <BoardMember name="Russell Juengel" position="Immediate Past President (2025-2028)" email="rjuengel@hazelwoodschools.org"></BoardMember>
-                <BoardMember name="Chris Huhn" position="Corporate Board Member (2024-2026)" email="chuhn@cjr1.org"></BoardMember>
-                <BoardMember name="Dr. Jim Kreyling" position="Corporate Board Member (2024-2026)" email="kreylingj@msdr9.org"></BoardMember>
-                <BoardMember name="Axumait Yared" position="Student President (2026-2027)" email="motsa@gmail.com"></BoardMember>
-                <BoardMember name="Jen Martin" position="High School Representative (2025-2028)" email="jmartin3@bssd.net"></BoardMember>
-                <BoardMember name="Mariah Boshears" position="State Officer Advisor" email="MBoshears@cjr1.org"></BoardMember>
-                <BoardMember name="Laura Lee" position="Middle School Representative (2024-2026)" email="Laura.Lee@nkcschools.org"></BoardMember>
-                <BoardMember name="Byekwaso Gilbert" position="Missouri TSA State Advisor" email="byekwaso.gilbert@dese.mo.gov"></BoardMember>
-                <BoardMember name="Christina King" position="President - Elect (2025-2028)" email="cking@rolla31.org"></BoardMember>
-                <BoardMember name="Susan Kulyan" position="Missouri TSA Assistant State Advisor" email="susan.kulyan@dese.mo.gov"></BoardMember>
-                <BoardMember name="Louis Breinin" position="Corporate Board Member (2023-2026)" email="louis.breinin@nkcschools.org"></BoardMember>
-                <BoardMember name="Dr. Mike Pantleo" position="University Representative" email=""></BoardMember>
+                <MemberDisp name="Marsha McCorkle" line1="President (2023-2026)" line2="MMcCorkle@cjr1.org"></MemberDisp>
+                <MemberDisp name="Shannon Winkler" line1="Secretary/Treasurer (2024-2026)" line2="shannon.winkler@lps53.org"></MemberDisp>
+                <MemberDisp name="Russell Juengel" line1="Immediate Past President (2025-2028)" line2="rjuengel@hazelwoodschools.org"></MemberDisp>
+                <MemberDisp name="Chris Huhn" line1="Corporate Board Member (2024-2026)" line2="chuhn@cjr1.org"></MemberDisp>
+                <MemberDisp name="Dr. Jim Kreyling" line1="Corporate Board Member (2024-2026)" line2="kreylingj@msdr9.org"></MemberDisp>
+                <MemberDisp name="Axumait Yared" line1="Student President (2026-2027)" line2="motsa@gmail.com"></MemberDisp>
+                <MemberDisp name="Jen Martin" line1="High School Representative (2025-2028)" line2="jmartin3@bssd.net"></MemberDisp>
+                <MemberDisp name="Mariah Boshears" line1="State Officer Advisor" line2="MBoshears@cjr1.org"></MemberDisp>
+                <MemberDisp name="Laura Lee" line1="Middle School Representative (2024-2026)" line2="Laura.Lee@nkcschools.org"></MemberDisp>
+                <MemberDisp name="Byekwaso Gilbert" line1="Missouri TSA State Advisor" line2="byekwaso.gilbert@dese.mo.gov"></MemberDisp>
+                <MemberDisp name="Christina King" line1="President - Elect (2025-2028)" line2="cking@rolla31.org"></MemberDisp>
+                <MemberDisp name="Susan Kulyan" line1="Missouri TSA Assistant State Advisor" line2="susan.kulyan@dese.mo.gov"></MemberDisp>
+                <MemberDisp name="Louis Breinin" line1="Corporate Board Member (2023-2026)" line2="louis.breinin@nkcschools.org"></MemberDisp>
+                <MemberDisp name="Dr. Mike Pantleo" line1="University Representative" line2=""></MemberDisp>
             </div>
         </div>    
       </main>
