@@ -50,9 +50,11 @@ export default async function CompetitiveEvents() {
                 <QuickLink target={"_blank"} link={"https://judgepro.registermychapter.com/org/jpmo-vsc/conf/jpmo-slc/student"} label={"Submission Upload"}></QuickLink>
                 <QuickLink target={"_blank"} link={"https://www.answerwrite.com/tsa/mo-s"} label={"Online Testing"}></QuickLink>
                 <QuickLink target={"_blank"} link={"https://tsaweb.org/docs/default-source/national-conferences/instructions/competition-component-upload-instructions.pdf?sfvrsn=bf4985e0_2"} label={"Upload Instructions"}></QuickLink>
-                <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competitive-event-preconference-submission-requirements"} label={"Submission Requirements"}></QuickLink>
-                <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competition-requirements"} label={"National Requirements"}></QuickLink>
-                <QuickLink target={"_blank"} link={"https://tsamembership.registermychapter.com/members#"} label={"Student Member Site"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competitive-event-preconference-submission-requirements"} label={"National Submission Requirements"}></QuickLink>
+                {/* <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competition-requirements"} label={"National Requirements"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://tsamembership.registermychapter.com/members#"} label={"Student Member Site"}></QuickLink> */}
+                <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2026/01/2026-High-School-Events-Pre-Submissions.pdf"} label={"MO HS Submission Requirements"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2026/01/2026-Middle-School-Events-Pre-Submission.pdf"} label={"MO MS Submission Requirements"}></QuickLink>
               </div>
             </div>
           </div>
