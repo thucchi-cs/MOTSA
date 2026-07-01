@@ -167,12 +167,12 @@ export default function SCC() {
                 </div>
 
                 <div className="grid grid-rows-2 grid-cols-2 gap-x-5 gap-y-5 py-10">
-                    <QuickLink target={""} link={"https://motsaweb.org/wp-content/uploads/2025/09/2026-TSA-State-Championship-Conference-Hotel-List-2.pdf"} label={"2026 SCC Hotels in Warrensburg"}></QuickLink>
-                    <QuickLink target={""} link={"https://motsaweb.org/wp-content/uploads/2025/09/2025-Missouri-TSA-State-Championships-Restaurants-1.pdf"} label={"2026 SCC Restaurants in Warrensburg"}></QuickLink>
-                    <QuickLink target={""} link={"https://docs.google.com/spreadsheets/d/1nmmAd2OJf1TZaBzX_nagZHUNBMDPQVOv/edit?gid=1425924524#gid=1425924524"} label={"2026 Tentative Room List and Schedule"}></QuickLink>
+                    <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2025/09/2026-TSA-State-Championship-Conference-Hotel-List-2.pdf"} label={"2026 SCC Hotels in Warrensburg"}></QuickLink>
+                    <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2025/09/2025-Missouri-TSA-State-Championships-Restaurants-1.pdf"} label={"2026 SCC Restaurants in Warrensburg"}></QuickLink>
+                    <QuickLink target={"_blank"} link={"https://docs.google.com/spreadsheets/d/1nmmAd2OJf1TZaBzX_nagZHUNBMDPQVOv/edit?gid=1425924524#gid=1425924524"} label={"2026 Tentative Room List and Agenda"}></QuickLink>
                     <QuickLink target={""} link={"/advisors/forms"} label={"2026 Conference Forms"}></QuickLink>
                     <QuickLink target={""} link={"/students/competitive-events"} label={"Competitive Event Details"}></QuickLink>
-                    <QuickLink target={""} link={"https://tsaweb.org/competitions"} label={"List of Competitive Events"}></QuickLink>
+                    <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions"} label={"List of Competitive Events"}></QuickLink>
                 </div>
             </div>
         </div>  
