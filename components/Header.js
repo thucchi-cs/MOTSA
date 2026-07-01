@@ -16,7 +16,7 @@ export default function Header({ page }) {
         {label: "Competitive Events", page: "/students/competitive-events"},
         {label: "Scholarships", page: "/students/scholarships"},
         {label: "Dress Code", page: "/students/dress-code"},
-        {label: "Degree Program", page: "/students/degree"},
+        // {label: "Degree Program", page: "/students/degree"},
         {label: "State Officer Team", page: "/students/officers"},
         {label: "Apply for Office", page: "/students/apply"}
     ];
@@ -42,8 +42,8 @@ export default function Header({ page }) {
     const resourcesSubPages = [
         {label: "Dress Code", page: "/students/dress-code"},
         {label: "Competitive Events", page: "/students/competitive-events"},
-        {label: "Degree Program", page: "/students/degree"},
-        {label: "Past Winners", page: "/resources/winners"},
+        // {label: "Degree Program", page: "/students/degree"},
+        // {label: "Past Winners", page: "/resources/winners"},
         {label: "Outstanding Awards", page: "/resources/awards"},
         {label: "Newsletter", page: "/resources/newsletter"},
         {label: "Billing/Late Fee", page: "/resources/billing"},
@@ -89,7 +89,7 @@ export default function Header({ page }) {
                     <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
                     <HeaderSubmenu pages={resourcesSubPages}></HeaderSubmenu>
                 </div>
-                <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a>
+                {/* <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a> */}
             </div>
 
             <button onClick={() => setMobileOpen(!mobileOpen)} className="md:hidden p-4 text-zinc-50 w-[20%] z-99">
@@ -175,9 +175,9 @@ export default function Header({ page }) {
                         )}
                     </div>
 
-                    <a href="/contact" className={"text-xl "+ ((page==="contact") ? "text-red-500": "text-zinc-50")}>
+                    {/* <a href="/contact" className={"text-xl "+ ((page==="contact") ? "text-red-500": "text-zinc-50")}>
                         Contact
-                    </a>
+                    </a> */}
                 </div>
             )}
         </header>

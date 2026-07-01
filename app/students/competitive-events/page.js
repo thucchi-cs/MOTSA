@@ -16,7 +16,7 @@ export default async function CompetitiveEvents() {
         <div className="flex flex-col md:flex-row w-full justify-between items-start h-full text-[#040531] bg-white py-10 md:py-20 px-5">
           <div className="flex flex-col w-full h-full text-left px-[5%] gap-y-5">
             <h1 className="text-3xl md:text-5xl font-bold">Competitive Events</h1>
-            <p className="text-2xl">
+            <p className="text-2xl text-[#072c5c]">
               Technology Student Association offers student members an opportunity to compete in over 75 different competitions accross middle school and high school on three different levels: regional, state, and national. These competitive events take learning beyond the classroom and allow students to apply their technical skills into real projects for various career fields such as engineering, computer science, the arts, and leadership abilities. Most of these competitions also gives students a chance to practice their interpersonal skills as they interview with judges.
             </p>
           </div>

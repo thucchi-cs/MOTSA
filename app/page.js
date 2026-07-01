@@ -80,8 +80,9 @@ export default function Home() {
               <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-5 gap-y-5 py-5">
                 <QuickLink target={""} link={"/students/competitive-events"} label={"Competitive Events"}></QuickLink>
                 <QuickLink target={""} link={"/students/dress-code"} label={"Dress Code"}></QuickLink>
-                <QuickLink target={""} link={"/students/degree"} label={"Degree Program"}></QuickLink>
+                {/* <QuickLink target={""} link={"/students/degree"} label={"Degree Program"}></QuickLink> */}
                 <QuickLink target={""} link={"/students/officers"} label={"State Officers"}></QuickLink>
+                <QuickLink target={""} link={"/students/apply"} label={"Apply for Office"}></QuickLink>
               </div>
             </div>
             <div className="flex flex-col justify-start items-center">
@@ -89,8 +90,9 @@ export default function Home() {
               <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-5 gap-y-5 py-5">
                 <QuickLink target={""} link={"/events/calendar"} label={"Calendar"}></QuickLink>
                 <QuickLink target={""} link={"/resources/newsletter"} label={"Newsletter"}></QuickLink>
-                <QuickLink target={""} link={"/resources/winners"} label={"Past Winners"}></QuickLink>
+                {/* <QuickLink target={""} link={"/resources/winners"} label={"Past Winners"}></QuickLink> */}
                 <QuickLink target={""} link={"/resources/gallery"} label={"Gallery"}></QuickLink>
+                <QuickLink target={""} link={"/advisors/resources"} label={"Chapter Resources"}></QuickLink>
               </div>
             </div>
           </div>
