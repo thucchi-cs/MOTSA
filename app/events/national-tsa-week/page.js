@@ -28,7 +28,7 @@ const sections = [
       },
       {
         heading: "Together Thursday",
-        body: "Showcase your TSA community—whether it's your closest friends, your chapter, your state, or your officer team."
+        body: "Showcase your TSA community - whether it's your closest friends, your chapter, your state, or your officer team."
       },
       {
         heading: "Fashion Friday",
