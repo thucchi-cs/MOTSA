@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Image from "next/image";
 import QuickLink from "@/components/QuickLink";
+import Link from "next/link";
 
 export default function FLC() {
   return (
@@ -75,6 +76,24 @@ export default function FLC() {
                 <div className="grid grid-rows-2 grid-cols-2 gap-x-5 gap-y-5 py-10">
                     <QuickLink target={"_blank"} link={"https://www.registermychapter.com/tsa/mo-flc"} label={"Register for FLC"}></QuickLink>
                     <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2025/09/Missouri-TSA-2025-State-Fall-Leadership-Conference-Agenda-1.pdf"} label={"FLC Tentative Agenda"}></QuickLink>
+                </div>
+            </div>
+
+            <div>
+                <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
+                    <span className="text-2xl"></span>
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#072c5c]">Degree Program</h2>
+                </div>
+
+                <div className="flex flex-col p-3">
+                    <p className="text-xl text-[#072c5c] leading-relaxed">
+                        Missouri TSA recognizes students for developing their knowledge and engagement within TSA through our Degree Program. Each year, students can earn a new degree at the Fall Leadership Conference. There are four degrees in total that student members can earn.
+                    </p>
+                </div>
+                <div className="flex flex-col p-6 gap-y-5 pb-10">
+                    <Link href="/students/degree" className="text-xl text-[#072c5c] leading-relaxed text-blue-500 underline">
+                        Degree Program Information
+                    </Link>
                 </div>
             </div>
         </div>  
