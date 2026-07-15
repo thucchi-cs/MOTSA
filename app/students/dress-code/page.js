@@ -30,8 +30,9 @@ export default function DressCode() {
                     priority
                 />
 
-                <div className="flex flex-col p-6">
+                <div className="flex flex-col p-6 pb-3">
                     <p className="text-xl text-[#072c5c] leading-relaxed">Shirt: official TSA shirt (royal blue)</p>
+                    <p className="text-xl text-[#072c5c] leading-relaxed">Shirt (Missouri conferences only): Blue TSA polos</p>
                 </div>
                 <div className="flex flex-col p-6">
                     <p className="text-xl text-[#072c5c] leading-relaxed">Pants or skirt: gray</p>

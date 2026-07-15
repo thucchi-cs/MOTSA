@@ -6,7 +6,7 @@ const sections = [
     tips: [
       {
         heading: "Membership Term",
-        body: "TSA membership runs for each school year. The term of the 2025-2026 TSA membership begins when a chapter is affiliated, and ends at the conclusion of the 2026 National TSA Conference on June 26th, 2026."
+        body: "TSA membership runs for each school year. The term of the 2026-2027 TSA membership begins when a chapter is affiliated, and ends at the conclusion of the 2027 National TSA Conference on June 27th, 2027. Chapter Affiliation for the 2026-2027 school year opens on September 1, 2026."
       },
       {
         heading: "Choosing a Program",
@@ -34,6 +34,11 @@ const sections = [
   {
     title: "More Information & Contact",
     tips: [
+      {
+        heading: "2026-20267 Chapter Affiliation Information",
+        body: "You can find detailed information on this year's chapter affiliation below.",
+        link: { label: "2026-20267 Chapter Affiliation Information", url: "/pdf/2026 -2027_Chapter_Affilation_Information.pdf" }
+      },
       {
         heading: "National Affiliation & Dues",
         body: "You can find out more information about affiliation and dues at the National TSA website.",

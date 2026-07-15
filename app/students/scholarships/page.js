@@ -19,7 +19,7 @@ export default function Scholarships() {
             </div>
 
             <div className="flex flex-col p-6">
-              <p className="text-xl text-[#072c5c] leading-relaxed">Winners will be announced at the Missouri TSA Championship Conference. The deadline for scholarship applications is January 15th, 2026.</p>
+              <p className="text-xl text-[#072c5c] leading-relaxed">Winners will be announced at the Missouri TSA Championship Conference. The deadline for scholarship applications is January 15th, 2027.</p>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ export default function Scholarships() {
             </div>
           </div>
 
-          <a href="https://motsaweb.org/wp-content/uploads/2025/09/Missouri-TSA-2025-2026-Scholarship-Application-1-1.pdf" target="_blank" className="bg-red-500 md:w-[50%] px-5 md:px-0 h-10 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
+          <a href="/pdf/Missouri_TSA_2026-2027_Scholarship_Application.pdf" target="_blank" className="bg-red-500 md:w-[50%] px-5 md:px-0 h-10 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
             <h1 className="text-sm md:text-xl">Scholarship Application &#8594;</h1>
           </a>
         </div>  

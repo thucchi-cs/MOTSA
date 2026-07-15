@@ -39,9 +39,9 @@ export default async function CompetitiveEvents() {
                 <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions"} label={"List of Events"}></QuickLink>
                 <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/themes-and-problems"} label={"Themes & Problems"}></QuickLink>
                 <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competition-updates"} label={"Competition Updates"}></QuickLink>
-                <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/state-advisor-approval-events"} label={"National Eligibility"}></QuickLink>
-                <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2026/01/Missouri-TSA-2026-State-Competitive-Events-Eligibility-High-School-Updated-10-19-2025-1.pdf"} label={"HS Events Eligibility"}></QuickLink>
-                <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2026/01/Missouri-TSA-2026-Competitive-Events-Eligibility-Middle-School10-03-2025-1.pdf"} label={"MS Events Eligibility"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://tsaweb.org/docs/default-source/competitions/events-eligibility-charts.pdf?sfvrsn=b09d590b_5"} label={"National Events Eligibility"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2026/01/Missouri-TSA-2026-State-Competitive-Events-Eligibility-High-School-Updated-10-19-2025-1.pdf"} label={"MO HS Events Eligibility"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2026/01/Missouri-TSA-2026-Competitive-Events-Eligibility-Middle-School10-03-2025-1.pdf"} label={"MO MS Events Eligibility"}></QuickLink>
               </div>
             </div>
             <div className="flex flex-col justify-start items-center">
@@ -49,7 +49,7 @@ export default async function CompetitiveEvents() {
               <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-5 gap-y-5 py-5">
                 <QuickLink target={"_blank"} link={"https://judgepro.registermychapter.com/org/jpmo-vsc/conf/jpmo-slc/student"} label={"Submission Upload"}></QuickLink>
                 <QuickLink target={"_blank"} link={"https://www.answerwrite.com/tsa/mo-s"} label={"Online Testing"}></QuickLink>
-                <QuickLink target={"_blank"} link={"https://tsaweb.org/docs/default-source/national-conferences/instructions/competition-component-upload-instructions.pdf?sfvrsn=bf4985e0_2"} label={"Upload Instructions"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://tsaweb.org/docs/default-source/national-conferences/instructions/competition-component-upload-instructions.pdf?sfvrsn=bf4985e0_2"} label={"National Upload Instructions"}></QuickLink>
                 <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competitive-event-preconference-submission-requirements"} label={"National Submission Requirements"}></QuickLink>
                 {/* <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competition-requirements"} label={"National Requirements"}></QuickLink>
                 <QuickLink target={"_blank"} link={"https://tsamembership.registermychapter.com/members#"} label={"Student Member Site"}></QuickLink> */}

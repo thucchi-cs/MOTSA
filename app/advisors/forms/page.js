@@ -24,8 +24,8 @@ export default function Forms() {
                     <p className="text-md md:text-lg w-full text-center">
                         Chapter Advisors turn in the Chapter Assurance Form prior to each Missouri TSA conference/event
                     </p>
-                    <a href="https://motsaweb.org/wp-content/uploads/2025/08/Missouri-TSA-2025-2026-Chapter-Assurance-Form.pdf" target="_blank" className="bg-red-500 w-full h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
-                        <h1 className="text-sm md:text-xl">2025-2026 Chapter Assurance Form &#8594;</h1>
+                    <a href="/pdf/Missouri-TSA-2026-2027-Chapter-Assurance-Form.pdf" target="_blank" className="bg-red-500 w-full h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
+                        <h1 className="text-sm md:text-xl">2026-2027 Chapter Assurance Form &#8594;</h1>
                     </a>
                 </div>
                 <div className="flex flex-col justify-center items-center gap-5 h-full">

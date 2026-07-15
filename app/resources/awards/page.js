@@ -12,20 +12,20 @@ export default function Awards() {
                 Missouri TSA wants to take the opportunity to recognize all of the outstanding work happening in our state! We hope that each of you can take the time to recognize someone - or yourself - for doing extraordinary work! Also, please share this information with your members, their parents, school administration and staff!
             </p>
             <p className="text-lg md:text-2xl px-6 md:px-15 leading-relaxed font-bold">
-                2026 submission deadline: February 28th, 2026 by 5:00 p.m.
+                2026 submission deadline: February 28th, 2027 by 5:00 p.m.
             </p>
             <h1 className="text-2xl md:text-3xl text-center font-bold pt-5">Applications</h1>
             <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-7 gap-y-7 px-5 md:px-30">
-                <a href="https://motsaweb.org/wp-content/uploads/2025/09/2026-Missouri-TSA-Middle-School-Advisor-of-the-Year-Application.pdf" target="_blank" className="bg-red-500 py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
+                <a href="/pdf/2027-Missouri-TSA-Middle-School-Advisor-of-the-Year-Application.pdf" target="_blank" className="bg-red-500 py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
                   <h1 className="text-xs md:text-xl">MOTSA Middle School Advisor of the Year &#8594;</h1>
                 </a>
-                <a href="https://motsaweb.org/wp-content/uploads/2025/09/2025-Missouri-TSA-High-School-Advisor-of-the-Year-Application.pdf" target="_blank" className="bg-red-500 py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
+                <a href="/pdf/2027_Missouri_TSA_High_School_Advisor_of_the_Year_Application.pdf" target="_blank" className="bg-red-500 py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
                   <h1 className="text-xs md:text-xl">MOTSA High School Advisor of the Year &#8594;</h1>
                 </a>
-                <a href="https://motsaweb.org/wp-content/uploads/2025/09/2026-Missouri-TSA-Outstanding-Recognition-Award-Application.pdf" target="_blank" className="bg-red-500 py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
+                <a href="/pdf/2027_Missouri_TSA_Outstanding_Recognition_Award_Application.pdf" target="_blank" className="bg-red-500 py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
                   <h1 className="text-xs md:text-xl">Outstanding Recognition Award &#8594;</h1>
                 </a>
-                <a href="https://motsaweb.org/wp-content/uploads/2025/09/2026-Missouri-TSA-Distinguished-Student-Award-Application.pdf" target="_blank" className="bg-red-500 py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
+                <a href="/pdf/MOTSA_26_27_Distinguished_Student_Award.pdf" target="_blank" className="bg-red-500 py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
                   <h1 className="text-xs md:text-xl">Distinguished Student Award &#8594;</h1>
                 </a>
                 <a href="https://motsaweb.org/wp-content/uploads/2025/09/2026-Missouri-TSA-Chapter-Excellence-Award-Application.pdf" target="_blank" className="bg-red-500 py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">

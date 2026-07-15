@@ -29,7 +29,7 @@ const sections = [
     ],
     buttons: [
       { label: "Sample Bylaws Word Document", url: "https://motsaweb.org/wp-content/uploads/2021/06/c332c-tsa-13-sample-bylaws.pdf", color: "red" },
-      { label: "Missouri TSA Chapter Application", url: "https://motsaweb.org/wp-content/uploads/2025/09/Missouri-TSA-Chapter-Application-2.pdf", color: "navy" }
+      { label: "Missouri TSA Chapter Application", url: "/pdf/Missouri_TSA_Chapter_Application.pdf", color: "navy" }
     ]
   },
   {

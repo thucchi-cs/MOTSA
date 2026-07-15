@@ -49,7 +49,7 @@ export default function Header({ page }) {
         {label: "Billing/Late Fee", page: "/resources/billing"},
         {label: "Bylaws", page: "/resources/bylaws"},
         {label: "Calendar", page: "/events/calendar"},
-        {label: "Gallery", page: "/resources/gallery"},
+        {label: "Photo Gallery", page: "/resources/gallery"},
         {label: "Chapter Resources & Tips", page: "/advisors/resources"},
         {label: "Board of Directors", page: "/about/board"}
     ];

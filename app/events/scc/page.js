@@ -118,7 +118,7 @@ export default function SCC() {
                     </p>
                 </div>
                 <div className="flex flex-col p-6 gap-y-5">
-                    <Link target="_blank" href="/https://motsaweb.org/wp-content/uploads/2026/01/2026-High-School-Events-Pre-Submissions.pdf" className="text-xl text-[#072c5c] leading-relaxed text-blue-500 underline">
+                    <Link target="_blank" href="https://motsaweb.org/wp-content/uploads/2026/01/2026-High-School-Events-Pre-Submissions.pdf" className="text-xl text-[#072c5c] leading-relaxed text-blue-500 underline">
                         2026 MO TSA high school events with pre-submissions
                     </Link>
                     <Link target="_blank" href="https://motsaweb.org/wp-content/uploads/2026/01/2026-Middle-School-Events-Pre-Submission.pdf" className="text-xl text-[#072c5c] leading-relaxed text-blue-500 underline">

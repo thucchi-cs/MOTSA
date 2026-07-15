@@ -22,7 +22,7 @@ export default function RegionalConferences() {
             <div>
                 <div className="flex flex-col p-6">
                     <p className="text-xl text-[#072c5c] leading-relaxed">
-                        Aside from the State Championship in April, Missouri TSA offers Regional Conferences in early Spring for participants to prepare and practice for their competitions. In the past, the Southwest region has consistently hosted a regional conference each year as a qualifying round for the State Championship. Missouri TSA is working towards bringing the regional conferences to the other three regions but as a practice round, not a qualifying round.
+                        Aside from the State Championship in April, Missouri TSA offers Regional Championship Conferences in early Spring for participants to prepare and practice for their competitions. In the past, the Southwest region has consistently hosted a regional conference each year as a qualifying round for the State Championship. Missouri TSA is working towards bringing the regional conferences to the other three regions but as a practice round, not a qualifying round.
                     </p>
                 </div>
             </div>

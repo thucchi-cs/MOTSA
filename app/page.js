@@ -1,5 +1,4 @@
 import Image from "next/image";
-import BoxButton from "@/components/BoxButton";
 import Header from "@/components/Header";
 import NewsBox from "@/components/News";
 import QuickLink from "@/components/QuickLink";
@@ -35,7 +34,7 @@ export default function Home() {
             <div className="grid grid-cols-4 min-w-max md:min-w-full justify-center items-center h-full px-6 py-3 md:px-10 md:py-12 gap-x-3 gap-y-5">
               <NewsBox link="/students/officers" label={"2026-2027 Officer Team"} content={"Meet your new 2026-2027 Missouri TSA State Officer Team!"} date={"July 1, 2026"} img="/officers3.jpg"></NewsBox>
               <NewsBox link="/events/national-conference" label={"2026 National Conference"} content={"The TSA National Championship Conference was held in Washington, DC on June 22 through June 26."} date={"July 1, 2026"} img="/nationals.jpg"></NewsBox>
-              <NewsBox link="/advisors/affiliation" label={"Chapter Affiliation Opens"} content={"TSA Chapter Affilition will open on August 15th. Advisors should visit the website to affiliate their chapters."} date={"July 1, 2026"} img="/students6.png"></NewsBox>
+              <NewsBox link="/advisors/affiliation" label={"Chapter Affiliation Opens"} content={"TSA Chapter Affilition will open on September 1st. Advisors should visit the website to affiliate their chapters."} date={"July 1, 2026"} img="/students6.png"></NewsBox>
               <NewsBox link="/advisors/zoom" label={"Advisors Zoom Meetings"} content={"Chapter advisors Zoom Meetings will be held on the first Thursday of every month from 3:30pm-4:30pm"} date={"July 1, 2026"} img="/zoom.png"></NewsBox>
             </div>
           </div>

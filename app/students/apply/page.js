@@ -27,7 +27,7 @@ export default function Apply() {
                   Are you a local leader who is interested in being more involved with Missouri TSA? Apply to become a State Officer for the 2026-2027 school year!
                 </p>
                 <p className="text-lg md:text-xl text-[#072c5c] leading-relaxed">
-                  Deadline: February 15th, 2026 (extended)
+                  Deadline: January 15th, 2026
                 </p>
                 <p className="text-lg md:text-xl text-[#072c5c] leading-relaxed">
                   Questions? Reach out to Byekwaso Gilbert via email or phone at Byekwaso.gilbert@dese.mo.gov or call 573-751-7664.
