@@ -31,9 +31,9 @@ export default async function Alumni() {
           {pastOfficers.map((year, index) => (
             <div key={index} className="flex flex-col w-full justify-center items-center h-full px-10 py-6 gap-y-5 md:gap-y-10">
               <h1 className="text-2xl md:text-4xl text-center font-bold underline text-[#0b4188]">{`20${year.year}-20${parseInt(year.year)+1}`}</h1>
-              <div className="md:grid md:grid-cols-2 gap-10 md:gap-25 items-center justify-center md:w-[80%]">
+              <div className="md:grid md:grid-cols-2 gap-10 md:gap-15 items-center justify-center md:w-[70%]">
                 {year.officers.map((officer, index) => (
-                  <MemberDisp key={index} name={officer.name} line1={officer.position} line2={officer.school}></MemberDisp>
+                  <MemberDisp key={index} name={officer.name} lines={[officer.position, officer.school]}></MemberDisp>
                 ))}
               </div>
             </div>
