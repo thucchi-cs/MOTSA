@@ -73,7 +73,7 @@ export default function FLC() {
                         The 2025 State Fall Leadership Conference Registration fee is $65 per attendee.
                     </p>
                 </div>
-                <div className="grid grid-rows-2 grid-cols-2 gap-x-5 gap-y-5 py-10">
+                <div className="grid grid-rows-2 grid-cols-2 gap-x-5 gap-y-5 pt-10">
                     <QuickLink target={"_blank"} link={"https://www.registermychapter.com/tsa/mo-flc"} label={"Register for FLC"}></QuickLink>
                     <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2025/09/Missouri-TSA-2025-State-Fall-Leadership-Conference-Agenda-1.pdf"} label={"FLC Tentative Agenda"}></QuickLink>
                 </div>

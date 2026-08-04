@@ -96,7 +96,7 @@ export default function Affiliation() {
 
           {/* CTA Button */}
           <a
-            href="https://motsaweb.org/wp-content/uploads/2021/09/6-tsa-chapter-advisor-manual.pdf"
+            href="/pdf/tsa-chapter-advisor-manual.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-red-500 w-full md:w-[70%] mx-auto py-5 px-5 text-center rounded-lg text-white flex justify-center items-center transition-colors duration-300 hover:bg-[#ad0707] cursor-pointer"
