@@ -7,6 +7,7 @@ export default function DressCode() {
       <Header page={"students"}></Header>
 
       <main className="flex flex-1 w-full flex-col items-center bg-white"> 
+        {/* Page header section */}
         <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white">Dress Code</h1>
           <p className="text-blue-200 mt-4 max-w-2xl text-base md:text-lg">
@@ -14,7 +15,9 @@ export default function DressCode() {
           </p>
         </div>
 
+        {/* Info section */}
         <div className="w-full max-w-4xl px-6 py-14 flex flex-col gap-y-14">
+            {/* Required Competition Attire */}
             <div>
                 <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
                     <span className="text-2xl"></span>
@@ -54,6 +57,7 @@ export default function DressCode() {
                 </div>
             </div>
 
+            {/* General Session Attire */}
             <div>
                 <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
                     <span className="text-2xl"></span>
@@ -80,6 +84,7 @@ export default function DressCode() {
                 </div>
             </div>
 
+            {/* Casual Attire */}
             <div>
                 <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
                     <span className="text-2xl"></span>
@@ -100,6 +105,7 @@ export default function DressCode() {
                 </div>
             </div>
 
+            {/* General info */}
             <div>
                 <div className="flex flex-col p-6">
                     <p className="text-xl text-[#072c5c] leading-relaxed">Registered parents, guests, and children who are not compliant with General Session Attire and who wish to attend the Awards Ceremony, may be asked to sit in a designated section, if permitted entry.</p>
@@ -112,6 +118,7 @@ export default function DressCode() {
                 </div>
             </div>
 
+            {/* Link */}
             <div className="flex flex-col justify-between items-center gap-y-5 py-5">
                 <a href="https://tsastore.mybrightsites.com/" target="_blank" className="bg-red-500 w-full md:w-[50%] px-5 md:px-0 py-5 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
                     <h1 className="text-center text-sm md:text-xl">Official TSA Store &#8594;</h1>

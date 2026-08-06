@@ -1,0 +1,222 @@
+[
+    {
+        "year_elected": "26",
+        "officers": [
+            {
+                "id": 11,
+                "position": "President",
+                "abbr": "president",
+                "name": "Axumait Yared",
+                "school": "Staley High School",
+                "email": "motsa@gmail.com"
+            },
+            {
+                "id": 12,
+                "position": "Vice President",
+                "abbr": "vp",
+                "name": "Sabrina Bush",
+                "school": "Hazelwood High School",
+                "email": "motsa@gmail.com"
+            },
+            {
+                "id": 13,
+                "position": "Secretary",
+                "abbr": "secretary",
+                "name": "Ayse Demir",
+                "school": "Staley High School",
+                "email": "motsa@gmail.com"
+            },
+            {
+                "id": 14,
+                "position": "Treasurer",
+                "abbr": "treasurer",
+                "name": "Tracy Do",
+                "school": "Kickapoo High School",
+                "email": "motsa@gmail.com"
+            },
+            {
+                "id": 15,
+                "position": "Reporter",
+                "abbr": "reporter",
+                "name": "Manya Karthik",
+                "school": "Liberty Wentzville High School",
+                "email": "motsa@gmail.com"
+            },
+            {
+                "id": 16,
+                "position": "Sergeant-At-Arms",
+                "abbr": "sergeant",
+                "name": "Jason Kogbara",
+                "school": "Hazelwood Central High School",
+                "email": "motsa@gmail.com"
+            },
+            {
+                "id": 17,
+                "position": "Northwest Regional VP",
+                "abbr": "nwvp",
+                "name": "Riley Pederson",
+                "school": "Staley High School",
+                "email": "motsa@gmail.com"
+            },
+            {
+                "id": 18,
+                "position": "Northeast Regional VP",
+                "abbr": "nevp",
+                "name": "Laila Holmes",
+                "school": "Holt High School",
+                "email": "motsa@gmail.com"
+            },
+            {
+                "id": 19,
+                "position": "Southwest Regional VP",
+                "abbr": "swvp",
+                "name": "David Figueroa",
+                "school": "Carl Junction High School",
+                "email": "motsa@gmail.com"
+            },
+            {
+                "id": 20,
+                "position": "Southeast Regional VP",
+                "abbr": "sevp",
+                "name": "Nuriya Hussaini",
+                "school": "Oakville High School",
+                "email": "motsa@gmail.com"
+            }]
+    },
+    {
+        "year_elected": "25",
+        "officers": [
+            {
+                "id": 1,
+                "position": "President",
+                "abbr": "president",
+                "name": "Hailey Hunter",
+                "school": "Carl Junction High School",
+                "email": "motsapreshailey@gmail.com"
+            },
+            {
+                "id": 2,
+                "position": "Vice President",
+                "abbr": "vp",
+                "name": "Corinne Merrel",
+                "school": "Carl Junction High School",
+                "email": "motsavpcorinne@gmail.com"
+            },
+            {
+                "id": 3,
+                "position": "Secretary",
+                "abbr": "secretary",
+                "name": "Valeria Figueroa",
+                "school": "Carl Junction High School",
+                "email": "motsasecvaleria@gmail.com"
+            },
+            {
+                "id": 4,
+                "position": "Treasurer",
+                "abbr": "treasurer",
+                "name": "Truman Davis",
+                "school": "Wentzville Holt High School",
+                "email": "motsatsrtruman@gmail.com"
+            },
+            {
+                "id": 5,
+                "position": "Reporter",
+                "abbr": "reporter",
+                "name": "Nandu Rakesh Nair",
+                "school": "Liberty High School - Wentzville",
+                "email": "motsarepnandu@gmail.com"
+            },
+            {
+                "id": 6,
+                "position": "Sergeant-At-Arms",
+                "abbr": "sergeant",
+                "name": "Angelica Hill",
+                "school": "Troy Buchanan High School",
+                "email": "motsasargangelica@gmail.com"
+            },
+            {
+                "id": 7,
+                "position": "Northwest Regional VP",
+                "abbr": "nwvp",
+                "name": "Owen Duffy",
+                "school": "Liberty High School",
+                "email": "motsa@gmail.com"
+            },
+            {
+                "id": 8,
+                "position": "Northeast Regional VP",
+                "abbr": "nevp",
+                "name": "Aryan Patel",
+                "school": "Liberty High School - Wentzville",
+                "email": "motsa@gmail.com"
+            },
+            {
+                "id": 9,
+                "position": "Southwest Regional VP",
+                "abbr": "swvp",
+                "name": "Colby Westhoff",
+                "school": "Carl Junction High School",
+                "email": "motsa@gmail.com"
+            },
+            {
+                "id": 10,
+                "position": "Southeast Regional VP",
+                "abbr": "sevp",
+                "name": "Morgan Golden",
+                "school": "Rolla High School",
+                "email": "motsa@gmail.com"
+            }]
+    },
+    {
+        "year_elected": "24",
+        "officers": [
+            {
+                "id": 21,
+                "position": "President",
+                "abbr": "president",
+                "name": "Rithvika Thunuguntla",
+                "school": "Parkway Central High School",
+                "email": null
+            },
+            {
+                "id": 22,
+                "position": "Vice President",
+                "abbr": "vp",
+                "name": "Henry Hare",
+                "school": "North Kansas City High School",
+                "email": null
+            },
+            {
+                "id": 23,
+                "position": "Secretary",
+                "abbr": "secretary",
+                "name": "Quinn Schulte",
+                "school": "Liberty High School",
+                "email": null
+            },
+            {
+                "id": 24,
+                "position": "Treasurer",
+                "abbr": "treasurer",
+                "name": "Aidan Wang",
+                "school": "Liberty High School",
+                "email": null
+            },
+            {
+                "id": 25,
+                "position": "Reporter",
+                "abbr": "reporter",
+                "name": "Andrew Foreman",
+                "school": "Holt High School",
+                "email": null
+            },
+            {
+                "id": 26,
+                "position": "Sergeant-At-Arms",
+                "abbr": "sergeant",
+                "name": "Joseph Mocca",
+                "school": "Holt High School",
+                "email": null
+            }]
+    }
+]

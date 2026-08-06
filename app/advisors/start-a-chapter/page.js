@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 
+// A bunch of info i think
 const sections = [
   {
     title: "Getting Started",

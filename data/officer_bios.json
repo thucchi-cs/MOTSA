@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "officer": 1,
+        "bio": "Hailey has been in TSA since 7th grade and has held a leadership position within her chapter since then. She is overjoyed by the community she has found within TSA and hopes to welcome others into it as well. After TSA, Hailey hopes to become a dentist after attending MSSU and KCU."
+    },
+    {
+        "id": 2,
+        "officer": 2,
+        "bio": "Corinne joined TSA in 7th grade (at the request of her local advisor) and has been loving it ever since. She is focused on expanding STEM outreach to younger audiences. Her favorite events are chapter team and forensics, but her overall favorite part of TSA is the state conference. After TSA, Corinne hopes to attend WashU and major in mathematics. #WomenInSTEM"
+    },
+    {
+        "id": 3,
+        "officer": 3,
+        "bio": "Valeria joined TSA in 8th grade and has found a community in the organization since she joined. Her favorite TSA events are Chapter Team and Forensic Technology, and she has done those events every year since joining. After TSA, Valeria hopes to major in political science and history, and eventually go to law school."
+    },
+    {
+        "id": 4,
+        "officer": 4,
+        "bio": "Truman joined TSA in his freshman year of high school to find an organization to be a part of. He quickly found a space where he could develop his technical skills and meet new people. After TSA, Truman plans to major in either computer science or geology."
+    },
+    {
+        "id": 5,
+        "officer": 5,
+        "bio": "Nandu joined TSA in 8th grade and quickly found his passion in competing in competitive events of all varieties to challenge himself and discover the implications of STEM in different environments. As your State Reporter, he hopes to harness a strong connection between the TSA members and the state officer team through a more holistic and connected approach to media."
+    },
+    {
+        "id": 6,
+        "officer": 6,
+        "bio": "Angelica joined TSA in 6th grade and is thrilled to be serving as your Sergeant at Arms in her freshman year of high school. Her favorite TSA event is Prepared Speech as it allowed her to see the growth she had made from her first year of middle school compared to her last. Although rather early, Angelica wishes to pursue Robotics and Control Engineering at the United States Naval Academy. Finally, if she could send out one message to anyone in their first year of TSA, it is to “not be afraid to try new things” as she has learned from her experience of “not having enough to work on to having too much to do.”"
+    },
+    {
+        "id": 7,
+        "officer": 7,
+        "bio": "Owen joined TSA as a Freshman in high school to spend more time with friends and further his STEM education. He hopes to continue developing the Northwest region and furthering the TSA vision."
+    },
+    {
+        "id": 8,
+        "officer": 8,
+        "bio": "Aryan joined TSA as an 8th grader originally just for fun but quickly found his niche for events such as Senior Solar Sprint and Engineering Design. As your Regional Vice President, he aims to help create a smoother and more enjoyable regional conference for TSA. Aryan enjoys playing tennis, hanging out with his friends, and participating in both outdoor and indoor activities."
+    },
+    {
+        "id": 9,
+        "officer": 11,
+        "bio": "Axum joined TSA in 7th grade at Antioch Middle School and her passion for the organization has led her to continue to participate throughout her time in high school. Having spent the past five years as a member competing in events such as Data Science & Analytics and Webmaster, she looks forward to spending the upcoming year serving on the officer team to hopefully make a long-term impact on the organization. After high school she hopes to go to college and double major in mathematics and neuroscience."
+    },
+    {
+        "id": 10,
+        "officer": 12,
+        "bio": "Sabrina has been in TSA since her freshman year and has found a community as soon as she joined. She is excited that she got the opportunity to be given a leadership position and will use that spot to make sure every member's voice is heard. After she graduates she plans on majoring in civil engineering to further challenge herself in this world of progress."
+    },
+    {
+        "id": 11,
+        "officer": 14,
+        "bio": "Tracy joined TSA her 8th grade year looking to gain programming experiences and find more like-minded peers. Over the years, she's found some of her closest friends and made some of the best memories through TSA and now is looking to bring these experiences to other members as well. She likes attending and hosting hackathons, competing in different competitions, and trying as many new things as she can. After high school, she hopes to attend a 4-year out-of-state college majoring in Computer Science or Electrical Engineering."
+    },
+    {
+        "id": 12,
+        "officer": 15,
+        "bio": "Manya has been in TSA since 8th grade, and she feels honored to hold a leadership position in this organization. She strives to help others achieve their goals, and she is so excited to meet new members and promote the organization across the state. Manya has improved her own confidence and problem solving skills through TSA, so she wants to encourage others to develop and improve their skills. As a state officer, she hopes to make lasting connections and improve Missouri TSA with her fellow officers. After high school, she plans on pursuing a degree in engineering."
+    },
+    {
+        "id": 13,
+        "officer": 16,
+        "bio": "Jason was encouraged to join TSA late freshman year and has since grown to love and appreciate the organization. Throughout the years, he found himself slowly yet effectively understanding how to go about different aspects of TSA. He tries his best to learn from his mistakes, help others, and show qualities of a decent leader. After he graduates, he hopes to attend WashU and WashU Law."
+    },
+    {
+        "id": 14,
+        "officer": 17,
+        "bio": "Riley Pederson joined TSA his sophomore year and has served as his chapter's Reporter for the past 2 years. He has been motivated by all of the friends who he made through TSA and hopes people can be as welcomed as he feels in TSA. After High School, Riley hopes to attend Northwest Missouri State University and major in computer Science and cybersecurity."
+    },
+    {
+        "id": 15,
+        "officer": 18,
+        "bio": "Laila Holmes has been a dedicated member of TSA since 10th grade, holding various leadership positions within her chapter. Through TSA, she has found a true sense of belonging and is committed to developing the Northeast Region by pushing Missouri TSA to reach its full potential. Following graduation, Laila plans to attend a top-tier university to pursue a career in nursing and biomedical engineering."
+    },
+    {
+        "id": 16,
+        "officer": 19,
+        "bio": "David joined Technology Student Association his seventh grade year because his older sister, Valeria, and her friends were in it, and it seemed super fun. He says he is glad his older sister was right because he has loved it ever since. He's glad he has had the opportunity to grow and mature with this association, and be an officer. After high school he plans to live in a big city like New York City or Los Angeles."
+    },
+    {
+        "id": 17,
+        "officer": 20,
+        "bio": "Driven by a passion for engineering and personal growth, Nuriya was excited to find the opportunities that TSA offers. TSA gave her the chance to compete in engineering related events while connecting with peers with the same passion. Since becoming a member during her freshman year, she has enjoyed her experience and the valuable skills and relationships that she has gained. Nuriya hopes that every member is able to pursue their goals, reach their full potential, and create lasting positive impacts through their involvement in TSA."
+    }
+]

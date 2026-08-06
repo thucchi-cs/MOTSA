@@ -7,6 +7,7 @@ export default function events() {
     <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c]">
       <Header page={"events"}></Header>
       <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start"> 
+        {/* Big image at top */}
         <div className="flex flex-col w-full relative">
             <Image
               className="object-cover object-center"
@@ -19,12 +20,14 @@ export default function events() {
             <div className="absolute bg-black/40 z-0 w-full inset-0"></div>
         </div>  
 
+        {/* Calendar button */}
         <div className="flex flex-col w-full justify-between items-center h-full text-black bg-zinc-200 py-3 md:py-10">
           <div className="w-[50%] py-5">
             <QuickLink target={""} link={"/events/calendar"} label={"Calendar of Events 2026- 2027"}></QuickLink>
           </div> 
         </div>
 
+        {/* Overview of events section */}
         <div className="flex flex-col w-full justify-between items-center h-full text-white md:pb-10 md:gap-y-10 py-5 md:py-10">
           <h1 className="text-3xl md:text-4xl text-center px-[5%] pt-10 pb-3 md:pb-0 font-bold">TSA Conferences and Events</h1>
           <p className="text-md text-center md:text-left md:text-xl md:w-[70%] px-5 md:px-15 leading-relaxed">
@@ -38,6 +41,7 @@ export default function events() {
           </p>
         </div>  
 
+        {/* Quick Links section */}
         <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold md:py-15">        
           <h1 className="text-3xl md:text-4xl relative text-left px-[5%] pt-10">Conferences & Events</h1>
           <div className="grid grid-rows-2 grid-cols-2 w-[80%] gap-x-5 gap-y-5 py-5">

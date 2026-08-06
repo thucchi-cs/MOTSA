@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 export default function RegionalConferences() {
+    // Default regiona tab - southwest
     const [conference, setConference] = useState("sw");
 
   return (
@@ -11,6 +12,7 @@ export default function RegionalConferences() {
       <Header page={"events"}></Header>
 
       <main className="flex flex-1 w-full flex-col items-center bg-white"> 
+        {/* Page header section */}
         <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-white">Regional Conferences</h1>
             <p className="text-blue-200 mt-4 max-w-2xl text-base md:text-lg">
@@ -18,6 +20,7 @@ export default function RegionalConferences() {
             </p>
         </div>
 
+        {/* Summary section */}
         <div className="w-full max-w-4xl px-6 py-14 flex flex-col gap-y-14">
             <div>
                 <div className="flex flex-col p-6">
@@ -28,7 +31,9 @@ export default function RegionalConferences() {
             </div>
         </div>
 
+        {/* Regions tabs */}
         <div className="flex flex-col w-full justify-center items-center h-full bg-white">
+            {/* Tab buttons */}
             <div className="flex flex-row items-center justify-center max-w-[90%]">
                 <button className="flex flex-col items-center justify-center w-fit cursor-pointer" onClick={() => setConference("nw")}>
                     <h1 className={"text-xs md:text-2xl px-[5%] md:pt-10 font-bold text-center " + ((conference === "nw") ? "text-black" : "text-zinc-500")}>Northwest Conference</h1>
@@ -47,6 +52,8 @@ export default function RegionalConferences() {
                     <hr className={"w-full h-1 mt-3 " + ((conference==="se") ? "bg-blue-500 border-blue-500": "bg-zinc-300 border-zinc-300")}></hr>
                 </button>
             </div>
+
+            {/* Northwest content */}
             {(conference === "nw") && 
             <>
                 <div className="w-full max-w-4xl px-6 flex flex-col gap-y-14 py-15">
@@ -69,6 +76,8 @@ export default function RegionalConferences() {
                 </div>
             </>
             }
+
+            {/* Northeast content */}
             {(conference === "ne") && 
             <>
                 <div className="w-full max-w-4xl px-6 flex flex-col gap-y-14 py-15">
@@ -91,6 +100,8 @@ export default function RegionalConferences() {
                 </div>
             </>
             }
+
+            {/* Southwest content */}
             {(conference === "sw") && 
             <>
                 <div className="w-full max-w-4xl px-6 flex flex-col gap-y-14 py-15">
@@ -125,6 +136,7 @@ export default function RegionalConferences() {
             </>
             }
 
+            {/* Southeast content */}
             {(conference === "se") && 
             <>
                 <div className="w-full max-w-4xl px-6 flex flex-col gap-y-14 py-15">

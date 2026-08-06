@@ -6,6 +6,7 @@ export default function BrandDesignContest() {
       <Header page={"students"}></Header>
 
       <main className="flex flex-1 w-full flex-col items-center bg-white"> 
+        {/* Page header section */}
         <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
             <h1 className="text-4xl md:text-5xl font-bold text-white">Brand Design Contest</h1>
             <p className="text-blue-200 mt-4 max-w-2xl text-base md:text-lg">
@@ -13,7 +14,9 @@ export default function BrandDesignContest() {
             </p>
         </div>
 
+        {/* Info section */}
         <div className="w-full max-w-4xl px-6 py-14 flex flex-col gap-y-14">
+            {/* Summary */}
             <div>
                 <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
                     <span className="text-2xl"></span>
@@ -25,6 +28,7 @@ export default function BrandDesignContest() {
                 </div>
             </div>
 
+            {/* Rules */}
             <div>
                 <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
                     <span className="text-2xl"></span>
@@ -42,6 +46,7 @@ export default function BrandDesignContest() {
                 </div>
             </div>
 
+            {/* Timeline */}
             <div>
                 <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
                     <span className="text-2xl"></span>
@@ -62,6 +67,7 @@ export default function BrandDesignContest() {
                 </div>
             </div>
 
+            {/* Submission Form */}
             <div className="flex flex-col justify-between items-center gap-y-5 py-5">
                 <a href="/pdf/2026-2027-Missouri-TSA-Brand-Design-Concept-Details.pdf" target="_blank" className="bg-red-500 w-full md:w-[50%] px-5 md:px-0 py-5 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
                     <h1 className="text-center text-sm md:text-xl">Rules & Submission Form&#8594;</h1>

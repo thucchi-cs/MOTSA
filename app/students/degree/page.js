@@ -6,6 +6,7 @@ export default function Degree() {
       <Header page={"students"}></Header>
 
       <main className="flex flex-1 w-full flex-col items-center bg-white"> 
+        {/* Page header section */}
         <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white">Missouri TSA Degree Program</h1>
           <p className="text-blue-200 mt-4 max-w-2xl text-base md:text-lg">
@@ -13,18 +14,23 @@ export default function Degree() {
           </p>
         </div>
 
+        {/* Info section */}
         <div className="w-full max-w-4xl px-6 py-14 flex flex-col gap-y-14">
+            {/* Overview */}
             <div>
                 <div className="flex flex-col p-6">
                     <p className="text-xl text-[#072c5c] leading-relaxed">The Missouri TSA Leadership Degree Program is designed for chapter members to develop and further their knowledge, understanding, and engagement in TSA. Four degree levels are offered with increasing levels of requirements. One degree may be earned per school year at the Fall Leadership Conference.</p>
                 </div>
             </div>
 
+            {/* Different degree levels */}
             <div>
                 <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
                     <h2 className="text-2xl md:text-3xl font-bold text-[#072c5c]">Degree Levels</h2>
                 </div>
+
                 <div className="flex flex-col gap-y-4">
+                    {/* Basic Degree */}
                     <div className="bg-gray-50 border border-gray-200 rounded-lg p-5">
                         <h3 className="text-xl font-bold text-[#072c5c] mb-2">1. Basic Degree</h3>
                         <p className="text-gray-600 leading-relaxed text-lg">
@@ -40,6 +46,7 @@ export default function Degree() {
                         </a>
                     </div>
 
+                    {/* Academic Degree */}
                     <div className="bg-gray-50 border border-gray-200 rounded-lg p-5">
                         <h3 className="text-xl font-bold text-[#072c5c] mb-2">2. Academic Degree</h3>
                         <p className="text-gray-600 leading-relaxed text-lg">
@@ -55,6 +62,7 @@ export default function Degree() {
                         </a>
                     </div>
 
+                    {/* Collegiate Degree */}
                     <div className="bg-gray-50 border border-gray-200 rounded-lg p-5">
                         <h3 className="text-xl font-bold text-[#072c5c] mb-2">3. Collegiate Degree</h3>
                         <p className="text-gray-600 leading-relaxed text-lg">
@@ -70,6 +78,7 @@ export default function Degree() {
                         </a>
                     </div>
 
+                    {/* Scholar Degree */}
                     <div className="bg-gray-50 border border-gray-200 rounded-lg p-5">
                         <h3 className="text-xl font-bold text-[#072c5c] mb-2">4. Scholar Degree</h3>
                         <p className="text-gray-600 leading-relaxed text-lg">

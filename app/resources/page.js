@@ -6,6 +6,7 @@ export default function Resources() {
     <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c]">
       <Header page={"resources"}></Header>
       <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start"> 
+        {/* Quick link */}
         <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold md:py-10">
           <h1 className="text-3xl md:text-5xl relative text-left px-[5%] pt-15">Resources</h1>
             <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-7 gap-y-7 py-8 md:py-15 px-5 md:px-30">

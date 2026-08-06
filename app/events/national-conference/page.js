@@ -9,6 +9,7 @@ export default function NationalConference() {
       <Header page={"events"}></Header>
 
       <main className="flex flex-1 w-full flex-col items-center bg-white"> 
+        {/* Page header section */}
         <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white">National Conference</h1>
           <p className="text-blue-200 mt-4 max-w-2xl text-base md:text-lg">
@@ -16,6 +17,7 @@ export default function NationalConference() {
           </p>
         </div>
 
+        {/* Summary section */}
         <div className="w-full max-w-4xl px-6 py-14 flex flex-col gap-y-14">
             <div>
                 <div className="flex flex-col p-6">
@@ -26,7 +28,9 @@ export default function NationalConference() {
             </div>
         </div>
 
+        {/* This year's info */}
         <div className="w-full max-w-7xl px-6 flex flex-col gap-y-14">
+            {/* Overview */}
             <div>
                 <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
                     <span className="text-2xl"></span>
@@ -70,6 +74,7 @@ export default function NationalConference() {
                 </div>
             </div>
 
+            {/* National details & links */}
             <div className="pb-20">
                 <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
                     <span className="text-2xl"></span>

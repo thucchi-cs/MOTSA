@@ -1,0 +1,780 @@
+[
+    {
+        "lvl": "high",
+        "events": [
+            {
+                "id": 2,
+                "lvl": "high",
+                "title": "Animatronics",
+                "descr": "To address the annual design challenge, participants exhibit and demonstrate their knowledge of mechanical and control systems by creating an animatronic device with a specific purpose (i.e., communicate an idea, entertain, demonstrate a concept, etc.) that includes sound, lights, and an appropriate surrounding environment (a display).",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "animatronics.pdf"
+            },
+            {
+                "id": 3,
+                "lvl": "high",
+                "title": "Architectural Design",
+                "descr": "In response to the annual design challenge, participants develop a set of architectural plans and related materials, and construct both a physical and computer-generated model to accurately depict their design. Semifinalists deliver a presentation and participate in an interview.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "architectural-design.pdf"
+            },
+            {
+                "id": 4,
+                "lvl": "high",
+                "title": "Audio Podcasting",
+                "descr": "Participants use digital audio technology to create original content for a podcast piece that addresses the annual theme. The podcast must feature high level storytelling techniques, voice acting, and folly sound effects; the full entry must include documentation of the podcast development process and elements. Semifinalists participate in an interview.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "audio-podcasting.pdf"
+            },
+            {
+                "id": 5,
+                "lvl": "high",
+                "title": "Biotechnology Design",
+                "descr": "Participants select a contemporary biotechnology problem that addresses the annual theme and demonstrates understanding of the topic through documented research, the development of a solution, a display (including an optional model or prototype), and an effective multimedia presentation. Semifinalists deliver a presentation and participate in an interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "biotechnology-design.pdf"
+            },
+            {
+                "id": 6,
+                "lvl": "high",
+                "title": "Board Game Design",
+                "descr": "Participants develop, build, and package a board game that focuses on a subject of their choice. Creative packaging, and the instructions, pieces, and cards associated with the pilot game will be evaluated. Semifinalists set up the game, demonstrate how the game is played, explain the game's features, and discuss the design process.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "board-game-design.pdf"
+            },
+            {
+                "id": 7,
+                "lvl": "high",
+                "title": "Chapter Team",
+                "descr": "Participants take a parliamentary procedure test to qualify for the semifinal round of competition. Semifinalists conduct an opening ceremony, items of business, parliamentary actions, and a closing ceremony.",
+                "test": true,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "chapter-team.pdf"
+            },
+            {
+                "id": 8,
+                "lvl": "high",
+                "title": "Children's Stories",
+                "descr": "In response to the annual theme, participants create an illustrated children's story of artistic, instructional, and social value, and submit documentation related to the development of the physical storybook. Semifinalists read their story aloud and participate in an interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "childrens-stories.pdf"
+            },
+            {
+                "id": 9,
+                "lvl": "high",
+                "title": "Coding",
+                "descr": "Participants take a test, which concentrates on aspects of coding, to qualify for the semifinal round of competition. Semifinalists develop a software program - in a designated amount of time - that accurately addresses an onsite problem.",
+                "test": true,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "coding.pdf"
+            },
+            {
+                "id": 10,
+                "lvl": "high",
+                "title": "Computer-Aided Design (CAD), Architecture",
+                "descr": "Participants use complex computer graphic skills, tools, and processes to respond to a design challenge in which they develop representations of architectural subjects, such as foundation and/or floor plans, and/or elevation drawings, and/or details of architectural ornamentation or cabinetry. The solution to the design challenge and participant answers in an interview are evaluated.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "cad-architecture.pdf"
+            },
+            {
+                "id": 11,
+                "lvl": "high",
+                "title": "Computer-Aided Design (CAD), Engineering",
+                "descr": "Participants use complex computer graphic skills, tools, and processes to respond to a design challenge in which they develop three-dimensional representations of engineering subjects, such as a machine part, tool, device, or manufactured product. The solution to the design challenge and participant answers in an interview are evaluated.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "cad-engineering.pdf"
+            },
+            {
+                "id": 12,
+                "lvl": "high",
+                "title": "Data Science and Analytics",
+                "descr": "Participants identify a societal issue, collect or compile data from various sources about the issue, and then produce documentation and a digital scientific poster about their findings. Semifinalists create a synopsis and digital visual representation of a data set provided in an onsite challenge.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "data-science-and-analytics.pdf"
+            },
+            {
+                "id": 13,
+                "lvl": "high",
+                "title": "Debating Technological Issues",
+                "descr": "Participants research the annual topic and subtopics and prepare for a debate against a team from another chapter. Teams are instructed to take either the pro or con side of a selected subtopic, submit a summary of references, and use their research to support their assigned position. The quality of a team's debate determines semifinalists and finalists.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "debating-technological-issues.pdf"
+            },
+            {
+                "id": 14,
+                "lvl": "high",
+                "title": "Digital Video Production",
+                "descr": "Participants develop and submit a digital video and a documentation portfolio (including such items as a storyboard, script, summary of references and sources, and equipment list) that reflects the annual theme. Semifinalists participate in an interview.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "digital-video-production.pdf"
+            },
+            {
+                "id": 15,
+                "lvl": "high",
+                "title": "Dragster Design",
+                "descr": "Participants design, draw, and construct a CO2-powered dragster that adheres to specifications, design and documentation requirements, and the annual theme. Semifinalists compete in a double-elimination race and participate in an interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "dragster-design.pdf"
+            },
+            {
+                "id": 16,
+                "lvl": "high",
+                "title": "Drone Challenge (UAV)",
+                "descr": "Participants design, build, assemble, document, and test fly an open-source Unmanned Arial Vehicle (UAV) according to the stated annual theme/problem specifications. The required documentation portfolio must include elements such as a photographic log, wiring schematics, and a description of the programming software used. Semifinalists participate in an interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "drone-challenge.pdf"
+            },
+            {
+                "id": 17,
+                "lvl": "high",
+                "title": "Engineering Design",
+                "descr": "Participants develop a solution to an annual theme that is based on a specific challenge noted by the National Academy of Engineering (NAE) in its compilation of the grand challenges for engineering in the 21st century. The solution will include a documentation portfolio, a display, and a model/prototype. Semifinalists deliver a presentation and participate in an interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "engineering-design.pdf"
+            },
+            {
+                "id": 18,
+                "lvl": "high",
+                "title": "Extemporaneous Speech",
+                "descr": "Participants select a technology-related or TSA topic from among three topic cards and prepare and give a three-to-five-minute speech that communicates their knowledge of the chosen topic. The quality of the speech determines advancement to the semifinalist level of competition, for which an identical competition procedure is followed to determine finalists.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "extemporaneous-speech.pdf"
+            },
+            {
+                "id": 19,
+                "lvl": "high",
+                "title": "Fashion Design and Technology",
+                "descr": "To address the annual theme, participants demonstrate expertise in fashion design principles by creating a wearable garment, garment patterns, and a documentation portfolio. Semifinalist teams present their garment designs (worn by team models), discuss the design process with evaluators, and respond to interview questions.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "fashion-design-and-technology.pdf"
+            },
+            {
+                "id": 20,
+                "lvl": "high",
+                "title": "Flight Endurance",
+                "descr": "Participants design, build, fly, and adjust (trim) a rubber-band powered model aircraft to make long endurance flights inside a contained airspace. Documentation (including elements such as attributes of the model design, drawings, and an analysis of the trim modifications), an inspection of the model and the required model flight box, and official times for two flights are aspects of the evaluation",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "flight-endurance.pdf"
+            },
+            {
+                "id": 21,
+                "lvl": "high",
+                "title": "Forensic Science",
+                "descr": "Participants take a test of basic forensic science to qualify for the semifinal round of competition. Semifinalists examine a mock crime scene and demonstrate their knowledge of forensic science through crime scene analysis, with the findings synthesized in a written report/analysis.",
+                "test": true,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "forensic-science.pdf"
+            },
+            {
+                "id": 22,
+                "lvl": "high",
+                "title": "Future Technology Teacher",
+                "descr": "Participants research a developing technology, prepare a video showing an application of the technology in the classroom, and create a lesson plan/activity that features the application and connects to the Standards for Technological and Engineering Literacy (STEL), as well as STEM initiatives and integration. Semifinalists demonstrate the lesson plan and answer questions about their presentation.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "future-technology-teacher.pdf"
+            },
+            {
+                "id": 23,
+                "lvl": "high",
+                "title": "Geospatial Technology",
+                "descr": "To address the issue presented in an annual theme, participants interpret geospatial data and develop a digital portfolio containing maps, data, and pertinent documentation. Semifinalists defend their projections and visual infographic during a presentation/interview.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "geospatial-technology.pdf"
+            },
+            {
+                "id": 24,
+                "lvl": "high",
+                "title": "Manufacturing Prototype",
+                "descr": "Participants design, fabricate, and use Computer Integrated Manufacturing (CIM) to create a product that addresses the annual theme. A documentation portfolio and the completed product prototype are submitted for evaluation. Semifinalists give a product “sales pitch” and demonstration.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "manufacturing-prototype.pdf"
+            },
+            {
+                "id": 25,
+                "lvl": "high",
+                "title": "Music Production",
+                "descr": "Participants produce an original musical piece that reﬂects the annual theme on the TSA website under Themes & Problems. The quality of the musical piece and required documentation (including elements such as a plan of work, self-evaluation, and a list of hardware, software, and instruments used) determines advancement to the semifinal level of competition, during which semifinalist participants are interviewed.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "music-production.pdf"
+            },
+            {
+                "id": 26,
+                "lvl": "high",
+                "title": "On Demand Video",
+                "descr": "Once participants receive the challenge details (required criteria, such as props and a line of dialogue) at the national TSA conference, they have 36 hours to produce a 60-second film that showcases video skills, tools, and communication processes. The quality of the completed video production determines the finalists.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "on-demand-video.pdf"
+            },
+            {
+                "id": 27,
+                "lvl": "high",
+                "title": "Photographic Technology",
+                "descr": "Participants produce a photographic portfolio - demonstrating expertise in photo and imaging technology processes - to convey a message based on the annual theme. Semifinalists have 24 hours to complete a portfolio of photos (with required documentation) taken onsite at the national TSA conference. Finalists are determined based on the quality of the semifinal portfolio, the portfolio presentation, and interview responses.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "photographic-technology.pdf"
+            },
+            {
+                "id": 28,
+                "lvl": "high",
+                "title": "Prepared Presentation",
+                "descr": "Participants deliver a three-to-five-minute oral presentation related to the current national TSA conference theme. Both semifinalists and finalists are determined based on the quality of the presentation and the appropriate use and content of the accompanying required slide deck.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "prepared-presentation.pdf"
+            },
+            {
+                "id": 29,
+                "lvl": "high",
+                "title": "Promotional Design",
+                "descr": "Participants use computerized graphic communications layout and design skills to produce a promotional resource packet. The resource must address the annual theme/problem and include at least four printed publication items and required documentation. Semifinalists demonstrate publishing competency in an onsite technical design challenge.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "promotional-design.pdf"
+            },
+            {
+                "id": 30,
+                "lvl": "high",
+                "title": "Robotics",
+                "descr": "Participants design, build, document, and test a robot assembled using open-sourced parts according to stated specifications and to meet the challenge of the yearly theme/problem.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "robotics.pdf"
+            },
+            {
+                "id": 31,
+                "lvl": "high",
+                "title": "Senior Solar Sprint",
+                "descr": "Students apply scientific understanding, creativity, experimentation, and teamwork to design, build, and race a model solar vehicle that carries a payload. Documentation of the process is required.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "senior-solar-sprint.pdf"
+            },
+            {
+                "id": 32,
+                "lvl": "high",
+                "title": "Software Development",
+                "descr": "Participants use their knowledge of cutting-edge technologies, algorithm design, problem-solving principles, effective communication, and collaboration to design, implement, test, document, and present a software development project of educational or social value. Both semifinalists and finalists are determined based on the quality of the presentation and project.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "software-development.pdf"
+            },
+            {
+                "id": 33,
+                "lvl": "high",
+                "title": "STEM Mass Media",
+                "descr": "In response to an annual theme, participants use written and verbal communication skills to convey a news story in both a video broadcast (preliminary round) and a digital written format (semifinal round). Participants must demonstrate a strong understanding of journalism etiquette and the common practices of the field of mass media.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "stem-mass-media.pdf"
+            },
+            {
+                "id": 34,
+                "lvl": "high",
+                "title": "Structural Design and Engineering",
+                "descr": "Participants apply the principles of structural engineering to design and construct a structure that complies with the annual challenge. An assessment of the required documentation and the destructive testing of the structure (to determine its design efficiency) determine both semifinalists and finalists.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "structural-design-and-engineering.pdf"
+            },
+            {
+                "id": 35,
+                "lvl": "high",
+                "title": "System Control Technology",
+                "descr": "Participants develop a solution to a problem (typically one from an industrial setting) presented onsite at the conference. They analyze the problem, build a computer-controlled mechanical model, program the model, demonstrate the programming and mechanical features of the model-solution in an interview, and provide instructions for evaluators to operate the model.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "system-control-technology.pdf"
+            },
+            {
+                "id": 36,
+                "lvl": "high",
+                "title": "Technology Bowl",
+                "descr": "Participants demonstrate their knowledge of TSA and concepts addressed in technology content standards by completing an objective test. Semifinalist teams participate in a question/response, head-to-head, team competition.",
+                "test": true,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "technology-bowl.pdf"
+            },
+            {
+                "id": 37,
+                "lvl": "high",
+                "title": "Technology Problem Solving",
+                "descr": "Participants use problem-solving skills to design and construct a finite solution to a challenge provided onsite at the conference. Solutions are evaluated at the end of 90 minutes using measures appropriate to the challenge, such as elapsed time, horizontal or vertical distance, and/or strength.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "technology-problem-solving.pdf"
+            },
+            {
+                "id": 38,
+                "lvl": "high",
+                "title": "Transportation Modeling",
+                "descr": "Participants research, design, and produce a scale model of a vehicle that complies with the annual design problem. A display for the model and a documentation portfolio - containing elements such as a description of the vehicle, photographs and commentary detailing the vehicle production, and technical illustrations - are required. Semifinalists participate in an interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "transportation-modeling.pdf"
+            },
+            {
+                "id": 39,
+                "lvl": "high",
+                "title": "Video Game Design",
+                "descr": "Participants design, build, and launch an E-rated online video game - with accompanying required documentation - that addresses the annual theme. Semifinalists participate in an interview to demonstrate the knowledge and expertise they gained during the development of the game.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "video-game-design.pdf"
+            },
+            {
+                "id": 40,
+                "lvl": "high",
+                "title": "Virtual Reality Simulation (VR)",
+                "descr": "Participants use video and 3D computer graphics tools and design processes to create a two-to-three-minute VR visualization (accompanied by supporting documentation) that addresses the annual theme. Semifinalists deliver a presentation about their visualization and participate in an interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "virtual-reality-simulation.pdf"
+            },
+            {
+                "id": 41,
+                "lvl": "high",
+                "title": "Webmaster",
+                "descr": "Participants design, build, and launch a website that addresses the annual challenge. Semifinalists participate in an interview to demonstrate the knowledge and expertise gained during the development of the website.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "webmaster.pdf"
+            }]
+    },
+    {
+        "lvl": "middle",
+        "events": [
+            {
+                "id": 42,
+                "lvl": "middle",
+                "title": "Audio Podcasting",
+                "descr": "Participants use digital audio technology to create original content for a podcast piece that addresses the annual theme. The podcast must feature high level storytelling techniques, voice acting, and folly sound effects. The full entry must include documentation of the podcast development process and elements. Semifinalists complete an onsite challenge to produce an additional podcast(s).",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "audio-podcasting.pdf"
+            },
+            {
+                "id": 43,
+                "lvl": "middle",
+                "title": "Biotechnology",
+                "descr": "To address the annual theme, participants select a contemporary biotechnology issue and demonstrate understanding of the topic through their documented research and an original display. Semifinalists participate in an interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "biotechnology.pdf"
+            },
+            {
+                "id": 44,
+                "lvl": "middle",
+                "title": "Career Prep",
+                "descr": "Based on the annual theme, participants conduct research on a technology-related career, prepare a letter of introduction to a potential employer, and develop a job-specific resume. Semifinalists participate in a mock job interview.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "career-prep.pdf"
+            },
+            {
+                "id": 45,
+                "lvl": "middle",
+                "title": "Challenging Technology Issues",
+                "descr": "Following the onsite random selection of a technology topic from a group of pre-conference posted topics, participants work to prepare for and deliver a debate-style presentation, in which they explain opposing views of the selected topic.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "challenging-technology-issues.pdf"
+            },
+            {
+                "id": 46,
+                "lvl": "middle",
+                "title": "Chapter Team",
+                "descr": "Participants take a parliamentary procedure test to qualify for the semifinal round of competition. Semifinalists conduct an opening ceremony, items of business, parliamentary actions, and a closing ceremony.",
+                "test": true,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "chapter-team.pdf"
+            },
+            {
+                "id": 47,
+                "lvl": "middle",
+                "title": "Children's Stories",
+                "descr": "Participants create an illustrated children's story based on the annual theme. The entry product is a physical storybook of artistic, instructional, and social value. Semifinalists read their story aloud and participate in an interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "childrens-stories.pdf"
+            },
+            {
+                "id": 48,
+                "lvl": "middle",
+                "title": "Coding",
+                "descr": "To qualify for the semifinal round of competition, participants take a test that concentrates on computer science and coding. Semifinalists demonstrate their programming knowledge by developing a solution to an onsite coding challenge.",
+                "test": true,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "coding.pdf"
+            },
+            {
+                "id": 49,
+                "lvl": "middle",
+                "title": "Community Service Video",
+                "descr": "Participants create a video that depicts the local TSA chapter's involvement in a community service project. Semifinalists deliver a presentation on the project and participate in an interview.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "community-service-video.pdf"
+            },
+            {
+                "id": 50,
+                "lvl": "middle",
+                "title": "Computer Aided Design (CAD) Foundations",
+                "descr": "Participants demonstrate their understanding of CAD fundamentals by creating a two-dimensional (2D) graphic representation of an engineering part or object and answering questions from evaluators about their entry.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "cad-foundations.pdf"
+            },
+            {
+                "id": 51,
+                "lvl": "middle",
+                "title": "Construction Challenge",
+                "descr": "Participants submit a scale model, display, and documentation portfolio for a design idea and plan for their construction solution based on the annual theme. Semifinalists deliver a presentation about their entry and participate in an interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "construction-challenge.pdf"
+            },
+            {
+                "id": 52,
+                "lvl": "middle",
+                "title": "Cybersecurity",
+                "descr": "Participants take a test that assesses knowledge of cybersecurity vocabulary and the skills needed to execute common cybersecurity tasks. Using digital presentation software, semifinalists deliver a presentation that addresses the annual theme/problem.",
+                "test": true,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "cybersecurity.pdf"
+            },
+            {
+                "id": 53,
+                "lvl": "middle",
+                "title": "Data Science and Analytics",
+                "descr": "Participants conduct research on the annual topic and analyze the provided data set, document their research in supporting portfolio, and create a display. Semifinalist teams participate in an onsite presentation highlighting their pre-conference submission.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "data-science-and-analytics.pdf"
+            },
+            {
+                "id": 54,
+                "lvl": "middle",
+                "title": "Digital Photography",
+                "descr": "Participants produce and submit a digital photographic portfolio that relates to the annual theme. Semifinalists participate in an onsite photographic challenge and a presentation/interview.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "digital-photography.pdf"
+            },
+            {
+                "id": 55,
+                "lvl": "middle",
+                "title": "Dragster",
+                "descr": "Participants design, draw, and construct a CO2-powered dragster that adheres to the annual specifications, design and documentation requirements, and theme. Semifinalists participate in an interview and compete in a double-elimination race.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "dragster.pdf"
+            },
+            {
+                "id": 56,
+                "lvl": "middle",
+                "title": "Drone Challenge (UAV)",
+                "descr": "Teams study the principles of flight and research the use of drones to address an annual theme. They demonstrate their knowledge of drones in manual flight missions and create a documentation portfolio. Semifinalists participate in an onsite interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "drone-challenge.pdf"
+            },
+            {
+                "id": 57,
+                "lvl": "middle",
+                "title": "Electrical Applications",
+                "descr": "Participants take a test on basic electrical and electronic theory. In response to an onsite challenge, semifinalists assemble a specified circuit from a schematic diagram, make required electrical measurements, and explain their solution in an interview.",
+                "test": true,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "electrical-applications.pdf"
+            },
+            {
+                "id": 58,
+                "lvl": "middle",
+                "title": "Flight",
+                "descr": "Participants submit a documentation portfolio and fabricate a glider designed to stay in flight for the greatest elapsed time. Semifinalists use their technical drawing skills to construct a glider that is flown onsite.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "flight.pdf"
+            },
+            {
+                "id": 59,
+                "lvl": "middle",
+                "title": "Forensic Technology",
+                "descr": "Participants take a test of basic forensic science theory to qualify for the semifinal round of competition. Semifinalists participate in an onsite forensic skills demonstration.",
+                "test": true,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "forensic-technology.pdf"
+            },
+            {
+                "id": 60,
+                "lvl": "middle",
+                "title": "Inventions and Innovations",
+                "descr": "Participants research a need - and brainstorm a solution - for an invention or innovation that can be produced using recycled materials. Participants document their work in an interactive display and create a model/prototype. Semifinalists deliver a presentation about their work and participate in an interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "inventions-and-innovations.pdf"
+            },
+            {
+                "id": 61,
+                "lvl": "middle",
+                "title": "Leadership Strategies",
+                "descr": "Participants prepare for and deliver a presentation about a specific challenge that officers of a TSA chapter might encounter. Semifinalists follow the same competition procedure but must respond to a different chapter challenge.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "leadership-strategies.pdf"
+            },
+            {
+                "id": 62,
+                "lvl": "middle",
+                "title": "Mass Production",
+                "descr": "Participants manufacture a marketable product that addresses the annual theme. The development of the product prototype is documented in a portfolio that presents participant knowledge and skills related to the mass production process. Through a demonstration of the prototype and an interview, semifinalists support the viability of the prototype.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "mass-production.pdf"
+            },
+            {
+                "id": 63,
+                "lvl": "middle",
+                "title": "Mechanical Engineering",
+                "descr": "Participants design, document, and build a mechanical device (working catapult) that incorporates the elements of the annual theme/problem. Finalists are determined based on an evaluation of the documentation portfolio and participation in a head-to-head bracket.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "mechanical-engineering.pdf"
+            },
+            {
+                "id": 64,
+                "lvl": "middle",
+                "title": "Medical Technology",
+                "descr": "Participants conduct research on a contemporary medical technology issue related to the annual theme, document their research, create a display, and build a prototype. Semifinalists deliver a presentation about their entry and participate in an interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "medical-technology.pdf"
+            },
+            {
+                "id": 65,
+                "lvl": "middle",
+                "title": "Microcontroller Design",
+                "descr": "To address the annual theme/problem, participants design and create a working digital device, document the development process, and demonstrate their product as part of a presentation.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "microcontroller-design.pdf"
+            },
+            {
+                "id": 66,
+                "lvl": "middle",
+                "title": "Off the Grid",
+                "descr": "In response to the annual theme, participants conduct research on a sustainable architectural design for a home in a specified country. They then produce a portfolio and create a display and a model. Semifinalists present their design and participate in an interview.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "off-the-grid.pdf"
+            },
+            {
+                "id": 67,
+                "lvl": "middle",
+                "title": "Prepared Speech",
+                "descr": "Participants deliver a timed speech that relates to the theme of the current national TSA conference. Semifinalists and finalists are determined using the same competition procedure.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "prepared-speech.pdf"
+            },
+            {
+                "id": 68,
+                "lvl": "middle",
+                "title": "Problem Solving",
+                "descr": "Participants use problem-solving skills to design and build a solution to an onsite challenge. Solutions are evaluated using measures appropriate to the challenge, such as elapsed time, horizontal or vertical distance, and/or strength.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "problem-solving.pdf"
+            },
+            {
+                "id": 69,
+                "lvl": "middle",
+                "title": "Promotional Marketing",
+                "descr": "Participants create and submit a marketing portfolio and required elements that address the annual theme/problem. Semifinalists complete a layout and design assignment for evaluation.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "promotional-marketing.pdf"
+            },
+            {
+                "id": 70,
+                "lvl": "middle",
+                "title": "Robotics",
+                "descr": "Participants design, build, document, and test a robot assembled using open-sourced parts according to stated specifications and to meet the challenge of the yearly theme/problem.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "robotics.pdf"
+            },
+            {
+                "id": 71,
+                "lvl": "middle",
+                "title": "Solar Racer",
+                "descr": "Participants apply STEM concepts, creativity, teamwork, and problem-solving skills to design, construct, and race a solar-powered model car. Documentation of the process is required.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "solar-racer.pdf"
+            },
+            {
+                "id": 72,
+                "lvl": "middle",
+                "title": "STEM Animation",
+                "descr": "Participants design and create a STEM animation video and documentation portfolio to address the annual theme/problem. Semifinalists present their animation and explain the elements of their portfolio/entry.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "stem-animation.pdf"
+            },
+            {
+                "id": 73,
+                "lvl": "middle",
+                "title": "Structural Engineering",
+                "descr": "Participants apply the principles of structural engineering to design and construct a structure that complies with the annual challenge. An assessment of the required documentation and the destructive testing of the structure (to determine its design efficiency) determine both semifinalists and finalists.",
+                "test": true,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "structural-engineering.pdf"
+            },
+            {
+                "id": 74,
+                "lvl": "middle",
+                "title": "System Control Technology",
+                "descr": "In response to a challenge presented onsite at the conference, participants analyze a problem (typically one in an industrial setting), build and program a computer-controlled mechanical model to solve the problem, explain the program and the features of the mechanical model solution, and provide instructions for evaluators to operate the device.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "system-control-technology.pdf"
+            },
+            {
+                "id": 75,
+                "lvl": "middle",
+                "title": "Tech Bowl",
+                "descr": "Participants demonstrate their knowledge of TSA and concepts addressed in technology content standards by completing an objective test. Semifinalists participate in a head-to-head, team competition.",
+                "test": true,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "tech-bowl.pdf"
+            },
+            {
+                "id": 76,
+                "lvl": "middle",
+                "title": "Technical Design",
+                "descr": "Participants demonstrate their ability to use the technical design process to solve an engineering design problem provided onsite at the conference. Required elements of the entry are presented in a portfolio that includes technical drawings for a minimum of three viable solutions.",
+                "test": false,
+                "submission": false,
+                "deadline": "None",
+                "rubric": "technical-design.pdf"
+            },
+            {
+                "id": 77,
+                "lvl": "middle",
+                "title": "Video Game Design",
+                "descr": "Participants design, build, provide documentation for, and launch an E-rated, online game on a subject of their choice. Onsite at the conference, semifinalists deliver a presentation and participate in an interview to demonstrate the knowledge and expertise gained during the development of the game.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "video-game-design.pdf"
+            },
+            {
+                "id": 78,
+                "lvl": "middle",
+                "title": "Website Design",
+                "descr": "To address the annual challenge, participants design, build, provide documentation for, and launch a website that incorporates the elements of website design, graphic layout, and proper coding techniques. Semifinalists participate in an interview to demonstrate the knowledge and expertise gained during the development of the website.",
+                "test": false,
+                "submission": true,
+                "deadline": "March 27, 2026",
+                "rubric": "website-design.pdf"
+            }]
+    }
+]

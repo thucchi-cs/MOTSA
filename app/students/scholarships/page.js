@@ -5,6 +5,7 @@ export default function Scholarships() {
     <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c]">
       <Header page={"students"}></Header>
       <main className="flex flex-1 w-full flex-col items-center bg-white"> 
+        {/* Page header section */}
         <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white">Scholarships</h1>
           <p className="text-blue-200 mt-4 max-w-2xl text-base md:text-lg">
@@ -12,7 +13,9 @@ export default function Scholarships() {
           </p>
         </div>
 
+        {/* Info section */}
         <div className="w-full max-w-4xl px-6 py-14 flex flex-col gap-y-14">
+          {/* Overview */}
           <div>
             <div className="flex flex-col p-6">
               <p className="text-xl text-[#072c5c] leading-relaxed">Current and active high school senior Missouri TSA members that meet the qualification criteria may apply for a scholarship that will go towards their first year of college.</p>
@@ -23,6 +26,7 @@ export default function Scholarships() {
             </div>
           </div>
 
+          {/* List of scholarships */}
           <div>
             <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
               <span className="text-2xl"></span>
@@ -40,6 +44,7 @@ export default function Scholarships() {
             </div>
           </div>
 
+          {/* Link to application */}
           <a href="/pdf/Missouri_TSA_2026-2027_Scholarship_Application.pdf" target="_blank" className="bg-red-500 md:w-[50%] px-5 md:px-0 h-10 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
             <h1 className="text-sm md:text-xl">Scholarship Application &#8594;</h1>
           </a>

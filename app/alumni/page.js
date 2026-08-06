@@ -1,20 +1,13 @@
 import Header from "@/components/Header";
 import MemberDisp from "@/components/MemberDisp";
-import { sql } from "@/lib/db";
+import { promises as fs } from 'fs';
 
 export default async function Alumni() {
 
-  const years = await sql `SELECT DISTINCT year_elected FROM officers WHERE year_elected<26 ORDER BY year_elected DESC`;
-  console.log(years);
-  const allOfficers = await sql `SELECT * FROM officers WHERE year_elected<26 ORDER BY id`;
-  let pastOfficers = [];
-  for (const year of years) {
-    pastOfficers.push({year:year.year_elected, officers:allOfficers.filter(o => o.year_elected === year.year_elected)});
-  }
-  console.log(pastOfficers);
-  for (const year of pastOfficers) {
-    console.log(year.officers)
-  }
+  // Get data from json db
+  const fileContents = await fs.readFile('./data/officers.json', 'utf8');
+  const officers = JSON.parse(fileContents);
+  const pastOfficers = officers.filter(team => team.year_elected !== "26");
 
   return (
     <div className="flex flex-col items-center justify-center font-sans bg-[#072c5c]">
@@ -30,7 +23,7 @@ export default async function Alumni() {
         <div className="w-full max-w-6xl px-6 py-14 flex flex-col gap-y-14">
           {pastOfficers.map((year, index) => (
             <div key={index} className="flex flex-col w-full justify-center items-center h-full px-10 py-6 gap-y-5 md:gap-y-10">
-              <h1 className="text-2xl md:text-4xl text-center font-bold underline text-[#0b4188]">{`20${year.year}-20${parseInt(year.year)+1}`}</h1>
+              <h1 className="text-2xl md:text-4xl text-center font-bold underline text-[#0b4188]">{`20${year.year_elected}-20${parseInt(year.year_elected)+1}`}</h1>
               <div className="md:grid md:grid-cols-2 gap-10 md:gap-15 items-center justify-center md:w-[70%]">
                 {year.officers.map((officer, index) => (
                   <MemberDisp key={index} name={officer.name} lines={[officer.position, officer.school]}></MemberDisp>

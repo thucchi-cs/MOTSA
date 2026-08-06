@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 
+// bunch of info
 const sections = [
   {
     title: "National TSA Week",

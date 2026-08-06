@@ -6,12 +6,15 @@ export default function Apply() {
     <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c] overflow-x-hidden">
       <Header page={"students"}></Header>
       <main className="flex flex-1 w-full flex-col items-center bg-white"> 
+        {/* Page header section */}
         <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white">Apply for Office</h1>
           <p className="text-blue-200 mt-4 max-w-2xl text-base md:text-lg">
             Become a leader for the Missouri TSA community!
           </p>
         </div>
+
+        {/* Info section */}
         <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white md:py-20">
           <div className="flex flex-col md:flex-row w-full justify-center items-center h-full md:px-40 py-10">
             <Image

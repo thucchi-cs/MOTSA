@@ -8,6 +8,8 @@ export default function Home() {
     <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c] overflow-x-hidden">
       <Header page={"home"}></Header>
       <main className="flex flex-1 w-full flex-col items-center justify-between sm:items-start">
+
+        {/* Big image section at the top */}
         <div className="flex flex-col w-full relative">
             <Image
               className="object-cover object-center h-60 md:h-auto"
@@ -28,6 +30,7 @@ export default function Home() {
           </div>  
         </div> 
 
+        {/* Recent Updates Section */}
         <div className="flex flex-col w-full justify-between items-center h-full text-black bg-white md:py-15">
           <h1 className="text-3xl md:text-5xl px-[5%] pt-10 md:pt-15 font-bold text-center">Recent Updates</h1>
           <div className="w-full overflow-x-auto md:overflow-x-hidden">
@@ -40,6 +43,7 @@ export default function Home() {
           </div>
         </div>
 
+        {/* Short Intro Section */}
         <div className="flex flex-col w-full justify-between items-center h-full text-white py-15 md:py-30">
           <div className="flex flex-col md:flex-row w-full px-5 md:px-10 justify-between items-center h-full">
             <Image
@@ -70,7 +74,8 @@ export default function Home() {
             </div>
           </div>
         </div> 
-
+        
+        {/* Quick Links Section */}
         <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold md:py-15">
           <h1 className="text-3xl md:text-5xl relative text-left px-[5%] pt-15">Quick Links</h1>
           <div className="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 w-full overflow-x-auto py-5 md:py-10 px-5 md:px-30 md:gap-x-15 gap-y-5 md:gap-y-0">
