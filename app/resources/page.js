@@ -14,8 +14,8 @@ export default function Resources() {
               <QuickLink target={""} link={"/students/competitive-events"} label={"Competitive Events"}></QuickLink>
               {/* <QuickLink target={""} link={"/students/degree"} label={"Degree Program"}></QuickLink> */}
               {/* <QuickLink target={""} link={"/resources/winners"} label={"Past Winners"}></QuickLink> */}
-              <QuickLink target={""} link={"/resources/awards"} label={"Outstanding Awards"}></QuickLink>
-              <QuickLink target={""} link={"/resources/newsletter"} label={"Newsletter"}></QuickLink>
+              <QuickLink target={""} link={"/resources/awards"} label={"Outstanding Member Awards"}></QuickLink>
+              <QuickLink target={""} link={"/resources/newsletter"} label={"ENewsletter"}></QuickLink>
               <QuickLink target={""} link={"/resources/billing"} label={"Billing/Late Fee"}></QuickLink>
               <QuickLink target={""} link={"/resources/bylaws"} label={"Bylaws"}></QuickLink>
               <QuickLink target={""} link={"/events/calendar"} label={"Calendar"}></QuickLink>

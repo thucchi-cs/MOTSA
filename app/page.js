@@ -93,7 +93,7 @@ export default function Home() {
               <p className="text-xl md:text-3xl text-center underline">General</p>
               <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-5 gap-y-5 py-5">
                 <QuickLink target={""} link={"/events/calendar"} label={"Calendar"}></QuickLink>
-                <QuickLink target={""} link={"/resources/newsletter"} label={"Newsletter"}></QuickLink>
+                <QuickLink target={""} link={"/resources/newsletter"} label={"ENewsletter"}></QuickLink>
                 {/* <QuickLink target={""} link={"/resources/winners"} label={"Past Winners"}></QuickLink> */}
                 <QuickLink target={""} link={"/resources/gallery"} label={"Gallery"}></QuickLink>
                 <QuickLink target={""} link={"/advisors/resources"} label={"Chapter Resources"}></QuickLink>

@@ -8,7 +8,7 @@
                 "abbr": "president",
                 "name": "Axumait Yared",
                 "school": "Staley High School",
-                "email": "motsa@gmail.com"
+                "email": "AxumY.motsapresident@gmail.com"
             },
             {
                 "id": 12,
@@ -16,7 +16,7 @@
                 "abbr": "vp",
                 "name": "Sabrina Bush",
                 "school": "Hazelwood High School",
-                "email": "motsa@gmail.com"
+                "email": "SabrinaB.motsavicepresident@gmail.com"
             },
             {
                 "id": 13,
@@ -32,7 +32,7 @@
                 "abbr": "treasurer",
                 "name": "Tracy Do",
                 "school": "Kickapoo High School",
-                "email": "motsa@gmail.com"
+                "email": "TracyD.motsatreasurer@gmail.com"
             },
             {
                 "id": 15,
@@ -40,7 +40,7 @@
                 "abbr": "reporter",
                 "name": "Manya Karthik",
                 "school": "Liberty Wentzville High School",
-                "email": "motsa@gmail.com"
+                "email": "ManyaK.motsareporter@gmail.com"
             },
             {
                 "id": 16,
@@ -48,7 +48,7 @@
                 "abbr": "sergeant",
                 "name": "Jason Kogbara",
                 "school": "Hazelwood Central High School",
-                "email": "motsa@gmail.com"
+                "email": "JasonK.motsasergeant@gmail.com"
             },
             {
                 "id": 17,
@@ -70,9 +70,9 @@
                 "id": 19,
                 "position": "Southwest Regional VP",
                 "abbr": "swvp",
-                "name": "David Figueroa",
+                "name": "David Figueroa-Quezada",
                 "school": "Carl Junction High School",
-                "email": "motsa@gmail.com"
+                "email": "DavidFQmotsaswvp@gmail.com"
             },
             {
                 "id": 20,
@@ -80,7 +80,7 @@
                 "abbr": "sevp",
                 "name": "Nuriya Hussaini",
                 "school": "Oakville High School",
-                "email": "motsa@gmail.com"
+                "email": "NuriyaH.motsasevp@gmail.com"
             }]
     },
     {

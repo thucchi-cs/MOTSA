@@ -1,7 +1,7 @@
 export default function NewsSignUp() {
     return (
-        <div className="flex flex-col items-start justify-center w-full md:h-50 py-10 md:px-10">
-            <h1 className="font-bold text-xl md:text-3xl text-left">Subscribe to our newsletter</h1>
+        <div className="flex flex-col items-start justify-center w-full md:h-full py-10 md:px-10">
+            <h1 className="font-bold text-xl md:text-3xl text-left">Subscribe to our ENewsletter</h1>
             <h1 className="font-bold text-sm md:text-lg text-left pt-1"><p className="inline text-red-500 font-thin">*</p> Indicates required</h1>
             <form className="pt-4 w-full gap-y-4 flex flex-col">
                 <div className="flex flex-col items-start justify-center w-full">

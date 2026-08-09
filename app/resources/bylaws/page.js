@@ -16,8 +16,9 @@ export default function Bylaws() {
 
             {/* Links */}
             <div className="flex flex-col w-full justify-center items-center h-full bg-white text-black font-bold pb-15">  
-                <div className="w-[50%] px-10">
-                    <QuickLink target={"_blank"} link={"https://drive.google.com/file/d/1ZjQCZI-6idDJqtqXIlhTbqu_T1swj9-B/view"} label={"Missouri TSA Bylaws"}></QuickLink>
+                <div className="w-[50%] px-10 flex flex-col gap-y-5">
+                    <QuickLink target={"_blank"} link={"/pdf/MOTSA_Student_Bylaws.pdf"} label={"Missouri Student TSA Bylaws"}></QuickLink>
+                    <QuickLink target={"_blank"} link={"/pdf/MOTSA_Corporate_Bylaws.pdf"} label={"Missouri Corporate TSA Bylaws"}></QuickLink>
                 </div>
             </div>
 
