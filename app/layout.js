@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
                   <a href="https://tsaweb.org" target="_blank" className="text-center text-lg md:text-xl transition-transform duration-300 underline cursor-pointer">National TSA</a>
                 </div>
                 <div className="w-full flex flex-col justify-start items-center gap-y-5">
-                  <a className="text-left text-xl transition-transform duration-300 hover:underline cursor-pointer">motsa@email.com</a>
+                  <a href="mailto:contactmotsa@gmail.com" className="text-left text-xl transition-transform duration-300 hover:underline cursor-pointer">contactmotsa@gmail.com</a>
                   <div className="flex flex-row justify-center items-center w-full gap-x-3 py-3">
                     <a href="https://www.instagram.com/missouritsa/" target="_blank" className="text-left text-xl transition-transform duration-300 hover:underline cursor-pointer inline">
                     <Image
