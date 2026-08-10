@@ -47,8 +47,8 @@ export default async function CompetitiveEvents() {
                 <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/themes-and-problems"} label={"Themes & Problems"}></QuickLink>
                 <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competition-updates"} label={"Competition Updates"}></QuickLink>
                 <QuickLink target={"_blank"} link={"https://tsaweb.org/docs/default-source/competitions/events-eligibility-charts.pdf?sfvrsn=b09d590b_5"} label={"National Events Eligibility"}></QuickLink>
-                <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2026/01/Missouri-TSA-2026-State-Competitive-Events-Eligibility-High-School-Updated-10-19-2025-1.pdf"} label={"MO HS Events Eligibility"}></QuickLink>
-                <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2026/01/Missouri-TSA-2026-Competitive-Events-Eligibility-Middle-School10-03-2025-1.pdf"} label={"MO MS Events Eligibility"}></QuickLink>
+                <QuickLink target={"_blank"} link={"/pdf/Missouri-TSA-2026-State-Competitive-Events-Eligibility-High-School-Updated-10-19-2025-1.pdf"} label={"MO HS Events Eligibility"}></QuickLink>
+                <QuickLink target={"_blank"} link={"/pdf/Missouri-TSA-2026-Competitive-Events-Eligibility-Middle-School10-03-2025-1.pdf"} label={"MO MS Events Eligibility"}></QuickLink>
               </div>
             </div>
 
@@ -62,8 +62,8 @@ export default async function CompetitiveEvents() {
                 <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competitive-event-preconference-submission-requirements"} label={"National Submission Requirements"}></QuickLink>
                 {/* <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competition-requirements"} label={"National Requirements"}></QuickLink>
                 <QuickLink target={"_blank"} link={"https://tsamembership.registermychapter.com/members#"} label={"Student Member Site"}></QuickLink> */}
-                <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2026/01/2026-High-School-Events-Pre-Submissions.pdf"} label={"MO HS Submission Requirements"}></QuickLink>
-                <QuickLink target={"_blank"} link={"https://motsaweb.org/wp-content/uploads/2026/01/2026-Middle-School-Events-Pre-Submission.pdf"} label={"MO MS Submission Requirements"}></QuickLink>
+                <QuickLink target={"_blank"} link={"/pdf/2026-High-School-Events-Pre-Submissions.pdf"} label={"MO HS Submission Requirements"}></QuickLink>
+                <QuickLink target={"_blank"} link={"/pdf/2026-Middle-School-Events-Pre-Submission.pdf"} label={"MO MS Submission Requirements"}></QuickLink>
               </div>
             </div>
           </div>

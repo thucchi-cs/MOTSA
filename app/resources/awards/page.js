@@ -35,7 +35,7 @@ export default function Awards() {
                 <a href="/pdf/Missouri-TSA-2026-2027-Chapter-Excellence-Award.pdf" target="_blank" className="bg-red-500 py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
                   <h1 className="text-xs md:text-xl">Chapter Excellence Award &#8594;</h1>
                 </a>
-                <a href="https://motsaweb.org/wp-content/uploads/2025/09/2026-Missouri-TSA-Distinguished-Alumni-Award-Application.pdf" target="_blank" className="bg-red-500 py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
+                <a href="/pdf/2026-Missouri-TSA-Distinguished-Alumni-Award-Application.pdf" target="_blank" className="bg-red-500 py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
                   <h1 className="text-xs md:text-xl">Distinguished Alumni Award &#8594;</h1>
                 </a>
                 <a href="/pdf/2027-Missouri-TSA-Distinguished-Service-Award.pdf" target="_blank" className="bg-red-500 py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">

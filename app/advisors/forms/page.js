@@ -35,7 +35,7 @@ export default function Forms() {
                   <p className="text-md md:text-xl w-full text-center">
                       Students fill out the below Multiple Release Form and give it to your Chapter Advisor
                   </p>
-                  <a href="https://motsaweb.org/wp-content/uploads/2024/07/Missouri-TSA-2024-2025-Multiple-Release-Form.pdf" target="_blank" className="bg-blue-500 w-full h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#072c5c] cursor-pointer">
+                  <a href="/pdf/Missouri-TSA-2024-2025-Multiple-Release-Form.pdf" target="_blank" className="bg-blue-500 w-full h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#072c5c] cursor-pointer">
                       <h1 className="text-sm md:text-xl">2025-2026 Multiple Release Form &#8594;</h1>
                   </a>
               </div>
