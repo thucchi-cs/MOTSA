@@ -35,8 +35,8 @@ export default function Home() {
           <h1 className="text-3xl md:text-5xl px-[5%] pt-10 md:pt-15 font-bold text-center">Recent Updates</h1>
           <div className="w-full overflow-x-auto md:overflow-x-hidden">
             <div className="grid grid-cols-4 min-w-max md:min-w-full justify-center items-center h-full px-6 py-3 md:px-10 md:py-12 gap-x-3 gap-y-5">
+              <NewsBox link="/advisors/affiliation" label={"Chapter Affiliation Opens"} content={"TSA Chapter Affilition will open on August 17th. Advisors should visit the website to affiliate their chapters."} date={"July 1, 2026"} img="/students6.png"></NewsBox>
               <NewsBox link="/students/brand-design-contest" label={"Brand Design Contest is open!"} content={"Submit your design for the 2027 Missouri TSA shirt and pin!"} date={"August 3rd, 2026"} img="/pins.jpg"></NewsBox>
-              <NewsBox link="/advisors/affiliation" label={"Chapter Affiliation Opens"} content={"TSA Chapter Affilition will open on September 1st. Advisors should visit the website to affiliate their chapters."} date={"July 1, 2026"} img="/students6.png"></NewsBox>
               <NewsBox link="/advisors/zoom" label={"Advisors Zoom Meetings"} content={"Chapter advisors Zoom Meetings will be held on the first Thursday of every month from 3:30pm-4:30pm"} date={"July 1, 2026"} img="/zoom.png"></NewsBox>
               <NewsBox link="/students/officers" label={"2026-2027 Officer Team"} content={"Meet your new 2026-2027 Missouri TSA State Officer Team!"} date={"July 1, 2026"} img="/officers3.jpg"></NewsBox>
             </div>

@@ -28,7 +28,7 @@ export default function Calendar() {
 
               <div className="flex flex-col p-6">
                   <p className="text-xl text-[#072c5c] leading-relaxed">
-                    Chapter Affiliation Opens: September 1st, 2026
+                    Chapter Affiliation Opens: August 17th, 2026
                   </p>
               </div>
               <div className="flex flex-col p-6">
