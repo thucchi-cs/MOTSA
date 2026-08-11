@@ -36,10 +36,10 @@ export default function BrandDesignContest() {
                 </div>
 
                 <div className="flex flex-col p-6">
-                    <p className="text-xl text-[#072c5c] leading-relaxed">Each member may only submit one entry per year.</p>
+                    <p className="text-xl text-[#072c5c] leading-relaxed">Each member may only submit one entry per year. You may choose to submit a T-shirt design, a pin design, or both.</p>
                 </div>
                 <div className="flex flex-col p-6">
-                    <p className="text-xl text-[#072c5c] leading-relaxed">All required design documents AND the submission form must be emailed to State Advisor Byekwaso Gilbert at <a className="underline text-blue-500" href="mailto:byekwaso.gilbert@dese.mo.gov">byekwaso.gilbert@dese.mo.gov</a> by <strong>Thursday, October 1, 2026 by 5:00 pm.</strong></p>
+                    <p className="text-xl text-[#072c5c] leading-relaxed"><strong>All required design documents AND the application form</strong> must be submitted in order to be considered for the contest. You may choose to submit through the Google Form linked at the bottom of this page OR email your materials to State Advisor Byekwaso Gilbert at <a className="underline text-blue-500" href="mailto:byekwaso.gilbert@dese.mo.gov">byekwaso.gilbert@dese.mo.gov</a> by <strong>Thursday, October 1, 2026 by 5:00 pm.</strong></p>
                 </div>
                 <div className="flex flex-col p-6">
                     <p className="text-xl text-[#072c5c] leading-relaxed">All designs should include the words "Missouri TSA" and "2027". Entries that do not meet the requirements listed will be disqualified. Submissions MAY include the Missouri TSA logo and/or the TSA 2026-2027 National Conference theme: "Forward to Fifty".</p>
@@ -60,7 +60,7 @@ export default function BrandDesignContest() {
                     <p className="text-xl text-[#072c5c] leading-relaxed"><strong>Fall Leadership Conference</strong>: All appropriate designs will be judged.</p>
                 </div>
                 <div className="flex flex-col p-6">
-                    <p className="text-xl text-[#072c5c] leading-relaxed"><strong>State Championship Conference</strong>: First place winner will be recognized at the opening ceremony. T-shirt with winning design will be available to members at the Conference.</p>
+                    <p className="text-xl text-[#072c5c] leading-relaxed"><strong>State Championship Conference</strong>: First place winner(s) for both designs will be recognized at the opening ceremony. T-shirt with winning design will be available to members at the Conference.</p>
                 </div>
                 <div className="flex flex-col p-6">
                     <p className="text-xl text-[#072c5c] leading-relaxed"><strong>National Conference</strong>: Winning design for trading pins will be the official Missouri pin design for the National Pin Trading event.</p>
@@ -70,7 +70,10 @@ export default function BrandDesignContest() {
             {/* Submission Form */}
             <div className="flex flex-col justify-between items-center gap-y-5 py-5">
                 <a href="/pdf/2026-2027-Missouri-TSA-Brand-Design-Concept-Details.pdf" target="_blank" className="bg-red-500 w-full md:w-[50%] px-5 md:px-0 py-5 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
-                    <h1 className="text-center text-sm md:text-xl">Rules & Submission Form&#8594;</h1>
+                    <h1 className="text-center text-sm md:text-xl">Rules & Application Form&#8594;</h1>
+                </a>
+                <a href="https://forms.gle/E8i7wnCidfya2toU8" target="_blank" className="bg-blue-500 w-full md:w-[50%] px-5 md:px-0 py-5 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration300 hover:bg-blue-600 cursor-pointer">
+                    <h1 className="text-center text-sm md:text-xl">Submit Your Design (Google Form)&#8594;</h1>
                 </a>
             </div>
         </div>  
