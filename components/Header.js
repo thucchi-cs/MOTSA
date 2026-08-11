@@ -34,7 +34,7 @@ export default function Header({ page }) {
         {label: "Calendar", page: "/events/calendar"},
         {label: "State Championship", page: "/events/scc"},
         {label: "Fall Leadership Conference", page: "/events/flc"},
-        {label: "Competitive Events Workshops", page: "/events/workshops"},
+        {label: "Competitive Events Preparation Workshops", page: "/events/workshops"},
         {label: "Regional Conferences", page: "/events/regional-conferences"},
         {label: "National Conference", page: "/events/national-conference"},
         {label: "National TSA Week", page: "/events/national-tsa-week"}

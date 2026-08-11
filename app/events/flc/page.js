@@ -75,7 +75,7 @@ export default function FLC() {
 
                 <div className="flex flex-col p-3">
                     <p className="text-xl text-[#072c5c] leading-relaxed">
-                        The 2025 State Fall Leadership Conference Registration fee is $65 per attendee.
+                        The 2025 State Fall Leadership Conference Registration fee is $75 per attendee.
                     </p>
                 </div>
                 <div className="grid grid-rows-2 grid-cols-2 gap-x-5 gap-y-5 pt-10">

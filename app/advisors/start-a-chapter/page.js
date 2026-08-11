@@ -64,7 +64,7 @@ const sections = [
         heading: "When collecting dues, keep several things in mind:",
         bullets: [
           "Adhere to school policy.",
-          "Set a deadline that is early enough to allow you to meet both your local, state and national deadlines. The national priority date for membership is in November. The sooner your affiliations are received, the quicker you have access to the online national TSA materials, which include competitive event descriptions, and leadership training information.",
+          "Set a deadline that is early enough to allow you to meet both your local, state and national deadlines. The national priority date for membership is in November. The membership registration deadline for the Missouri State Championships is February 1st. The sooner your affiliations are received, the quicker you have access to the online national TSA materials, which include competitive event descriptions, and leadership training information.",
           "Record the names of paid members of your TSA Chapter. If paying dues is difficult for students, hold a fundraiser to pay the dues for the entire group (everyone should participate in the event.)"
         ]
       }
