@@ -30,7 +30,7 @@ export default async function Officers() {
         <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start"> 
             <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white pb-10 md:py-20">
                 {/* Heading */}
-                <h1 className="text-3xl md:text-5xl text-center px-[5%] pt-10 font-bold">Meet Your 2025-2026 Student Officer Team</h1>
+                <h1 className="text-3xl md:text-5xl text-center px-[5%] pt-10 font-bold">Meet Your 2026-2027 Student Officer Team</h1>
                 
                 {/* Officers list */}
                 <div className="flex flex-col w-full justify-between items-center h-full px-10 py-6 md:py-12 gap-y-5 md:gap-y-10">             
