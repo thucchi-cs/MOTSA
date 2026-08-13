@@ -10,7 +10,7 @@ export default function Newsletter() {
             {/* Overview */}
             <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white md:py-10">
                 <h1 className="text-3xl md:text-5xl text-center px-[5%] pt-10 font-bold">E-Newsletter</h1>
-                <p className="text-lg md:text-2xl text-left px-[15%] pb-10 pt-15">Missouri TSA sends out monthly newsletters through email that features updates, reminders, chapter shoutouts, and different STEM events across the state. All Missouri TSA e-newsletters are written by our state officer team. Our newsletter services will resume September of 2026. All members and advisors are signed up for the newsletter through their registered email. You can join our mailing list with the form below!</p>
+                <p className="text-lg md:text-2xl text-left px-[15%] pb-10 pt-15">Missouri TSA sends out monthly newsletters through email that features updates, reminders, chapter shoutouts, and different STEM events across the state. All Missouri TSA e-newsletters are written by our state officer team. Our newsletter services will resume on Monday, September 7, 2026 and will continue to be posted on the first Monday of each month. All members and advisors are signed up for the newsletter through their registered email. You can join our mailing list with the form below!</p>
             </div>    
 
             {/* Past newsletters */}

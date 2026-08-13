@@ -1,7 +1,5 @@
 import Header from "@/components/Header";
 import Image from "next/image";
-import Link from "next/link";
-import QuickLink from "@/components/QuickLink";
 
 export default function Apply() {
   return (
@@ -32,7 +30,7 @@ export default function Apply() {
                   Are you a local leader who is interested in being more involved with Missouri TSA? Apply to become a State Officer for the 2027-2028 school year!
                 </p>
                 <p className="text-lg md:text-xl text-[#072c5c] leading-relaxed">
-                  Application Opens: November 1st, 2026
+                  Application Opens: October 27th, 2026
                 </p>
                 <p className="text-lg md:text-xl text-[#072c5c] leading-relaxed">
                   Deadline: February 14th, 2027

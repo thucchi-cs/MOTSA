@@ -46,7 +46,7 @@ export default function Header({ page }) {
         {label: "Degree Program", page: "/students/degree"},
         // {label: "Past Winners", page: "/resources/winners"},
         {label: "Outstanding Member Awards", page: "/resources/awards"},
-        {label: "ENewsletter", page: "/resources/newsletter"},
+        {label: "E-Newsletter", page: "/resources/newsletter"},
         {label: "Billing/Late Fee", page: "/resources/billing"},
         {label: "Bylaws", page: "/resources/bylaws"},
         {label: "Calendar", page: "/events/calendar"},

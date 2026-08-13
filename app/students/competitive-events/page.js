@@ -60,13 +60,13 @@ export default async function CompetitiveEvents() {
               <p className="text-xl md:text-3xl text-center underline">Event Submissions</p>
               <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-5 gap-y-5 py-5">
                 <QuickLink target={"_blank"} link={"https://judgepro.registermychapter.com/org/jpmo-vsc/conf/jpmo-slc/student"} label={"Submission Upload"}></QuickLink>
-                <QuickLink target={"_blank"} link={"https://www.answerwrite.com/tsa/mo-s"} label={"Online Testing"}></QuickLink>
+                <QuickLink target={"_blank"} link={"https://www.answerwrite.com/tsa/mo-s"} label={"MO Online Testing"}></QuickLink>
                 <QuickLink target={"_blank"} link={"https://tsaweb.org/docs/default-source/national-conferences/instructions/competition-component-upload-instructions.pdf?sfvrsn=bf4985e0_2"} label={"National Upload Instructions"}></QuickLink>
                 <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competitive-event-preconference-submission-requirements"} label={"National Submission Requirements"}></QuickLink>
                 {/* <QuickLink target={"_blank"} link={"https://tsaweb.org/competitions/competition-requirements"} label={"National Requirements"}></QuickLink>
                 <QuickLink target={"_blank"} link={"https://tsamembership.registermychapter.com/members#"} label={"Student Member Site"}></QuickLink> */}
-                <QuickLink target={"_blank"} link={"/pdf/2026-High-School-Events-Pre-Submissions.pdf"} label={"MO HS Submission Requirements"}></QuickLink>
-                <QuickLink target={"_blank"} link={"/pdf/2026-Middle-School-Events-Pre-Submission.pdf"} label={"MO MS Submission Requirements"}></QuickLink>
+                <QuickLink target={"_blank"} link={"/pdf/2026-High-School-Events-Pre-Submissions.pdf"} label={"MO HS Pre-Submission Events"}></QuickLink>
+                <QuickLink target={"_blank"} link={"/pdf/2026-Middle-School-Events-Pre-Submission.pdf"} label={"MO MS Pre-Submission Events"}></QuickLink>
               </div>
             </div>
           </div>

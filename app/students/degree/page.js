@@ -19,7 +19,7 @@ export default function Degree() {
             {/* Overview */}
             <div>
                 <div className="flex flex-col p-6">
-                    <p className="text-xl text-[#072c5c] leading-relaxed">The Missouri TSA Leadership Degree Program is designed for chapter members to develop and further their knowledge, understanding, and engagement in TSA. Four degree levels are offered with increasing levels of requirements. One degree may be earned per school year at the Fall Leadership Conference.</p>
+                    <p className="text-xl text-[#072c5c] leading-relaxed">The Missouri TSA Leadership Degree Program is designed for chapter members to develop and further their knowledge, understanding, and engagement in TSA. Four degree levels are offered with increasing levels of requirements. One degree may be earned per school year at the Fall Leadership Conference. Note: State Officer Candidates are required to at least have the Basic Degree.</p>
                 </div>
             </div>
 

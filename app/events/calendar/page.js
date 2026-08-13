@@ -28,7 +28,7 @@ export default function Calendar() {
 
               <div className="flex flex-col p-6">
                   <p className="text-xl text-[#072c5c] leading-relaxed">
-                    Chapter Affiliation Opens: August 17th, 2026
+                    Chapter Affiliation and TEAMS Registration Opens: August 17th, 2026
                   </p>
               </div>
               <div className="flex flex-col p-6">
@@ -38,7 +38,22 @@ export default function Calendar() {
               </div>
               <div className="flex flex-col p-6">
                   <p className="text-xl text-[#072c5c] leading-relaxed">
-                    Fall Leadership Conference Registration Deadline: September 26, 2026
+                    September E-Newsletter Release: September 7th, 2026
+                  </p>
+              </div>
+              <div className="flex flex-col p-6">
+                  <p className="text-xl text-[#072c5c] leading-relaxed">
+                    National TSA 48th Anniversary: September 14th, 2026
+                  </p>
+              </div>
+              <div className="flex flex-col p-6">
+                  <p className="text-xl text-[#072c5c] leading-relaxed">
+                    Fall Leadership Conference Registration Deadline: October 1st, 2026
+                  </p>
+              </div>
+              <div className="flex flex-col p-6">
+                  <p className="text-xl text-[#072c5c] leading-relaxed">
+                    Brand Design Concept Contest Deadline: October 1st, 2026
                   </p>
               </div>
           </div>

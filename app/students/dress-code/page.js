@@ -11,7 +11,7 @@ export default function DressCode() {
         <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white">Dress Code</h1>
           <p className="text-blue-200 mt-4 max-w-2xl text-base md:text-lg">
-            Missouri TSA adheres to the National TSA Dress Code and Official Conference Attire Guidelines. Everyone, including parents, guests, and children, must be registered to attend the conference.
+            Missouri TSA adheres to the National TSA Dress Code and Official Conference Attire Guidelines.
           </p>
         </div>
 
