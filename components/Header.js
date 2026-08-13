@@ -69,25 +69,26 @@ export default function Header({ page }) {
             </a>
 
             <div className="hidden md:flex flex-row items-center w-full justify-center gap-15 px-20">
+                <a className={"text-lg font-sans transition-transform duration-300 hover:underline " + ((page==="home") ? "text-red-500": "text-zinc-50")} href="/">Home</a>
                 <div className="relative group">
-                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="about") ? "text-red-500": "text-zinc-50")} href="/about">About</a>
+                    <a className={"text-lg font-sans transition-transform duration-300 hover:underline " + ((page==="about") ? "text-red-500": "text-zinc-50")} href="/about">About</a>
                     <HeaderSubmenu pages={aboutSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="students") ? "text-red-500": "text-zinc-50")} href="/students">Students</a>
+                    <a className={"text-lg font-sans transition-transform duration-300 hover:underline " + ((page==="students") ? "text-red-500": "text-zinc-50")} href="/students">Students</a>
                     <HeaderSubmenu pages={studentsSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="advisors") ? "text-red-500": "text-zinc-50")} href="/advisors">Advisors</a>
+                    <a className={"text-lg font-sans transition-transform duration-300 hover:underline " + ((page==="advisors") ? "text-red-500": "text-zinc-50")} href="/advisors">Advisors</a>
                     <HeaderSubmenu pages={advisorsSubPages}></HeaderSubmenu>
                 </div>
-                <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="alumni") ? "text-red-500": "text-zinc-50")} href="/alumni">Alumni</a>
+                <a className={"text-lg font-sans transition-transform duration-300 hover:underline " + ((page==="alumni") ? "text-red-500": "text-zinc-50")} href="/alumni">Alumni</a>
                 <div className="relative group">
-                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="events") ? "text-red-500": "text-zinc-50")} href="/events">Conferences & Events</a>
+                    <a className={"text-lg font-sans transition-transform duration-300 hover:underline " + ((page==="events") ? "text-red-500": "text-zinc-50")} href="/events">Conferences & Events</a>
                     <HeaderSubmenu pages={eventsSubPages}></HeaderSubmenu>
                 </div>
                 <div className="relative group">
-                    <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
+                    <a className={"text-lg font-sans transition-transform duration-300 hover:underline " + ((page==="resources") ? "text-red-500": "text-zinc-50")} href="/resources">Resources</a>
                     <HeaderSubmenu pages={resourcesSubPages}></HeaderSubmenu>
                 </div>
                 {/* <a className={"text-xl font-sans transition-transform duration-300 hover:underline " + ((page==="contact") ? "text-red-500": "text-zinc-50")} href="/contact">Contact</a> */}
@@ -101,6 +102,10 @@ export default function Header({ page }) {
 
             {mobileOpen && (
                 <div className="md:hidden flex z-90 absolute flex-col px-6 h-full gap-4 bg-black/80 w-full justify-start pt-[30vh] items-center top-0 overflow-y-auto">
+                    <a href="/" className={"text-xl "+ ((page==="home") ? "text-red-500": "text-zinc-50")}>
+                        Home
+                    </a>
+                    
                     <div className="flex flex-col w-full gap-0 justify-center items-center">
                         <div>
                             <a href="/about" className={"text-xl "+ ((page==="about") ? "text-red-500": "text-zinc-50")}>About</a>

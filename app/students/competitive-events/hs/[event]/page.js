@@ -63,7 +63,7 @@ export default async function HSEvents({ params }) {
                 <div className="md:grid md:grid-cols-[3fr_2fr] w-full gap-x-15">
                     <div className="flex flex-col justify-start items-start h-full md:gap-y-5">
                         <p className="text-lg md:text-2xl leading-relaxed whitespace-pre-wrap"><strong>Description:{'\n'}</strong>{info.descr}</p>
-                        <Link target="_blank" href={`/rubrics/hs/${info.rubric}`}className="text-lg md:text-2xl leading-relaxed whitespace-pre-wrap text-blue-500 underline">Rubric & Guidelines</Link>
+                        <p className="text-lg md:text-2xl leading-relaxed whitespace-pre-wrap"><strong>Important:</strong> Ask your chapter advisor for this event's guidelines and rubric.</p>
                     </div>
                     {theme &&
                         <>

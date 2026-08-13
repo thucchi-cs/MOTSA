@@ -476,5 +476,29 @@
                 "prompt": "What's your favorite TSA event and why?",
                 "response": "My favorite TSA event is Structural Engineering because it combines creativity, problem solving and hands on design. I enjoy building and creating things and during competition I was amazed by the creative bridge designs that were constructed by using balsa wood. Seeing these unique approaches to their bridge designs showed me possibilities I hadn't considered. That experience taught me that there is always more than one solution to things and to reinforce the idea with creativity and determination."
             }]
+    },
+    {
+        "officer": 13,
+        "interview": [
+            {
+                "id": 150,
+                "prompt": "What's your grade, school, and office?",
+                "response": "My name is Ayse Sena Demir and I am a senior at Staley High School in Kansas City. I will be your Missouri TSA secretary for the 2026-2027 year!"
+            },
+            {
+                "id": 151,
+                "prompt": "What do you like to do outside of TSA?",
+                "response": "Outside of TSA I like to hangout with my friends, play with my cats, and create some art(literally every type, painting, drawing, photography you name it)"
+            },
+            {
+                "id": 152,
+                "prompt": "What's your favorite TSA memory?",
+                "response": "My favourite TSA memory was when our chapter decided to hold a potluck to celebrate, everyone brought different kinds of food and it was just fun overall."
+            },
+            {
+                "id": 153,
+                "prompt": "What's your favorite TSA event and why?",
+                "response": "My favourite event is architectural design because I get to use my creativity to make my own models no matter what the theme is."
+            }]
     }
 ]
