@@ -22,7 +22,7 @@ export default function Newsletter() {
 
             {/* Sign up form */}
             <div className="flex flex-col w-full justify-center items-center h-100 bg-white text-black font-bold">  
-                <div className="w-[50%]">
+                <div className="w-[95%] md:w-[50%]">
                     <NewsSignUp></NewsSignUp>
                 </div>
             </div>
