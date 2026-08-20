@@ -2,62 +2,62 @@
     {
         "id": 1,
         "event_id": 2,
-        "theme": "“Time Travelers' Museum”\nDesign Problem: Create an animatronic figure or scene from a key moment in American history. The character should \"come to life\" to explain their world to a young audience. Designed for a children's museum or educational tour."
+        "theme": "Design Problem: Turning classic tales into a mechanical marvel. Bring a story to life following the Animatronics rules."
     },
     {
         "id": 2,
         "event_id": 3,
-        "theme": "https://tsaweb.org/docs/default-source/competitions/themes-and-problems-2025-2026/2026-architectural-design-problem.pdf?sfvrsn=4af21af4_1"
+        "theme": "https://tsaweb.org/docs/default-source/competitions/themes-and-problems-2026-2027/high-school/2027-architecutral-design-problem.pdf?sfvrsn=9f840cf2_1"
     },
     {
         "id": 3,
         "event_id": 4,
-        "theme": "“History or Mystery” Students create an audio podcast that focuses on a real-life or fictitious historical event from the past."
+        "theme": "“The Debate Desk”\nStudents create an audio podcast presenting multiple perspectives on a controversial topic in STEM, society, education, health, or the environment."
     },
     {
         "id": 4,
         "event_id": 5,
-        "theme": "Topic: Bioconjugation.\nBioconjugation is a biochemical technique that has been applied in various fields, such as medicine, diagnostics, biocatalysis, and materials. From chemical warfare to corrective eye surgery, the applications of bioconjugation are vast. Highlight the science behind bioconjugation and demonstrate one of its many uses."
+        "theme": "Topic: Biosensors for Disease Detection.\nBiosensors use biological molecules, cells, or enzymes to detect specific chemicals or disease markers. These tools are increasingly important in medical diagnostics, environmental monitoring, and food safety. Present the science behind biosensors and demonstrate one use of biosensor technology in detecting or monitoring disease."
     },
     {
         "id": 5,
         "event_id": 8,
-        "theme": "Students develop and produce a non-fiction, die-cut board book"
-    },
-    {
-        "id": 6,
-        "event_id": 9,
-        "theme": "The following programming languages may be used to complete the assigned problems:\n\t\tC version C17\n\t\tC++ version C++20\n\t\tC# version 8\n\t\tJava version 21.0\n\t\tJavascript/Node version 18.19\n\t\tPython version 3.9\n\t\tRuby version 3.2\n\t\tRust version 1.75\n\t\tSwift version 5.10"
+        "theme": "A graphic novel/comic book. Binding cannot be stapled."
     },
     {
         "id": 7,
         "event_id": 12,
-        "theme": "Identify and use a \"Tourism\"- related open-source data set for analysis and research. In the scientific poster, cite the source of the data, including the URL/domain and file format."
+        "theme": "Identify and use an AI-generated dataset related to Climate and Environmental Sustainability for analysis and research. Competitors may use an artificial intelligence tool to create the dataset, provide the resulting data file in a structured format (such as CSV, XLSX, or JSON), and cite the artificial intelligence tool, model (if available), and prompts or queries used to generate the dataset."
     },
     {
         "id": 8,
         "event_id": 13,
-        "theme": "Artificial Intelligence and Ethics\n\t\tSubtopic 1: AI decision-making in judicial systems introduces bias and undermines human moral judgment.\n\t\tSubtopic 2: The development of artificial general intelligence (AGI) poses a greater existential threat than nuclear weapons.\n\t\tSubtopic 3: AI-generated art and literature diminish the value of human creativity and cultural authenticity."
+        "theme": "Artificial Intelligence in Medicine.\nTopic 1: AI diagnostic tools should be allowed to make medical decisions without final approval from a physician.\nTopic 2: The use of AI in healthcare will improve access to care more than it will increase medical bias.\nTopic 3: Patients should have the right to know when AI is involved in their diagnosis or treatment plan."
     },
     {
         "id": 9,
         "event_id": 14,
-        "theme": "“A Twist in Time” Create a story that alters a key historical moment—or imagines a character from the past suddenly appearing in the modern day."
+        "theme": "Create an infomercial with a product and in the style of the 1990s."
+    },
+    {
+        "id": 6,
+        "event_id": 15,
+        "theme": "INSIDE / OUT\nOne axle (front or rear) must use internal wheels, while the opposite axle must use external wheels.\nInternal: The wheels must be enclosed by the vehicle body on the top and both sides above the axle. The bottom of the wheel remains exposed.\nExternal: The wheels must be completely outside the vehicle body. No portion of the body may cover any part of the wheel from the top or sides.\nThe front and rear axles must use opposite configurations (one internal, one external).\n\nOne set of wheels(front or rear) must be external (outside 35mm) and the other set of wheels must be internal(shell). Participant choice on either Front or Rear."
     },
     {
         "id": 10,
         "event_id": 16,
-        "theme": "https://tsaweb.org/docs/default-source/competitions/themes-and-problems-2025-2026/2026-hs_uav-drone.pdf?sfvrsn=28e74e45_3"
+        "theme": "https://tsaweb.org/docs/default-source/competitions/themes-and-problems-2026-2027/high-school/2027-hs-drone-challenge-theme.pdf?sfvrsn=476818b7_1"
     },
     {
         "id": 11,
         "event_id": 17,
-        "theme": "Engineering the tools of scientific discovery"
+        "theme": "Engineering the Future of Energy: engineering solutions that improve the generation, storage, conservation, distribution, or use of energy."
     },
     {
         "id": 12,
         "event_id": 19,
-        "theme": "Villain Era with one element of the main garment being 3-D printed."
+        "theme": "Fashion created from recycled or repurposed materials. One complete outfit; a maximum of two (2) garments. Garment accessories for semifinal round only."
     },
     {
         "id": 13,
