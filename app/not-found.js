@@ -1,9 +1,9 @@
 import Header from "@/components/Header";
 
-export default function construction() {
+export default function notFound() {
   return (
     <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c] overflow-x-hidden">
-      <Header page={"home"}></Header>
+      <Header page={""}></Header>
       <main className="flex w-full flex-col items-center justify-between bg-white py-10">
         <h1 className="text-3xl md:text-5xl px-[5%] font-bold text-center text-black">404 Error: Page Not Found</h1>
         <h2 className="text-xl md:text-3xl px-[5%] font-bold text-center text-black py-15">Looking for another page?</h2>

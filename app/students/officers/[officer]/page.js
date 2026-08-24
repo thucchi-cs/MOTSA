@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Image from "next/image";
 import { promises as fs } from 'fs';
+import { redirect } from "next/navigation";
 
 export default async function officer({ params }) {
     // Get url param
@@ -10,6 +11,9 @@ export default async function officer({ params }) {
     const fileContents = await fs.readFile('./data/officers.json', 'utf8');
     // Get the target officer
     const TargetOfficer = JSON.parse(fileContents)[0].officers.find(o => o.abbr === officer);
+    if (!TargetOfficer) {
+        redirect("/students/officers")
+    }
 
     // Get bios data from json db
     const fileContents2 = await fs.readFile('./data/officer_bios.json', 'utf8');
