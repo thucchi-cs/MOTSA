@@ -48,12 +48,12 @@ export default function Calendar() {
               </div>
               <div className="flex flex-col p-6">
                   <p className="text-xl text-[#072c5c] leading-relaxed">
-                    Fall Leadership Conference Registration Deadline: October 1st, 2026
+                    Brand Design Concept Contest Deadline: October 1st, 2026
                   </p>
               </div>
               <div className="flex flex-col p-6">
                   <p className="text-xl text-[#072c5c] leading-relaxed">
-                    Brand Design Concept Contest Deadline: October 1st, 2026
+                    Fall Leadership Conference Registration Deadline: October 15th, 2026
                   </p>
               </div>
           </div>
