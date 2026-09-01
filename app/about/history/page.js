@@ -14,14 +14,28 @@ export default function History() {
         </div>
 
         {/* Info section */}
-        <div className="w-full max-w-4xl px-6 py-14 flex flex-col gap-y-14">
+        <div className="w-full max-w-4xl px-6 py-14 flex flex-col gap-y-5">
           <div>
             <div className="flex flex-col p-6">
               <p className="text-xl text-[#072c5c] leading-relaxed">The Technology Student Association (TSA), formerly AIASA, is the oldest student organization dedicated exclusively to students enrolled in technology education classes grades K-12. It has a rich history that spans nearly four decades. Three distinct periods may be found in TSA's history. During the period from 1958 to 1978, the American Industrial Arts Student Association (AIASA) was a sponsored activity of the American Industrial Arts Association (AIAA). In 1978, the nonprofit corporation, AIASA, Inc., was formed to oversee AIASA as a separate organization. During the decade that followed, the organization grew in size, strength, structure, and impact on students and secondary school programs. The summer of 1988 closed this third decade as AIASA reached another milestone, a change in the organization's name: the Technology Student Association (TSA).</p>
             </div>
           </div>
+
+          <div className="flex flex-row w-full justify-center items-center gap-x-5">
+            <div className="flex flex-col w-full justify-between items-center h-full">
+              <a href="/pdf/History_of_TSA.pdf" target="_blank" className="bg-blue-500 md:w-full px-5 md:px-0 h-10 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#072c5c] cursor-pointer">
+                <h1 className="text-md md:text-xl">TSA History Summary Slideshow &#8594;</h1>
+              </a>
+            </div>
+            <div className="flex flex-col w-full justify-between items-center h-full">
+              <a href="/pdf/TSA_History_Highlights.pdf" target="_blank" className="bg-blue-500 md:w-full px-5 md:px-0 h-10 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#072c5c] cursor-pointer">
+                <h1 className="text-md md:text-xl">TSA Through the Decades Slideshow &#8594;</h1>
+              </a>
+            </div>
+          </div>
+
           <div className="flex flex-col w-full justify-between items-center h-full">
-            <a href="https://tsaweb.org" target="_blank" className="bg-red-500 md:w-[20%] px-5 md:px-0 h-10 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
+            <a href="https://tsaweb.org" target="_blank" className="bg-red-500 md:w-full px-5 md:px-0 h-10 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
               <h1 className="text-md md:text-xl">Learn More &#8594;</h1>
             </a>
           </div>

@@ -37,7 +37,7 @@ export default function events() {
             The Regional Conferences, State Championship, and National Conference allows students to compete in various competitions of different career interests. These competitions requires students to apply their technical skills to create projects and solve problems according to the annual themes.
           </p>
           <p className="text-md text-center md:text-left md:text-xl md:w-[70%] px-5 md:px-15 leading-relaxed">
-            The Fall Leadership Conference and Competitive Events Workshops are hosted in the Fall each year for students to explore what it means to be in TSA. Both these events give students a chance to learn leadership and STEM skills and discover which competitive events they would like to choose to compete in the Spring.
+            The Fall Leadership Conference and Competitive Events Preperation Workshops are hosted in the Fall each year for students to explore what it means to be in TSA. Both these events give students a chance to learn leadership and STEM skills and discover which competitive events they would like to choose to compete in the Spring.
           </p>
         </div>  
 
@@ -49,7 +49,7 @@ export default function events() {
             <QuickLink target={""} link={"/events/regional-conferences"} label={"Regional Conferences"}></QuickLink>
             <QuickLink target={""} link={"/events/flc"} label={"Fall Leadership Conference"}></QuickLink>
             <QuickLink target={""} link={"/events/national-conference"} label={"National Conference"}></QuickLink>
-            <QuickLink target={""} link={"/events/workshops"} label={"Competitive Events Workshops"}></QuickLink>
+            <QuickLink target={""} link={"/events/workshops"} label={"Competitive Events Preperation Workshops"}></QuickLink>
             <QuickLink target={""} link={"/events/national-tsa-week"} label={"National TSA Week"}></QuickLink>
           </div>
         </div>

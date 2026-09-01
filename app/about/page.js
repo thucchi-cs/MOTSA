@@ -28,7 +28,13 @@ export default function About() {
               <p className="text-xl text-[#072c5c] leading-relaxed">Our Mission: The Technology Student Association enhances personal development, leadership, and career opportunities in STEM, whereby  members apply and integrate these concepts through intracurricular activities, competitions, and related programs. TSA activities, competitions and leadership development initiatives support regular coursework to exten learning beyond the classroom. Visit our national website for more information about National TSA.</p>
             </div>
           </div>
+          <div className="flex flex-col w-full justify-between items-center h-full">
+            <a href="/pdf/TSA_Vision.pdf" target="_blank" className="bg-red-500 md:w-full px-5 md:px-0 h-10 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
+              <h1 className="text-md md:text-xl">TSA Vision Slideshow &#8594;</h1>
+            </a>
+          </div>
         </div>  
+
       </main>
     </div>
   );

@@ -24,6 +24,12 @@ export default function Mission() {
             <div className="flex flex-col p-6">
               <p className="text-xl text-[#072c5c] leading-relaxed">The Technology Student Association enhances personal development, leadership, and career opportunities in STEM. Members apply and integrate these concepts through intracurricular activities, competitions, and related programs.</p>
             </div>
+
+            <div className="flex flex-col w-full justify-between items-center h-full">
+            <a href="/pdf/TSA_Mission.pdf" target="_blank" className="bg-red-500 md:w-full px-5 md:px-0 h-10 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
+              <h1 className="text-md md:text-xl">TSA Mission Slideshow &#8594;</h1>
+            </a>
+          </div>
           </div>
           
           {/* Creed Info */}
