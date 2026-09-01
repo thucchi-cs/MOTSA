@@ -10,7 +10,7 @@ export default function CEW() {
       <main className="flex flex-1 w-full flex-col items-center bg-white"> 
         {/* Page header section */}
         <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
-          <h1 className="text-4xl md:text-5xl font-bold text-white">Competitive Events Workshops</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-white">Competitive Events Preparation Workshops</h1>
           <p className="text-blue-200 mt-4 max-w-2xl text-base md:text-lg">
             Learn all you need to know on how to suceed at the State Championship!
           </p>
@@ -21,7 +21,7 @@ export default function CEW() {
             <div>
                 <div className="flex flex-col p-6">
                     <p className="text-xl text-[#072c5c] leading-relaxed">
-                        The Competitive Events Workshops is a one-day event held each year in the Fall to prepare student members for their competitions in the Spring. At CEW, students learn all tips and tricks on how to suceed at their competitive events. They also get a practice round in the mock competition at CEW.
+                        The Competitive Events Preparation Workshops is a one-day event held each year in the Fall to prepare student members for their competitions in the Spring. At CEPW, students learn all tips and tricks on how to suceed in their competitive events. They will also get a practice round in the form of a mock competition on the day of.
                     </p>
                 </div>
             </div>
@@ -33,18 +33,23 @@ export default function CEW() {
             <div>
                 <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
                     <span className="text-2xl"></span>
-                    <h2 className="text-2xl md:text-3xl font-bold text-[#072c5c]">2025 Competitive Events Workshops</h2>
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#072c5c]">2026 Competitive Events Preparation Workshops</h2>
                 </div>
                 <div className="w-full flex flex-col md:flex-row">
                     <div className="flex flex-col">
                         <div className="flex flex-col p-6">
                             <p className="text-xl text-[#072c5c] leading-relaxed">
-                                The 2025 Missouri TSA Competitive Events Workshops is complete! Thank you to all student members who joined us and learned more about their competitive events!
+                                The 2026 Missouri TSA Competitive Events Preparation Workshops will be held on October 27th, 2026 at University of Central Missouri in Warrensburg, MO.
                             </p>
                         </div>
                         <div className="flex flex-col p-6">
                             <p className="text-xl text-[#072c5c] leading-relaxed">
-                                The Competitive Events Workshops was held at the Governor's Office Building in Jefferson City, MO on November 7th, 2025.
+                                Register your chapter by October 15th!
+                            </p>
+                        </div>
+                        <div className="flex flex-col p-6">
+                            <p className="text-xl text-[#072c5c] leading-relaxed">
+                                <strong>IMPORTANT: </strong>The 2026 Missouri <a href="/events/flc" className="text-blue-500 underline">Fall Leadership Conference</a> will take place immediately prior to CEPW on October 25th-26th, 2026 and will also be held at University of Central Missouri. FLC and CEPW require separate registrations. It is recommended for your chapter to attend both FLC and CEPW, but you may choose to only attend one out of the two. 
                             </p>
                         </div>
                     </div>
@@ -69,12 +74,12 @@ export default function CEW() {
 
                 <div className="flex flex-col p-3">
                     <p className="text-xl text-[#072c5c] leading-relaxed">
-                        The 2025 Competitive Events Workshops Registration is $20 per attendee.
+                        Register for the 2026 Competitive Events Preparation Workshops with the link below. Your chapter must be affiliated with National TSA before registering. Registrations open on September 1st and will close at midnight on October 15th. You will be required to pay your invoice within 60 days after the closing date of the conference.
                     </p>
                 </div>
-                <div className="grid grid-rows-2 grid-cols-2 gap-x-5 gap-y-5 py-10">
-                    <QuickLink target={"_blank"} link={"https://www.registermychapter.com/tsa/mo-flc"} label={"Register for CEW"}></QuickLink>
-                    <QuickLink target={"_blank"} link={"/pdf/2025-Missouri-TSA-Competitive-Events-Preparation-Workshop-Agenda.pdf"} label={"CEW Tentative Agenda"}></QuickLink>
+                <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-1 md:gap-x-5 gap-y-5 md:gap-y-0 py-10 pb-20">
+                    <QuickLink target={"_blank"} link={"https://www.registermychapter.com/tsa/mo-flc"} label={"Register for CEPW"}></QuickLink>
+                    {/* <QuickLink target={"_blank"} link={"/pdf/2025-Missouri-TSA-Competitive-Events-Preparation-Workshop-Agenda.pdf"} label={"CEPW Tentative Agenda"}></QuickLink> */}
                 </div>
             </div>
         </div>  
