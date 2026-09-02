@@ -99,7 +99,7 @@ export default function FLC() {
 
                 <div className="flex flex-col p-3">
                     <p className="text-xl text-[#072c5c] leading-relaxed">
-                        Register for the 2026 State Fall Leadership Conference with the link below. Your chapter must be affiliated with National TSA before registering. Registrations open on September 1st and will close at midnight on October 15th. You will be required to pay your invoice within 60 days after the closing date of the conference.
+                        Registrations for the 2026 State Fall Leadership Conference are $75. Your chapter must be affiliated with National TSA before registering. Registrations open on September 1st and will close at midnight on October 15th. You will be required to pay your invoice within 60 days after the closing date of the conference.
                     </p>
                 </div>
                 <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-1 md:gap-x-5 gap-y-5 md:gap-y-0 py-10 pb-20">
