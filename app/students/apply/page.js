@@ -220,7 +220,7 @@ export default function Apply() {
                 </div>
 
                 <div className="flex flex-col p-6">
-                    <p className="text-xl text-[#072c5c] leading-relaxed"><strong>November 1st, 2026</strong>: Application opens</p>
+                    <p className="text-xl text-[#072c5c] leading-relaxed"><strong>October 27th, 2026</strong>: Application opens</p>
                 </div>
                 <div className="flex flex-col p-6">
                     <p className="text-xl text-[#072c5c] leading-relaxed"><strong>February 14th, 2027</strong>: Applications closed, all materials must be submitted</p>

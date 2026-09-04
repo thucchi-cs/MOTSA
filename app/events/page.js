@@ -23,7 +23,7 @@ export default function events() {
         {/* Calendar button */}
         <div className="flex flex-col w-full justify-between items-center h-full text-black bg-zinc-200 py-3 md:py-10">
           <div className="w-[50%] py-5">
-            <QuickLink target={""} link={"/events/calendar"} label={"Calendar of Events 2026- 2027"}></QuickLink>
+            <QuickLink target={""} link={"/events/calendar"} label={"Calendar of Events 2026 - 2027"}></QuickLink>
           </div> 
         </div>
 

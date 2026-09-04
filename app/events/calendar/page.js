@@ -28,16 +28,6 @@ export default function Calendar() {
 
               <div className="flex flex-col p-6">
                   <p className="text-xl text-[#072c5c] leading-relaxed">
-                    Chapter Affiliation and TEAMS Registration Opens: August 17th, 2026
-                  </p>
-              </div>
-              <div className="flex flex-col p-6">
-                  <p className="text-xl text-[#072c5c] leading-relaxed">
-                    First Chapter Advisor Support Zoom Meeting: September 3rd, 2026
-                  </p>
-              </div>
-              <div className="flex flex-col p-6">
-                  <p className="text-xl text-[#072c5c] leading-relaxed">
                     September E-Newsletter Release: September 7th, 2026
                   </p>
               </div>
