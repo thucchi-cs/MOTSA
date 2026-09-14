@@ -107,7 +107,7 @@ const sections = [
       },
       {
         heading: "Create Chapter Traditions",
-        body: "Traditions build identity. Whether it's a chapter chant at conference, a pre-competition team dinner, or an end-of-year banquet, recurring events give members something to look forward to and connect over. Strong traditions are also a powerful recruiting tool as they make your chapter feel like a community."
+        body: "It can be something simple, from a chapter chant at conferences, a pre-competition team dinner, or an end-of-year banquet. Things like this give members something to look forward to and connect over."
       },
       {
         heading: "Involve Parents Early",
@@ -140,7 +140,7 @@ export default function ChapterResources() {
         <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white">Chapter Resources</h1>
           <p className="text-blue-200 mt-4 max-w-2xl text-base md:text-lg">
-            Everything you need to run a successful Missouri TSA chapter — from your first meeting to the national conference.
+            Everything you need to run a successful Missouri TSA chapter, from your first meeting to the national conference.
           </p>
         </div>
 
