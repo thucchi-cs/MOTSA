@@ -83,7 +83,7 @@ export default function NationalTSAWeek() {
         {/* Page Header */}
         <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white">National TSA Week</h1>
-          <p className="text-blue-200 mt-4 text-xl font-semibold">October 6-10, 2025</p>
+          <p className="text-blue-200 mt-4 text-xl font-semibold">October 5-9, 2026</p>
         </div>
 
         {/* Content */}
