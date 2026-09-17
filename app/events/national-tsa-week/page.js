@@ -4,11 +4,11 @@ import Header from "@/components/Header";
 const sections = [
   {
     title: "National TSA Week",
-    subtitle: "October 6-10, 2025",
+    subtitle: "October 5-9, 2026",
     tips: [
       {
         heading: "About National TSA Week",
-        body: "National TSA Week is a great opportunity for your chapter to create awareness of the Technology Student Association in your school and community, and to showcase member and chapter activities and accomplishments. National TSA Week is about TSA student members and TSA chapters, and the work achieved while \"learning to lead in a technical world.\" Use the official 2025-2026 TSA hashtag, #TSAunite, in your TSA-related posts, and tag @nationalTSA as you follow the themes for each day of National TSA Week:"
+        body: "National TSA Week is a great opportunity for your chapter to create awareness of the Technology Student Association in your school and community, and to showcase member and chapter activities and accomplishments. National TSA Week is about TSA student members and TSA chapters, and the work achieved while \"learning to lead in a technical world.\" Use the official 2026-2027 TSA hashtag, #ForwardTogether, in your TSA-related posts, and tag @nationalTSA and @missouritsa as you follow the themes for each day of National TSA Week!"
       }
     ]
   },
@@ -17,23 +17,23 @@ const sections = [
     tips: [
       {
         heading: "Mentor Monday",
-        body: "Reflect on someone who helped guide you into TSA and acted as a mentor in your journey."
+        body: "Share a photo (and a brief description) of someone who has mentored you in your TSA journey."
       },
       {
-        heading: "Talent Tuesday",
-        body: "Show off your TSA talent!"
+        heading: "Tech Tuesday",
+        body: "Describe your current projects or share a photo(s) of you competing in competitive events."
       },
       {
-        heading: "Wacky Wednesday",
-        body: "Post your favorite silly TSA photo."
+        heading: "Welcome Wednesday",
+        body: "Share a tip to new members as a helpful welcome to TSA."
       },
       {
-        heading: "Together Thursday",
-        body: "Showcase your TSA community - whether it's your closest friends, your chapter, your state, or your officer team."
+        heading: "Throwback Thursday",
+        body: "Share a photo of yourself when you started your TSA journey."
       },
       {
-        heading: "Fashion Friday",
-        body: "Upload a picture of you in your favorite TSA outfit! This could include fashion show outfits, chapter shirts, royal blues, or anything else."
+        heading: "Future Friday",
+        body: "Describe where you see yourself in the future and how TSA will help you get there."
       }
     ]
   },
@@ -52,7 +52,7 @@ const sections = [
       },
       {
         heading: "Follow @nationalTSA",
-        body: "Follow @nationalTSA on Facebook and Instagram. If posting, do NOT include content as defined by the disclaimer below:"
+        body: "Follow @nationalTSA on Facebook and Instagram. If posting, do NOT include content as defined by the disclaimer below."
       }
     ]
   },
@@ -83,7 +83,7 @@ export default function NationalTSAWeek() {
         {/* Page Header */}
         <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white">National TSA Week</h1>
-          <p className="text-blue-200 mt-4 text-xl font-semibold">October 6–10, 2025</p>
+          <p className="text-blue-200 mt-4 text-xl font-semibold">October 6-10, 2025</p>
         </div>
 
         {/* Content */}

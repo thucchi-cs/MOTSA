@@ -28,17 +28,22 @@ export default function Calendar() {
 
               <div className="flex flex-col p-6">
                   <p className="text-xl text-[#072c5c] leading-relaxed">
-                    September E-Newsletter Release: September 7th, 2026
-                  </p>
-              </div>
-              <div className="flex flex-col p-6">
-                  <p className="text-xl text-[#072c5c] leading-relaxed">
-                    National TSA 48th Anniversary: September 14th, 2026
-                  </p>
-              </div>
-              <div className="flex flex-col p-6">
-                  <p className="text-xl text-[#072c5c] leading-relaxed">
                     Brand Design Concept Contest Deadline: October 1st, 2026
+                  </p>
+              </div>
+              <div className="flex flex-col p-6">
+                  <p className="text-xl text-[#072c5c] leading-relaxed">
+                    October Support Zoom Meeting: October 1st, 2026
+                  </p>
+              </div>
+              <div className="flex flex-col p-6">
+                  <p className="text-xl text-[#072c5c] leading-relaxed">
+                    October E-Newsletter Release: October 5th, 2026
+                  </p>
+              </div>
+              <div className="flex flex-col p-6">
+                  <p className="text-xl text-[#072c5c] leading-relaxed">
+                    National TSA Week: October 5-9, 2026
                   </p>
               </div>
               <div className="flex flex-col p-6">
