@@ -107,7 +107,7 @@ const sections = [
       },
       {
         heading: "Create Chapter Traditions",
-        body: "It can be something simple, from a chapter chant at conferences, a pre-competition team dinner, or an end-of-year banquet. Things like this give members something to look forward to and connect over."
+        body: "It can be something simple, from a chapter chant at conferences, a pre-competition team dinner, or something along those lines. Things like this give members something to look forward to and connect over."
       },
       {
         heading: "Involve Parents Early",
