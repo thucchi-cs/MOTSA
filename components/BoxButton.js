@@ -6,7 +6,7 @@ export default function BoxButton({ title, icon, link }) {
             <Image
             className=""
             src={icon}
-            alt="Next.js logo"
+            alt={icon}
             width={150}
             height={150}
             />

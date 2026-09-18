@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 
+// A bunch of info i think
 const sections = [
   {
     title: "Getting Started",
@@ -28,8 +29,8 @@ const sections = [
       }
     ],
     buttons: [
-      { label: "Sample Bylaws Word Document", url: "https://motsaweb.org/wp-content/uploads/2021/06/c332c-tsa-13-sample-bylaws.pdf", color: "red" },
-      { label: "Missouri TSA Chapter Application", url: "https://motsaweb.org/wp-content/uploads/2025/09/Missouri-TSA-Chapter-Application-2.pdf", color: "navy" }
+      { label: "Sample Bylaws Word Document", url: "/pdf/c332c-tsa-13-sample-bylaws.pdf", color: "red" },
+      { label: "Missouri TSA Chapter Application", url: "/pdf/Missouri_TSA_Chapter_Application.pdf", color: "navy" }
     ]
   },
   {
@@ -63,7 +64,7 @@ const sections = [
         heading: "When collecting dues, keep several things in mind:",
         bullets: [
           "Adhere to school policy.",
-          "Set a deadline that is early enough to allow you to meet both your local, state and national deadlines. The national priority date for membership is in November. The sooner your affiliations are received, the quicker you have access to the online national TSA materials, which include competitive event descriptions, and leadership training information.",
+          "Set a deadline that is early enough to allow you to meet both your local, state and national deadlines. The national priority date for membership is in December. The membership registration deadline for the Missouri State Championships is February 1st. The sooner your affiliations are received, the quicker you have access to the online national TSA materials, which include competitive event descriptions, and leadership training information.",
           "Record the names of paid members of your TSA Chapter. If paying dues is difficult for students, hold a fundraiser to pay the dues for the entire group (everyone should participate in the event.)"
         ]
       }

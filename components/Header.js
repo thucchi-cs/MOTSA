@@ -16,7 +16,8 @@ export default function Header({ page }) {
         {label: "Competitive Events", page: "/students/competitive-events"},
         {label: "Scholarships", page: "/students/scholarships"},
         {label: "Dress Code", page: "/students/dress-code"},
-        // {label: "Degree Program", page: "/students/degree"},
+        {label: "Degree Program", page: "/students/degree"},
+        {label: "Brand Design Contest", page: "/students/brand-design-contest"},
         {label: "State Officer Team", page: "/students/officers"},
         {label: "Apply for Office", page: "/students/apply"}
     ];
@@ -31,9 +32,9 @@ export default function Header({ page }) {
 
     const eventsSubPages = [
         {label: "Calendar", page: "/events/calendar"},
-        {label: "State Championships", page: "/events/scc"},
+        {label: "State Championship", page: "/events/scc"},
         {label: "Fall Leadership Conference", page: "/events/flc"},
-        {label: "Competitive Events Workshops", page: "/events/workshops"},
+        {label: "Competitive Events Preparation Workshops", page: "/events/workshops"},
         {label: "Regional Conferences", page: "/events/regional-conferences"},
         {label: "National Conference", page: "/events/national-conference"},
         {label: "National TSA Week", page: "/events/national-tsa-week"}
@@ -42,14 +43,14 @@ export default function Header({ page }) {
     const resourcesSubPages = [
         {label: "Dress Code", page: "/students/dress-code"},
         {label: "Competitive Events", page: "/students/competitive-events"},
-        // {label: "Degree Program", page: "/students/degree"},
+        {label: "Degree Program", page: "/students/degree"},
         // {label: "Past Winners", page: "/resources/winners"},
-        {label: "Outstanding Awards", page: "/resources/awards"},
-        {label: "Newsletter", page: "/resources/newsletter"},
+        {label: "Outstanding Member Awards", page: "/resources/awards"},
+        {label: "ENewsletter", page: "/resources/newsletter"},
         {label: "Billing/Late Fee", page: "/resources/billing"},
         {label: "Bylaws", page: "/resources/bylaws"},
         {label: "Calendar", page: "/events/calendar"},
-        {label: "Gallery", page: "/resources/gallery"},
+        {label: "Photo Gallery", page: "/resources/gallery"},
         {label: "Chapter Resources & Tips", page: "/advisors/resources"},
         {label: "Board of Directors", page: "/about/board"}
     ];
@@ -64,7 +65,7 @@ export default function Header({ page }) {
     return (
         <header className="bg-[#072c5c] flex flex-row items-center justify-center font-sans w-full gap-[40%] md:gap-0">
             <a className="flex flex-row items-center w-[20%] md:w-[30%] justify-center" href="/">
-                <Image className="py-3 md:w-[130px]" src="/motsalogo.png" alt="Next.js logo" width={80} height={20} priority/>
+                <Image className="py-3 md:w-[130px]" src="/motsalogo.png" alt="MOTSA logo" width={80} height={20} priority/>
             </a>
 
             <div className="hidden md:flex flex-row items-center w-full justify-center gap-15 px-20">

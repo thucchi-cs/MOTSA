@@ -1,9 +1,10 @@
 import Header from "@/components/Header";
-import { sql } from "@/lib/db";
 import Link from "next/link";
 import { redirect } from "next/navigation";
+import {promises as fs} from 'fs';
 
 export default async function HSEvents({ params }) {
+  // Get event from url param
   const { event } = await params;
   let eventURL;
   let id;
@@ -15,25 +16,32 @@ export default async function HSEvents({ params }) {
     eventURL = event.slice(0,-3);
   }
 
+  // redirect if incorrect url param
   if (!id) {
     redirect('/students/competitive-events');
   }
 
-  const results = await sql`SELECT * FROM events WHERE id=${id}`;
-  const themeResults = await sql`SELECT * FROM event_themes WHERE event_id=${id}`;
+  // Get event from json db
+  const fileContents = await fs.readFile('./data/events.json', 'utf8');
+  const info = JSON.parse(fileContents).find(group => group.lvl === "high").events.find(event => event.id === id);
+  
+  // Get theme from json db
+  const fileContents2 = await fs.readFile('./data/event_themes.json', 'utf8');
+  const themeResults = JSON.parse(fileContents2).find(event => event.event_id === id);
 
-  if (results.length == 0) {
+  // redirect if incorrect url param
+  if (!info) {
     redirect('/students/competitive-events')
   }
-  const info = results[0]
   if (info.rubric.slice(0,-4) !== eventURL) {
     redirect('/students/competitive-events')
   }
 
+  // Get theme
   let theme = false;
   let themeLink = false;
-  if (themeResults.length > 0) {
-    theme = themeResults[0]
+  if (themeResults) {
+    theme = themeResults;
     if (theme.theme.slice(0,8) ==="https://") {
         themeLink = true;
     }
@@ -45,9 +53,11 @@ export default async function HSEvents({ params }) {
       <Header page={"students"}></Header>
       <main className="flex flex-1 w-full flex-col items-center justify-between bg-[#072c5c] sm:items-start"> 
         <div className="flex flex-col w-full justify-center items-center h-full text-[#040531] bg-white py-10 md:py-10 px-8 md:px-0">
-          <Link href="/students/competitive-events" className="text-lg md:text-2xl leading-relaxed text-zinc-500 text-left w-full px-15 hover:text-zinc-600 hover:underline">&#171; Back to Overview</Link>
-          <h1 className="text-2xl md:text-5xl px-[5%] md:pt-10 font-bold text-center">{info.title}</h1>
+            {/* Back arrow & title */}
+            <Link href="/students/competitive-events" className="text-lg md:text-2xl leading-relaxed text-zinc-500 text-left w-full px-15 hover:text-zinc-600 hover:underline">&#171; Back to Overview</Link>
+            <h1 className="text-2xl md:text-5xl px-[5%] md:pt-10 font-bold text-center">{info.title}</h1>
 
+            {/* Overview + theme */}
             <div className="flex flex-col md:px-20 w-full justify-center items-start h-full py-10 gap-y-5 md:gap-y-0">
                 <h1 className="text-2xl md:text-5xl md:py-10 font-bold text-left">Overview</h1>
                 <div className="md:grid md:grid-cols-[3fr_2fr] w-full gap-x-15">
@@ -69,6 +79,7 @@ export default async function HSEvents({ params }) {
                 </div>
             </div>
 
+            {/* Submission details */}
             <div className="flex flex-col md:px-20 w-full justify-center items-start h-full py-10 gap-y-5 md:gap-y-0">
                 <h1 className="text-2xl md:text-5xl md:py-10 font-bold text-left">Event Submissions</h1>
                 <div className="md:grid md:grid-cols-[3fr_2fr] w-full gap-x-15">
@@ -90,6 +101,7 @@ export default async function HSEvents({ params }) {
                 </div>
             </div>
 
+            {/* Past winners */}
             <div className="flex flex-col md:px-20 w-full justify-center items-start h-full md:py-10">
                 <h1 className="text-2xl md:text-5xl md:py-10 font-bold text-left">Past Winners (coming soon)</h1>
                 <div className="md:grid md:grid-cols-4 w-full underline text-blue-500 gap-y-7">

@@ -6,7 +6,7 @@ export default function NewsBox({ label, link, content, date, img }) {
             <Image
                 className="object-cover overflow-hidden h-[50%]"
                 src={ img }
-                alt="Next.js logo"
+                alt={img}
                 width={500}
                 height={10}
                 priority

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import BoxButton from "@/components/BoxButton";
 import Header from "@/components/Header";
 import NewsBox from "@/components/News";
 import QuickLink from "@/components/QuickLink";
@@ -9,11 +8,13 @@ export default function Home() {
     <div className="flex flex-col  items-center justify-center font-sans bg-[#072c5c] overflow-x-hidden">
       <Header page={"home"}></Header>
       <main className="flex flex-1 w-full flex-col items-center justify-between sm:items-start">
+
+        {/* Big image section at the top */}
         <div className="flex flex-col w-full relative">
             <Image
               className="object-cover object-center h-60 md:h-auto"
               src="/students2.JPG"
-              alt="Next.js logo"
+              alt="Students"
               width={5000}
               height={20}
               priority
@@ -29,24 +30,26 @@ export default function Home() {
           </div>  
         </div> 
 
+        {/* Recent Updates Section */}
         <div className="flex flex-col w-full justify-between items-center h-full text-black bg-white md:py-15">
           <h1 className="text-3xl md:text-5xl px-[5%] pt-10 md:pt-15 font-bold text-center">Recent Updates</h1>
           <div className="w-full overflow-x-auto md:overflow-x-hidden">
             <div className="grid grid-cols-4 min-w-max md:min-w-full justify-center items-center h-full px-6 py-3 md:px-10 md:py-12 gap-x-3 gap-y-5">
-              <NewsBox link="/students/officers" label={"2026-2027 Officer Team"} content={"Meet your new 2026-2027 Missouri TSA State Officer Team!"} date={"July 1, 2026"} img="/officers3.jpg"></NewsBox>
-              <NewsBox link="/events/national-conference" label={"2026 National Conference"} content={"The TSA National Championship Conference was held in Washington, DC on June 22 through June 26."} date={"July 1, 2026"} img="/nationals.jpg"></NewsBox>
-              <NewsBox link="/advisors/affiliation" label={"Chapter Affiliation Opens"} content={"TSA Chapter Affilition will open on August 15th. Advisors should visit the website to affiliate their chapters."} date={"July 1, 2026"} img="/students6.png"></NewsBox>
+              <NewsBox link="/advisors/affiliation" label={"Chapter Affiliation Opens"} content={"TSA Chapter Affilition will open on August 17th. Advisors should visit the website to affiliate their chapters."} date={"July 1, 2026"} img="/students6.png"></NewsBox>
+              <NewsBox link="/students/brand-design-contest" label={"Brand Design Contest is open!"} content={"Submit your design for the 2027 Missouri TSA shirt and pin!"} date={"August 3rd, 2026"} img="/pins.jpg"></NewsBox>
               <NewsBox link="/advisors/zoom" label={"Advisors Zoom Meetings"} content={"Chapter advisors Zoom Meetings will be held on the first Thursday of every month from 3:30pm-4:30pm"} date={"July 1, 2026"} img="/zoom.png"></NewsBox>
+              <NewsBox link="/students/officers" label={"2026-2027 Officer Team"} content={"Meet your new 2026-2027 Missouri TSA State Officer Team!"} date={"July 1, 2026"} img="/officers3.jpg"></NewsBox>
             </div>
           </div>
         </div>
 
+        {/* Short Intro Section */}
         <div className="flex flex-col w-full justify-between items-center h-full text-white py-15 md:py-30">
           <div className="flex flex-col md:flex-row w-full px-5 md:px-10 justify-between items-center h-full">
             <Image
               className="object-cover"
               src="/students8.JPG"
-              alt="Next.js logo"
+              alt="Students"
               width={600}
               height={20}
               priority
@@ -71,7 +74,8 @@ export default function Home() {
             </div>
           </div>
         </div> 
-
+        
+        {/* Quick Links Section */}
         <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold md:py-15">
           <h1 className="text-3xl md:text-5xl relative text-left px-[5%] pt-15">Quick Links</h1>
           <div className="grid grid-rows-2 md:grid-rows-1 md:grid-cols-2 w-full overflow-x-auto py-5 md:py-10 px-5 md:px-30 md:gap-x-15 gap-y-5 md:gap-y-0">
@@ -80,16 +84,16 @@ export default function Home() {
               <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-5 gap-y-5 py-5">
                 <QuickLink target={""} link={"/students/competitive-events"} label={"Competitive Events"}></QuickLink>
                 <QuickLink target={""} link={"/students/dress-code"} label={"Dress Code"}></QuickLink>
-                {/* <QuickLink target={""} link={"/students/degree"} label={"Degree Program"}></QuickLink> */}
+                <QuickLink target={""} link={"/students/degree"} label={"Degree Program"}></QuickLink>
                 <QuickLink target={""} link={"/students/officers"} label={"State Officers"}></QuickLink>
-                <QuickLink target={""} link={"/students/apply"} label={"Apply for Office"}></QuickLink>
+                {/* <QuickLink target={""} link={"/students/apply"} label={"Apply for Office"}></QuickLink> */}
               </div>
             </div>
             <div className="flex flex-col justify-start items-center">
               <p className="text-xl md:text-3xl text-center underline">General</p>
               <div className="grid grid-rows-2 grid-cols-2 w-full gap-x-5 gap-y-5 py-5">
                 <QuickLink target={""} link={"/events/calendar"} label={"Calendar"}></QuickLink>
-                <QuickLink target={""} link={"/resources/newsletter"} label={"Newsletter"}></QuickLink>
+                <QuickLink target={""} link={"/resources/newsletter"} label={"ENewsletter"}></QuickLink>
                 {/* <QuickLink target={""} link={"/resources/winners"} label={"Past Winners"}></QuickLink> */}
                 <QuickLink target={""} link={"/resources/gallery"} label={"Gallery"}></QuickLink>
                 <QuickLink target={""} link={"/advisors/resources"} label={"Chapter Resources"}></QuickLink>
