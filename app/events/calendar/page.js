@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import QuickLink from "@/components/QuickLink";
 
 export default function Calendar() {
   return (
@@ -11,7 +12,12 @@ export default function Calendar() {
           <p className="text-blue-200 mt-4 max-w-2xl text-base md:text-lg">
             2026 - 2027
           </p>
-        </div>        
+        </div>       
+
+        {/* Calendar button */}
+        <div className="w-[50%] py-5">
+          <QuickLink target={"_blank"} link={"/pdf/2026-2027_Missouri_TSA_Calendar_of_Events.docx.pdf"} label={"PDF Calendar 2026-2027"}></QuickLink>
+        </div> 
 
         {/* Google Calendar */}
         <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white py-5 md:py-10">
