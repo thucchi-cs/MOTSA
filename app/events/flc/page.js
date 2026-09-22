@@ -104,7 +104,7 @@ export default function FLC() {
                 </div>
                 <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-1 md:gap-x-5 gap-y-5 md:gap-y-0 py-10 pb-20">
                     <QuickLink target={"_blank"} link={"https://www.registermychapter.com/tsa/mo-flc"} label={"Register for FLC"}></QuickLink>
-                    {/* <QuickLink target={"_blank"} link={"/pdf/Missouri-TSA-2025-State-Fall-Leadership-Conference-Agenda-1.pdf"} label={"FLC Tentative Agenda"}></QuickLink> */}
+                    <QuickLink target={"_blank"} link={"/pdf/MOTSA_FLC_Agenda_2026.pdf"} label={"FLC Tentative Agenda"}></QuickLink>
                 </div>
             </div>
         </div>  

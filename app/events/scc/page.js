@@ -34,35 +34,30 @@ export default function SCC() {
             <div>
                 <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
                     <span className="text-2xl"></span>
-                    <h2 className="text-2xl md:text-3xl font-bold text-[#072c5c]">2026 State Championship Conference</h2>
+                    <h2 className="text-2xl md:text-3xl font-bold text-[#072c5c]">2027 State Championship Conference</h2>
                 </div>
                 <div className="w-full flex flex-col md:flex-row">
                     <div className="flex flex-col">
                         <div className="flex flex-col p-6">
                             <p className="text-xl text-[#072c5c] leading-relaxed">
-                                The 2026 Missouri TSA State Championship is complete! Congrats to all our competitors, finalists, and award recipients!
+                                The 2027 Missouri TSA State Championship Conference will be held on April 11-13 at University of Central Missouri in Warrensburg, MO.
                             </p>
                         </div>
                         <div className="flex flex-col p-6">
                             <p className="text-xl text-[#072c5c] leading-relaxed">
-                                The State Championship Conference was held at University of Central Missouri in Warrensburg, MO on April 12-14.
-                            </p>
-                        </div>
-                        <div className="flex flex-col p-6">
-                            <p className="text-xl text-[#072c5c] leading-relaxed">
-                                Thank you to all judges, volunteers, and event coordinators who made this event possible!
+                                More information and registrations coming soon!
                             </p>
                         </div>
                         <div className="flex flex-col p-6 gap-y-5">
                             <Link href="/resources/gallery" className="text-xl text-[#072c5c] leading-relaxed text-blue-500 underline">
-                                Photo Gallery
+                                Past Championships Photo Gallery
                             </Link>
                             {/* <Link href="/resources/winners" className="text-xl text-[#072c5c] leading-relaxed text-blue-500 underline">
                                 Championship Results
                             </Link> */}
-                            <Link href="/students/officers" className="text-xl text-[#072c5c] leading-relaxed text-blue-500 underline">
+                            {/* <Link href="/students/officers" className="text-xl text-[#072c5c] leading-relaxed text-blue-500 underline">
                                 New State Officers for 2026-2027
-                            </Link>
+                            </Link> */}
                         </div>
                     </div>
 
@@ -78,7 +73,7 @@ export default function SCC() {
             </div>
 
             {/* Registrations */}
-            <div>
+            <div className="hidden">
                 <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
                     <span className="text-2xl"></span>
                     <h2 className="text-2xl md:text-3xl font-bold text-[#072c5c]">Conference Registrations</h2>
@@ -110,6 +105,12 @@ export default function SCC() {
 
                 <div className="flex flex-col p-6">
                     <p className="text-xl text-[#072c5c] leading-relaxed">
+                        Some competitive events will require online-presubmissions and/or online testing prior to the State Chamipionship Conference. These submissions and testings MUST be completed in order to compete in these events at SCC. More info or specific events and dates coming soon!
+                    </p>
+                </div>
+
+                {/* <div className="flex flex-col p-6">
+                    <p className="text-xl text-[#072c5c] leading-relaxed">
                         The online submissions window for 2026 opens March 16 at 8:00 AM and closes March 27 at 11:59 PM. All required event submissions must be uploaded through JudgePro system within this timeframe.
                     </p>
                 </div>
@@ -130,11 +131,11 @@ export default function SCC() {
                     <Link target="_blank" href="/pdf/2026-Middle-School-Events-Pre-Submission.pdf" className="text-xl text-[#072c5c] leading-relaxed text-blue-500 underline">
                         2026 MO TSA middle school events with pre-submissions
                     </Link>
-                </div>
+                </div> */}
             </div>
 
             {/* Online testing info */}
-            <div>
+            <div className="hidden">
                 <div className="flex items-center gap-x-3 mb-6 border-l-4 border-red-500 pl-4">
                     <span className="text-2xl"></span>
                     <h2 className="text-2xl md:text-3xl font-bold text-[#072c5c]">Online Testing</h2>

@@ -79,7 +79,7 @@ export default function CEW() {
                 </div>
                 <div className="grid grid-rows-2 md:grid-cols-2 md:grid-rows-1 md:gap-x-5 gap-y-5 md:gap-y-0 py-10 pb-20">
                     <QuickLink target={"_blank"} link={"https://www.registermychapter.com/tsa/mo-flc"} label={"Register for CEPW"}></QuickLink>
-                    {/* <QuickLink target={"_blank"} link={"/pdf/2025-Missouri-TSA-Competitive-Events-Preparation-Workshop-Agenda.pdf"} label={"CEPW Tentative Agenda"}></QuickLink> */}
+                    <QuickLink target={"_blank"} link={"/pdf/MOTSA_CEPW_Agenda_2026.pdf"} label={"CEPW Tentative Agenda"}></QuickLink>
                 </div>
             </div>
         </div>  
