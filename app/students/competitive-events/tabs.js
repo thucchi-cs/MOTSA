@@ -12,7 +12,7 @@ export default function Tabs({ hsEvents, msEvents}) {
             {/* Tab buttons */}
             <div className="flex flex-row w-[80%] items-center justify-center">
                 <button className="flex flex-col items-center justify-center w-full cursor-pointer" onClick={() => setEvents("high")}>
-                    <h1 className={"text-md md:text-4xl px-[5%] md:pt-10 font-bold text-center " + ((events === "high") ? "text-black" : "text-zinc-500")}>High School Events (40)</h1>
+                    <h1 className={"text-md md:text-4xl px-[5%] md:pt-10 font-bold text-center " + ((events === "high") ? "text-black" : "text-zinc-500")}>High School Events (42)</h1>
                     <hr className={"w-full h-1 mt-3 " + ((events==="high") ? "bg-blue-500 border-blue-500": "bg-zinc-300 border-zinc-300")}></hr>
                 </button>
                 <button className="flex flex-col items-center justify-center w-full cursor-pointer" onClick={() => setEvents("middle")}>
