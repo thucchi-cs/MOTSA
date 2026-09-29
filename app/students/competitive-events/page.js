@@ -25,7 +25,7 @@ export default async function CompetitiveEvents() {
               Technology Student Association offers student members an opportunity to compete in over 75 different competitions accross middle school and high school on three different levels: regional, state, and national. These competitive events take learning beyond the classroom and allow students to apply their technical skills into real projects for various career fields such as engineering, computer science, the arts, and leadership abilities. Most of these competitions also gives students a chance to practice their interpersonal skills as they interview with judges.
             </p>
             <p className="text-2xl text-[#072c5c]">
-              <strong>Important:</strong> All links below are from the 2025-2026 school year. Updated information for 2026-2027 will come soon.
+              <strong>Important:</strong> All links below are valid for the 2026-2027 and 2027-2028 school years.
             </p>
           </div>
           <Image
