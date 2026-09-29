@@ -39,13 +39,13 @@ export default async function HSEvents({ params }) {
 
   // Get theme
   let theme = false;
-  let themeLink = false;
-  if (themeResults) {
-    theme = themeResults;
-    if (theme.theme.slice(0,8) ==="https://") {
-        themeLink = true;
-    }
-  }
+  // let themeLink = false;
+  // if (themeResults) {
+  //   theme = themeResults;
+  //   if (theme.theme.slice(0,8) ==="https://") {
+  //       themeLink = true;
+  //   }
+  // }
 
 
   return (
