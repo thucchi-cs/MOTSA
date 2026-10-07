@@ -9,7 +9,7 @@ export default function Forms() {
         <div className="w-full bg-[#072c5c] py-14 px-6 flex flex-col items-center text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white">Conference Forms</h1>
           <p className="text-blue-200 mt-4 max-w-2xl text-base md:text-lg">
-            The 2025-2026 Multiple Release Form and Chapter Assurance Forms are below
+            The 2026-2027 Multiple Release Form and Chapter Assurance Forms are below
           </p>
         </div>
         <div className="w-full max-w-4xl px-6 py-14 flex flex-col gap-y-14 text-[#072c5c]">
@@ -35,8 +35,8 @@ export default function Forms() {
                   <p className="text-md md:text-xl w-full text-center">
                       Students fill out the below Multiple Release Form and give it to your Chapter Advisor
                   </p>
-                  <a href="/pdf/Missouri-TSA-2024-2025-Multiple-Release-Form.pdf" target="_blank" className="bg-blue-500 w-full h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#072c5c] cursor-pointer">
-                      <h1 className="text-sm md:text-xl">2025-2026 Multiple Release Form &#8594;</h1>
+                  <a href="/pdf/Missouri_TSA_2026-2027_Multiple_Release_Form.pdf" target="_blank" className="bg-blue-500 w-full h-full py-5 px-5 text-center rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#072c5c] cursor-pointer">
+                      <h1 className="text-sm md:text-xl">2026-2027 Multiple Release Form &#8594;</h1>
                   </a>
               </div>
           </div>
