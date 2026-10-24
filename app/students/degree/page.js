@@ -1,4 +1,5 @@
 import Header from "@/components/Header";
+import QuickLink from "@/components/QuickLink";
 
 export default function Degree() {
   return (
@@ -29,7 +30,7 @@ export default function Degree() {
                     <h2 className="text-2xl md:text-3xl font-bold text-[#072c5c]">Degree Levels</h2>
                 </div>
 
-                <div className="flex flex-col gap-y-4">
+                <div className="flex flex-col gap-y-4 pb-5">
                     {/* Basic Degree */}
                     <div className="bg-gray-50 border border-gray-200 rounded-lg p-5">
                         <h3 className="text-xl font-bold text-[#072c5c] mb-2">1. Basic Degree</h3>
@@ -94,6 +95,8 @@ export default function Degree() {
                         </a>
                     </div>
                 </div>
+                <QuickLink target={"_blank"} link={"https://motsaweb.wpcomstaging.com/conferences/flc/deg-test/"} label={"Degree Program Tests"}></QuickLink>
+                
             </div>
         </div>  
       </main>
