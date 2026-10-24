@@ -11,122 +11,132 @@
     },
     {
         "id": 3,
-        "event_id": 4,
+        "event_id": 5,
         "theme": "“The Debate Desk”\nStudents create an audio podcast presenting multiple perspectives on a controversial topic in STEM, society, education, health, or the environment."
     },
     {
         "id": 4,
-        "event_id": 5,
-        "theme": "Topic: Biosensors for Disease Detection.\nBiosensors use biological molecules, cells, or enzymes to detect specific chemicals or disease markers. These tools are increasingly important in medical diagnostics, environmental monitoring, and food safety. Present the science behind biosensors and demonstrate one use of biosensor technology in detecting or monitoring disease."
+        "event_id": 7,
+        "theme": "Topic: Biosensors for Disease Detection\nBiosensors use biological molecules, cells, or enzymes to detect specific chemicals or disease markers. These tools are increasingly important in medical diagnostics, environmental monitoring, and food safety. Present the science behind biosensors and demonstrate one use of biosensor technology in detecting or monitoring disease."
     },
     {
         "id": 5,
-        "event_id": 8,
+        "event_id": 10,
         "theme": "A graphic novel/comic book. Binding cannot be stapled."
     },
     {
+        "id": 6,
+        "event_id": 14,
+        "theme": "Identify and use one AI-generated dataset related to Climate and Environmental Sustainability for analysis and research. Competitors may use an artificial intelligence tool to create the dataset, provide the resulting data file in a structured format (such as CSV, XLSX, or JSON), and cite the artificial intelligence tool, model (if available), and prompts or queries used to generate the dataset."
+    },
+    {
         "id": 7,
-        "event_id": 12,
-        "theme": "Identify and use an AI-generated dataset related to Climate and Environmental Sustainability for analysis and research. Competitors may use an artificial intelligence tool to create the dataset, provide the resulting data file in a structured format (such as CSV, XLSX, or JSON), and cite the artificial intelligence tool, model (if available), and prompts or queries used to generate the dataset."
+        "event_id": 15,
+        "theme": "Artificial Intelligence in Medicine\n\t\tTopic 1: AI diagnostic tools should be allowed to make medical decisions without final approval from a physician.\n\t\tTopic 2: The use of AI in healthcare will improve access to care more than it will increase medical bias.\n\t\tTopic 3: Patients should have the right to know when AI is involved in their diagnosis or treatment plan."
     },
     {
         "id": 8,
-        "event_id": 13,
-        "theme": "Artificial Intelligence in Medicine.\nTopic 1: AI diagnostic tools should be allowed to make medical decisions without final approval from a physician.\nTopic 2: The use of AI in healthcare will improve access to care more than it will increase medical bias.\nTopic 3: Patients should have the right to know when AI is involved in their diagnosis or treatment plan."
-    },
-    {
-        "id": 9,
-        "event_id": 14,
+        "event_id": 16,
         "theme": "Create an infomercial with a product and in the style of the 1990s."
     },
     {
-        "id": 6,
-        "event_id": 15,
-        "theme": "INSIDE / OUT\nOne axle (front or rear) must use internal wheels, while the opposite axle must use external wheels.\nInternal: The wheels must be enclosed by the vehicle body on the top and both sides above the axle. The bottom of the wheel remains exposed.\nExternal: The wheels must be completely outside the vehicle body. No portion of the body may cover any part of the wheel from the top or sides.\nThe front and rear axles must use opposite configurations (one internal, one external).\n\nOne set of wheels(front or rear) must be external (outside 35mm) and the other set of wheels must be internal(shell). Participant choice on either Front or Rear."
+        "id": 9,
+        "event_id": 17,
+        "theme": "“INSIDE / OUT”\nOne axle (front or rear) must use internal wheels, while the opposite axle must use external wheels.\nInternal: The wheels must be enclosed by the vehicle body on the top and both sides above the axle. The bottom of the wheel remains exposed.\nExternal: The wheels must be completely outside the vehicle body. No portion of the body may cover any part of the wheel from the top or sides.\nThe front and rear axles must use opposite configurations (one internal, one external).\nOne set of wheels (front or rear) must be external (outside 35mm) and the other set of wheels must be internal (shell). Participant choice on either Front or Rear."
     },
     {
         "id": 10,
-        "event_id": 16,
-        "theme": "https://tsaweb.org/docs/default-source/competitions/themes-and-problems-2026-2027/high-school/2027-hs-drone-challenge-theme.pdf?sfvrsn=476818b7_1"
+        "event_id": 18,
+        "theme": "Humanitarian Aid and Rescue\nhttps://tsaweb.org/docs/default-source/competitions/themes-and-problems-2026-2027/high-school/2027-hs-drone-challenge-theme.pdf?sfvrsn=476818b7_1"
     },
     {
         "id": 11,
-        "event_id": 17,
+        "event_id": 19,
         "theme": "Engineering the Future of Energy: engineering solutions that improve the generation, storage, conservation, distribution, or use of energy."
     },
     {
         "id": 12,
-        "event_id": 19,
+        "event_id": 21,
         "theme": "Fashion created from recycled or repurposed materials. One complete outfit; a maximum of two (2) garments. Garment accessories for semifinal round only."
     },
     {
         "id": 13,
-        "event_id": 23,
-        "theme": "Urban Heat Islands and Cooling Solutions\nIdentify urban heat island (UHI) hotspots in your area using temperature, vegetation, and land use data. Map areas most affected by heat and propose equitable solutions—such as tree planting zones, reflective surfaces, or community cooling centers—especially in vulnerable neighborhoods."
+        "event_id": 25,
+        "theme": "Annual Design Requirement: Must hold or pull/drag one 5-ounce fishing weight, provided on-site. Design must include a hitch to attach weight at rear of car. Provided fishing weights: https://a.co/d/05yQLCZx\nA model solar track on top of carpet will be the floor surface at the 2027 National TSA Conference."
     },
     {
         "id": 14,
-        "event_id": 24,
-        "theme": "Marble Maze or Puzzle Box"
+        "event_id": 26,
+        "theme": "Design Challenge: Tiny Living, Big Impact\nA nonprofit organization is developing a Tiny Home Community for young adults transitioning into independent living. Your firm has been selected to design the interior of one model home that maximizes comfort, storage, functionality, and affordability within a limited footprint. The home should feel welcoming while demonstrating innovative space-saving solutions.\nRequired Spaces: Living area, Kitchenette, Sleeping area, Bathroom, Workspace, Storage\nDesign Considerations: Multifunctional furniture, Universal Design principles, Sustainable materials, Efficient circulation, Creative storage solutions, Residential lighting design\nBudget: Material budget: $28,000"
     },
     {
         "id": 15,
-        "event_id": 25,
-        "theme": "The year 2026 marks the 250th birthday of the United States. Create a musical piece that can be played as the opening number at a July 4th fireworks show."
+        "event_id": 27,
+        "theme": "Display or container for small collectible items"
     },
     {
         "id": 16,
-        "event_id": 27,
-        "theme": "Photo Essay Series: Create a series of photos that tell a story"
+        "event_id": 28,
+        "theme": "Compose an original, dynamic soundtrack for a climactic boss battle in a futuristic or fantasy video game. Your music should portray the intensity of the encounter through creative composition, sound design, and production techniques. The track should build escalating tension, feature dramatic contrasts and powerful climaxes, and be suitable for seamless looping during continuous gameplay."
     },
     {
         "id": 17,
-        "event_id": 28,
-        "theme": "Everyone knows the classic game of rock, paper, scissors: rock beats scissors, scissors beat paper, and paper beats rock. At the end of the day, which is the most revolutionary tool? Develop a presentation in which you select one of these three technologies/tools and describe its impact on human civilization."
+        "event_id": 30,
+        "theme": "Behind the scenes"
     },
     {
         "id": 18,
-        "event_id": 29,
-        "theme": "Create promotional materials for a chapter-hosted event in which TSA alumni return to the chapter to share career stories, run workshops, and mentor students. The promotional items must include:\n\t\tan event information flyer\n\t\ta social media promotional graphic\n\t\ta name badge template\n\t\ta promotional item of the participant's choice\nParticipants should use the following details in the designs:\n\t\tEvent title: “Back to Impact: TSA Alumni Day Celebration”\n\t\tDate of event: June 2-4, 2026\n\t\tChapter name: Bluewater Heights School of Innovation TSA\n\t\tSchool mascot: Jets\n\t\tAddress: 870 Trail Bend Road, Bluewater Heights, MD 21903"
+        "event_id": 31,
+        "theme": "Many technologies begin as science fiction before becoming reality. Choose one technology that was once considered futuristic and is now used today. Describe its development, current applications, and how it may continue to evolve in the future."
     },
     {
         "id": 19,
-        "event_id": 30,
-        "theme": "https://tsaweb.org/docs/default-source/competitions/themes-and-problems-2025-2026/2026-hs-robotics.pdf?sfvrsn=2849ac4c_2"
+        "event_id": 32,
+        "theme": "Milestone Diner, a new retro-inspired American diner, is preparing for its grand opening. You have been hired to create a cohesive brand identity and promotional materials that celebrate the diner's nostalgic 1978 inspiration while attracting today's customers. The restaurant's branding should reflect a nostalgic late-1970s aesthetic while remaining inviting, family-friendly, and appealing to a modern audience.\nThe following items are the required design pieces:\n\t\tItem #1 - Restaurant Logo: Design a logo for Milestone Diner. The logo should be submitted enlarged on an 8.5\" x 11\" sheet of paper (portrait or landscape, designer's choice). The logo should establish the restaurant's visual identity and be appropriate for use across all required promotional materials.\n\t\tItem #2 - Restaurant Menu: Design a bifold restaurant menu for Milestone Diner using tabloid-size paper (11\" x 17\"). The menu should be designed so the front and back panels are correctly positioned for printing and folding. Participants should create original menu item names, descriptions, and pricing appropriate for a classic American diner.\n\t\tItem #3 - General Manager Business Card: Design a single-sided business card for the General Manager of Milestone Diner. The business card should reflect the restaurant's established brand identity while presenting the required contact information in a professional, well-organized layout.\n\t\tItem #4 - Instagram Grand Opening Advertisement: Design a static Instagram graphic (4:5 vertical ratio) promoting the Grand Opening of Milestone Diner. The advertisement should capture attention, encourage attendance, and maintain the restaurant's established visual identity.\nUse the following details for the design challenge:\n\t\tRestaurant Name: Milestone Diner\n\t\tAddress: 1978 Celebration Boulevard, Orlando, FL 32819\n\t\tPhone: (407) 555-1978\n\t\tGeneral Manager: Delmar Olson\n\t\tEmail: manager@milestonediner.com\n\t\tGrand Opening Date: July 1, 2027"
     },
     {
         "id": 20,
-        "event_id": 32,
-        "theme": "Develop a software program that removes barriers and increases accessibility for people with vision or hearing disabilities."
+        "event_id": 33,
+        "theme": "https://tsaweb.org/docs/default-source/competitions/themes-and-problems-2026-2027/high-school/2027-hs-robotics.pdf?sfvrsn=6c629180_3"
     },
     {
         "id": 21,
-        "event_id": 33,
-        "theme": "Headline: The green past of the Saharo-Arabian Desert: Cave deposits reveal recurring humid periods over eight million years\n\nBackground: A new study led by the Max Planck Institute for Chemistry has uncovered compelling evidence that the Saharo-Arabian Desert—today one of Earth's driest regions—experienced multiple periods of significantly wetter climate over the past eight million years. Researchers analyzed speleothems, or cave deposits, from seven Saudi Arabian caves and found chemical clues indicating repeated monsoonal rainfall that transformed the desert into a habitable landscape for thousands of years at a time.\nThese wetter intervals likely enabled the migration of mammals, including early human ancestors, between Africa and Eurasia—despite the desert's role as a natural barrier. The study highlights the powerful influence of climate change on human and animal history, as well as the importance of cave formations as records of ancient weather patterns. Using isotopic analysis and radiometric dating, the team also discovered that the decline of monsoonal rainfall was caused by long-term cooling in the Northern Hemisphere, which shifted rain belts southward.\n\nPrompt: Based on the following headline, develop a news broadcast that includes an introduction of the headline, a summary of the information in the news story, and an explanation of potential future implications of the highlighted work.\nhttps://www.eurekalert.org/news-releases/1079999"
+        "event_id": 34,
+        "theme": "Develop a software application that improves how people learn, teach, practice, or develop new skills. Competitors should identify an educational or training challenge affecting learners of any age and design an engaging, effective, and user-centered software solution."
     },
     {
         "id": 22,
-        "event_id": 34,
-        "theme": "https://tsaweb.org/docs/default-source/competitions/themes-and-problems-2025-2026/2026-hs-structural-design-and-engineering-problem-statement.pdf?sfvrsn=def98886_1"
+        "event_id": 35,
+        "theme": "Headline: Scientists link human right-handedness to walking upright and brain evolution\n\nBackground: Most humans favor their right hand, but scientists have long debated why this pattern is so common across cultures. Unlike humans, other primates do not show the same strong population-wide preference for one hand. A new Oxford-led study published in PLOS Biology suggests that human right-handedness may be connected to two major steps in human evolution: walking upright on two legs and the expansion of the brain. Researchers analyzed data from 2,025 individuals across 41 species of monkeys and apes, using evolutionary modeling to compare possible explanations for handedness, including tool use, diet, habitat, body size, social behavior, brain size, and locomotion. Their findings suggest that as early human ancestors became more fully bipedal and developed larger brains, right-handedness became increasingly common. The study also raises new questions about why left-handedness still exists and whether similar patterns of limb preference in other animals may have evolved in comparable ways.\n\nPrompt: Based on the following headline, develop a news broadcast that includes an introduction of the headline, a summary of the information in the news story, and an explanation of potential future implications of the highlighted work.\nhttps://www.eurekalert.org/news-releases/1128472"
     },
     {
         "id": 23,
-        "event_id": 38,
-        "theme": "The Sky is Not the Limit- Next-gen space travel."
+        "event_id": 36,
+        "theme": "https://tsaweb.org/docs/default-source/competitions/themes-and-problems-2026-2027/high-school/2027-structural-design-and-engineering-problem-statement.pdf?sfvrsn=56397e65_1"
     },
     {
         "id": 24,
         "event_id": 39,
-        "theme": "Retro Revival: Reimagine an 8-bit or 16-bit era type of game with a modern twist.\nThe game must be inspired by 8-bit or 16-bit era games, but may not contain any recognizable characters, music, or storylines from these games. Competitors are encouraged to research games from this era but not utilize copyrighted material."
+        "theme": "Design Problem: Cartoon/comic vehicles"
     },
     {
         "id": 25,
         "event_id": 40,
-        "theme": "Design an interactive, walk-through VR museum based on a topic in art, history, or technology."
+        "theme": "Create a deep space-themed RPG where the primary method of progression is puzzle-solving rather than combat.\nChallenge: Your game must include core RPG elements (such as character stats, a leveling system, or branching dialogue), but you may not include traditional combat. Instead, players must use their character's skills and stats to solve environmental, logical, or social puzzles to survive the dangers of deep space."
     },
     {
         "id": 26,
         "event_id": 41,
-        "theme": "Community Resource Hub\nCreate a website that will serve as a community resource hub to highlight resources available to residents within the community (e.g., non-profits, support services, community events and programs, etc.). Your entry for this event is an exception to the general rules for the 2026 National TSA Conference regarding identifying information and you may include school or chapter name if it is the same name as the community used.\nYour website should include the following:\n\t\tan interactive directory of community resources (resource hub) that allows users to search and filter the resources.\n\t\ta highlight section that spotlights at least three of the community resources you have listed in your resource hub.\n\t\ta form that users can submit to indicate new resources that should be added to the community resources hub.\n\t\tadditional content to enhance the community resource hub for end users."
+        "theme": "High-speed first aid immersive simulation\nChallenge: You are tasked with developing a virtual reality experience that evaluates a user's ability to perform life-saving interventions under pressure, such as addressing anaphylaxis, obstructed airways, or traumatic hemorrhaging. The simulation must feature a comprehensive Training Mode that provides instructional support and immediate guidance in a controlled setting. Additionally, your project must include a rigorous Certification Mode that simulates a realistic, time-sensitive emergency with no assistance. Your final product must produce a performance analytics dashboard summarizing the user's technical proficiency and response efficiency."
+    },
+    {
+        "id": 27,
+        "event_id": 42,
+        "theme": "The Butterfly Effect\nSmall actions can create extraordinary change.\nCreate a three-episode vlog series, not to exceed six minutes total, that explores how one decision, act of kindness, innovation, challenge, or moment can lead to a chain of events that produces a meaningful impact. Your vlog should demonstrate how seemingly small actions can inspire growth, influence others, and create lasting change.\nYour series should follow a connected storyline across all three episodes, capturing authentic experiences, thoughtful reflection, and engaging storytelling. Through creative videography, editing, and presentation, illustrate how one small action can spark a ripple effect that extends far beyond its original moment."
+    },
+    {
+        "id": 28,
+        "event_id": 43,
+        "theme": "Artificial Intelligence (AI) learning portal\nChallenge: You have been tasked with designing and developing an interactive Artificial Intelligence (AI) learning portal aimed at high school students (grades 9-12). The purpose of this site is to demystify AI by providing a foundational understanding of the technology, showcasing practical tools, and teaching techniques to leverage AI effectively and ethically in an academic setting.\nYour website must include the following:\n\t\tEducational Content Modules: At least three distinct learning sections covering fundamental AI concepts, practical AI tools/techniques, and ethical AI usage\n\t\tGamification & Progress Tracking: An interactive, gamified user interface (e.g., digital badges, experience points, or a progress dashboard) designed to engage students and visually track their completion of the learning modules."
     }
 ]
