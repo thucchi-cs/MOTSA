@@ -38,7 +38,7 @@ export default function DressCode() {
                     <p className="text-xl text-[#072c5c] leading-relaxed">Shirt (Missouri conferences only): Blue TSA polos</p>
                 </div>
                 <div className="flex flex-col p-6">
-                    <p className="text-xl text-[#072c5c] leading-relaxed">Pants or skirt: gray</p>
+                    <p className="text-xl text-[#072c5c] leading-relaxed">Pants or skirt: gray or black</p>
                 </div>
                 <div className="flex flex-col p-6">
                     <p className="text-xl text-[#072c5c] leading-relaxed">Shoes: black dress shoes worn with black or dark blue socks, hosiery (optional); open-toe shoes or sandals are acceptable (unacceptable: athletic shoes; flip-flops; military boots; or work boots)</p>
