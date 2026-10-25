@@ -9,7 +9,7 @@ export default function Gallery() {
             {/* Overview */}
             <div className="flex flex-col w-full justify-between items-center h-full text-[#040531] bg-white md:py-10">
                 <h1 className="text-3xl md:text-5xl text-center px-[5%] pt-10 font-bold">Photo Gallery</h1>
-                <p className="text-lg md:text-2xl text-center px-[5%] pb-10 pt-5">If you would like to add any photos to these folders, please email them to motsaphotos@gmail.com and include which folder they belong to. Help us build a digital gallery for Missouri TSA!</p>
+                <p className="text-lg md:text-2xl text-center px-[5%] pb-10 pt-5">If you would like to add any photos to these folders, please email them to missouritsaphotos@gmail.com and include which folder they belong to. Help us build a digital gallery for Missouri TSA!</p>
             </div>    
 
             {/* Photo folders */}
