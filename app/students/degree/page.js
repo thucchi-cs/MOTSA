@@ -61,6 +61,13 @@ export default function Degree() {
                         >
                             Academic Degree Packet
                         </a>
+                        <br/>
+                        <a
+                            href="/academic_degree_26_27.htm"
+                            className="inline-block mt-3 text-red-500 font-semibold underline hover:text-red-700 text-lg"
+                        >
+                            Academic Degree Test
+                        </a>
                     </div>
 
                     {/* Collegiate Degree */}
@@ -76,6 +83,13 @@ export default function Degree() {
                             className="inline-block mt-3 text-red-500 font-semibold underline hover:text-red-700 text-lg"
                         >
                             Collegiate Degree Packet
+                        </a>
+                        <br/>
+                        <a
+                            href="/collegiate_degree_26_27.htm"
+                            className="inline-block mt-3 text-red-500 font-semibold underline hover:text-red-700 text-lg"
+                        >
+                            Collegiate Degree Test
                         </a>
                     </div>
 
@@ -93,10 +107,15 @@ export default function Degree() {
                         >
                             Scholar Degree Packet
                         </a>
+                        <br/>
+                        <a
+                            href="/scholar_degree_26_27.htm"
+                            className="inline-block mt-3 text-red-500 font-semibold underline hover:text-red-700 text-lg"
+                        >
+                            Scholar Degree Test
+                        </a>
                     </div>
                 </div>
-                <QuickLink target={"_blank"} link={"https://motsaweb.wpcomstaging.com/conferences/flc/deg-test/"} label={"Degree Program Tests"}></QuickLink>
-                
             </div>
         </div>  
       </main>
