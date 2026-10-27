@@ -38,9 +38,9 @@ export default function Apply() {
                 <p className="text-lg md:text-xl text-[#072c5c] leading-relaxed">
                   Questions? Reach out to our email at contactmotsa@gmail.com.
                 </p>
-                {/* <a href="/pdf/Missouri-TSA-2027-2028-State-Officer-Application-Packet.pdf" target="_blank" className="bg-red-500 md:w-[50%] px-5 md:px-0 h-10 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
+                <a href="/pdf/Missouri-TSA-2027-2028-State-Officer-Application-Packet.pdf" target="_blank" className="bg-red-500 md:w-[50%] px-5 md:px-0 h-10 rounded-lg text-white flex flex-row justify-center items-center transition-transform duration-300 hover:bg-[#ad0707] cursor-pointer">
                     <h1 className="text-sm md:text-xl">Officer Candidate Packet &#8594;</h1>
-                </a> */}
+                </a>
             </div>
           </div>
         </div>  
