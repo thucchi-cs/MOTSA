@@ -13,9 +13,9 @@ export default function Gallery() {
             </div>    
 
             {/* Photo folders */}
-            <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold">        
+            <div className="flex flex-col w-full justify-between items-center h-full bg-white text-black font-bold pb-20">        
                 <div className="grid grid-rows-2 grid-cols-2 w-[80%] gap-x-5 gap-y-5">
-                    {/* <QuickLink target={"_blank"} link={"https://photos.app.goo.gl/pm6YDRwuvRztwMa77"} label={"Fall Leadership Conference & Competitive Events Workshops 2026"}></QuickLink> */}
+                    <QuickLink target={"_blank"} link={"https://photos.app.goo.gl/pm6YDRwuvRztwMa77"} label={"Fall Leadership Conference & Competitive Events Workshops 2026"}></QuickLink>
                     <QuickLink target={"_blank"} link={"https://photos.app.goo.gl/WKpqfCktBumuJb4L8"} label={"National Conference 2026"}></QuickLink>
                     <QuickLink target={"_blank"} link={"https://photos.google.com/share/AF1QipO3kcsIrm31SPPl3_nTenykIr2yk7g48YxODk_P5nAGnQPVbyVHI_k1j1F8XHcvtg?key=Qi1lamxHWVQzSGJmQ2gwdGZ3N3VtZWFsRHhuOHRn"} label={"State Championship 2026"}></QuickLink>
                 </div>
